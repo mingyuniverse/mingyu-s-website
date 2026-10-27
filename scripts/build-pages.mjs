@@ -9,9 +9,40 @@ const routes = JSON.parse(readFileSync(resolve(root, 'pages.json'), 'utf8'));
 const runtime = readFileSync(resolve(root, 'assets/static-runtime.js'), 'utf8');
 const responsiveCss = readFileSync(resolve(root, 'assets/responsive.css'), 'utf8');
 const responsiveJs = readFileSync(resolve(root, 'assets/responsive.js'), 'utf8');
+const fingerprint = content => createHash('sha256').update(content).digest('hex').slice(0, 12);
+const heroAssets = Object.fromEntries(['hero-loop.mp4', 'hero-poster.webp'].map(file => {
+  const content = readFileSync(resolve(root, 'assets/media', file));
+  const extension = file.slice(file.lastIndexOf('.'));
+  return [file, {content, path: `assets/${file.slice(0, -extension.length)}.${fingerprint(content)}${extension}`}];
+}));
+const heroVideo = heroAssets['hero-loop.mp4'].path;
+const heroPoster = heroAssets['hero-poster.webp'].path;
+const heroScript = readFileSync(resolve(root, 'assets/hero.js'), 'utf8')
+  .replaceAll('__HERO_POSTER__', heroPoster).replaceAll('__HERO_VIDEO__', heroVideo);
+
+function heroPreload() {
+  return `<script>(() => {
+    const prefix = location.hostname === 'mingyuniverse.github.io' ? '/mingyu-s-website/' : '/';
+    const poster = document.createElement('link');
+    poster.rel = 'preload'; poster.as = 'image'; poster.fetchPriority = 'high';
+    poster.href = prefix + ${JSON.stringify(heroPoster)};
+    document.head.append(poster);
+  })();</script>`;
+}
 
 function adapt(html, mobile) {
-  html = html.replace(/<head([^>]*)>/i, `$&\n<script>${runtime}</script>`);
+  const hasHero = html.includes('id="img_comp-mh5b5hv8"');
+  if (hasHero) {
+    html = html.replace(/<wow-image\b[^>]*id="img_comp-mh5b5hv8"[^>]*>[\s\S]*?<\/wow-image>/i, element => {
+      return element.replace(/(<img\b[^>]*\bsrc=")[^"]*"/, `$1${heroPoster}" fetchpriority="high" loading="eager"`);
+    });
+    html = html.replace(/<\/head>/i, `${heroPreload()}</head>`);
+  }
+  html = html.replace(/<head([^>]*)>/i, `$&\n<script>${runtime}</script><script>${heroScript}</script><style>
+    #img_comp-mh5b5hv8 { visibility: hidden !important; }
+    .portfolio-hero-media { pointer-events: none; overflow: hidden; }
+    .portfolio-hero-media video { display: block; width: 100%; height: 100svh; object-fit: cover; object-position: 50% 50%; opacity: 1; }
+  </style>`);
   html = html.replace(/(<script\b[^>]*type="application\/json"[^>]*id="([^"]+)"[^>]*>[\s\S]*?<\/script>)/gi,
     (tag, whole, id) => `${tag}<script>portfolioLocalizeModel(${JSON.stringify(id)})</script>`);
   html = html.replace(/(<script\b[^>]*id="([^"]+)"[^>]*type="application\/json"[^>]*>[\s\S]*?<\/script>)/gi,
@@ -30,7 +61,7 @@ function entry(html, route, desktopVersion, responsiveVersion) {
   const canonical = 'https://mingyuniverse.com/' + (route ? encodeURI(route) + '/' : '');
   return `<!DOCTYPE html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<title>${title}</title>${description}<link rel="canonical" href="${canonical}">
+<title>${title}</title>${description}<link rel="canonical" href="${canonical}">${route === '' ? heroPreload() : ''}
 <style>html,body{margin:0;background:#fff;color:#211d38}#page-loading{min-height:100svh;display:grid;place-content:center;text-align:center;font:16px/1.5 system-ui,sans-serif}#page-loading p{margin:8px}#page-loading button{font:inherit;padding:10px 18px}</style>
 <script>
 (() => {
@@ -46,6 +77,8 @@ function entry(html, route, desktopVersion, responsiveVersion) {
 
 rmSync(out, {recursive: true, force: true});
 mkdirSync(out, {recursive: true});
+mkdirSync(resolve(out, 'assets'), {recursive: true});
+for (const asset of Object.values(heroAssets)) writeFileSync(resolve(out, asset.path), asset.content);
 for (const route of routes) {
   const desktop = readFileSync(resolve(root, 'pages', route, 'index.html'), 'utf8');
   const mobile = readFileSync(resolve(root, 'pages-mobile', route, 'index.html'), 'utf8');
@@ -53,10 +86,9 @@ for (const route of routes) {
   mkdirSync(directory, {recursive: true});
   const desktopDocument = adapt(desktop, false);
   const responsiveDocument = adapt(mobile, true);
-  const version = document => createHash('sha256').update(document).digest('hex').slice(0, 12);
   writeFileSync(resolve(directory, 'view-desktop.html'), desktopDocument);
   writeFileSync(resolve(directory, 'view-mobile.html'), responsiveDocument);
-  writeFileSync(resolve(directory, 'index.html'), entry(desktop, route, version(desktopDocument), version(responsiveDocument)));
+  writeFileSync(resolve(directory, 'index.html'), entry(desktop, route, fingerprint(desktopDocument), fingerprint(responsiveDocument)));
 }
 mkdirSync(resolve(out, 'home'), {recursive: true});
 for (const file of ['index.html', 'view-desktop.html', 'view-mobile.html']) cpSync(resolve(out, file), resolve(out, 'home', file));

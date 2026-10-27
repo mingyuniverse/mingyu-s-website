@@ -10,6 +10,7 @@ const routes = JSON.parse(readFileSync(resolve(root, 'pages.json'), 'utf8'));
 const runtime = readFileSync(resolve(root, 'assets/static-runtime.js'), 'utf8');
 new vm.Script(runtime);
 new vm.Script(readFileSync(resolve(root, 'assets/responsive.js'), 'utf8'));
+new vm.Script(readFileSync(resolve(root, 'assets/hero.js'), 'utf8'));
 for (const route of routes) {
   const entry = readFileSync(resolve(root, 'dist', route, 'index.html'), 'utf8');
   assert.ok(entry.startsWith('<!DOCTYPE html>'));
@@ -33,4 +34,14 @@ for (const route of routes) {
 assert.equal(readFileSync(resolve(root, 'dist/CNAME'), 'utf8').trim(), 'mingyuniverse.com');
 assert.ok(existsSync(resolve(root, 'dist/.nojekyll')));
 assert.ok(existsSync(resolve(root, 'dist/home/index.html')));
+for (const file of ['view-desktop.html', 'view-mobile.html']) {
+  const home = readFileSync(resolve(root, 'dist', file), 'utf8');
+  const poster = home.match(/<wow-image\b[^>]*id="img_comp-mh5b5hv8"[^>]*>[\s\S]*?<img\b[^>]*src="([^"]+)"/)[1];
+  assert.match(poster, /^assets\/hero-poster\.[a-f0-9]+\.webp$/);
+  assert.ok(existsSync(resolve(root, 'dist', poster)));
+  const video = home.match(/assets\/hero-loop\.[a-f0-9]+\.mp4/)[0];
+  const bytes = readFileSync(resolve(root, 'dist', video));
+  assert.ok(bytes.length < 1024 * 1024, 'Keep the opening animation below 1 MB');
+  assert.ok(bytes.indexOf('moov') < bytes.indexOf('mdat'), 'MP4 must support fast startup');
+}
 console.log(`Verified ${routes.length} routes with matching desktop/phone documents, runtime adapters, and custom domain.`);
