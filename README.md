@@ -1,26 +1,58 @@
-# Mingyu Du portfolio replica
+# Mingyu Du portfolio
 
-A faithful local copy of the public portfolio at https://www.dumingyuyuyu.com/, captured October 27, 2026. The original page HTML, styles, fonts, artwork, GIF animation, video players, galleries, and Wix animation configuration are preserved rather than approximated with a new design.
+The portfolio is deployed from this repository to **GitHub Pages**, using `mingyuniverse.com` as its custom domain. It preserves the original published Wix pages, artwork, typography, videos, galleries, and animation configuration.
 
-## Preview
+## Local preview
 
-Run `python3 server.py`, then visit http://localhost:5174. No packages are required. Set `PORT` to use another port.
+With Node.js 22 or newer and Python 3 installed:
 
-## Project files
+```sh
+npm run build
+npm run check
+python3 server.py
+```
 
-- `pages/`: captured HTML for every discovered public page, including older portfolio collections and their projects.
-- `pages.json`: route inventory.
-- `server.py`: local server; maps internal links to localhost and serves the original public runtime endpoints on the same origin.
-- `worker/index.js`: deployable Cloudflare Worker template with the same URL handling.
-- `scripts/build.mjs`: packages the captured pages into the Worker.
-- `scripts/capture.py`: refreshes snapshots and recursively discovers internal page links.
+Open http://localhost:5174. The preview serves plain static files from `dist/`, matching GitHub Pages. No server-side proxy or installed packages are required.
 
-Run `npm run build` and `npm run check` with Node.js 22 or newer to build and validate the deployment.
+## Publish updates
 
-To rescan after publishing changes on Wix, run `python3 scripts/capture.py`. It refreshes the homepage, discovers the current routes, downloads every page, and validates that they share the same published revision before replacing the saved snapshots. Reload the local browser afterward.
+Push changes to `main`. `.github/workflows/pages.yml` builds and validates the site, then deploys `dist/` through GitHub Actions. In the repository's **Settings → Pages**, the source must be **GitHub Actions** and the custom domain must be `mingyuniverse.com`.
 
-## Fidelity and dependencies
+To refresh the copy after publishing changes on the original Wix website:
 
-This is a preserved Wix site, not an independent reimplementation of the Wix editor. Internet access to the original site's public Wix services and CDN is required for its scripts, fonts, images, videos, and interactive galleries. Runtime requests do not forward visitor cookies or authorization headers. The server forwards GET/HEAD requests and the specific read-only POST request Wix uses to retrieve portfolio pages and does not support editing or submitting changes to the original website.
+```sh
+python3 scripts/capture.py
+npm run build
+npm run check
+```
 
-The reference's desktop layout, overflow behavior at narrow widths, and existing video playback limitations are retained. Some videos also report playback errors on the reference itself. Captured HTML can be edited directly; broader independent redesigns would be easier with a fresh component implementation or the original Wix project export.
+The capture script downloads all discovered public pages, verifies that every page has the same Wix site revision, then updates `pages/` and `pages.json`. Commit and push those changes to publish them here.
+
+## GoDaddy DNS
+
+Use these records for GitHub Pages:
+
+| Type | Name | Value |
+|---|---|---|
+| A | @ | 185.199.108.153 |
+| A | @ | 185.199.109.153 |
+| A | @ | 185.199.110.153 |
+| A | @ | 185.199.111.153 |
+| CNAME | www | mingyuniverse.github.io |
+
+GitHub's Pages settings manage the HTTPS certificate and redirect between the apex domain and `www`. The build also includes `CNAME` and `.nojekyll` for compatibility.
+
+## Source layout
+
+- `pages/`: original public HTML snapshots for all 27 discovered pages.
+- `assets/static-runtime.js`: adapts navigation, viewer models, and workers to the static site's origin. Wix's public read endpoints are accessed directly through CORS without visitor cookies.
+- `scripts/build-pages.mjs`: creates the static deployment in `dist/`.
+- `scripts/check-pages.mjs`: validates routes, viewer configuration, and the domain.
+- `scripts/capture.py`: rescans the original public portfolio.
+- `server.py`: static local preview server.
+
+The older `worker/`, `scripts/build.mjs`, `scripts/check.mjs`, and `.openai/hosting.json` files are retained as the previous host's source; GitHub Pages does not use them.
+
+## Dependencies and fidelity
+
+This preserves the published Wix experience. Internet access to the original site's public Wix APIs and CDNs is still required for its runtime scripts, fonts, artwork, videos, and galleries. The site does not need a Python or Cloudflare backend in production. The reference's desktop layout and its existing video playback limitations are retained.
