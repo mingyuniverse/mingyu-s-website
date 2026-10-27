@@ -8,11 +8,12 @@ const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const routes = JSON.parse(readFileSync(resolve(root, 'pages.json'), 'utf8'));
 const runtime = readFileSync(resolve(root, 'assets/static-runtime.js'), 'utf8');
 new vm.Script(runtime);
-new vm.Script(readFileSync(resolve(root, 'assets/phone.js'), 'utf8'));
+new vm.Script(readFileSync(resolve(root, 'assets/responsive.js'), 'utf8'));
 for (const route of routes) {
   const entry = readFileSync(resolve(root, 'dist', route, 'index.html'), 'utf8');
   assert.ok(entry.startsWith('<!DOCTYPE html>'));
   assert.ok(entry.includes('view-mobile.html') && entry.includes('view-desktop.html'), route);
+  assert.ok(entry.includes("matchMedia('(min-width: 1640px)')"), route);
   for (const [file, expected] of [['view-desktop.html', 'desktop'], ['view-mobile.html', 'mobile']]) {
     const html = readFileSync(resolve(root, 'dist', route, file), 'utf8');
     assert.ok(html.includes('portfolioLocalizeModel("wix-essential-viewer-model")'), route);
@@ -21,7 +22,9 @@ for (const route of routes) {
     assert.ok(html.includes('importScripts('), route);
     const model = JSON.parse(html.match(/<script[^>]+id="wix-viewer-model"[^>]*>([\s\S]*?)<\/script>/)[1]);
     assert.equal(model.formFactor, expected, route);
-    assert.equal(html.includes('id="portfolio-phone-layout"'), expected === 'mobile', route);
+    assert.equal(html.includes('id="portfolio-responsive-layout"'), expected === 'mobile', route);
+    assert.ok(html.includes("matchMedia('(min-width: 1640px)')"), route);
+    if (expected === 'mobile') assert.ok(html.includes('width=device-width, initial-scale=1'), route);
   }
 }
 assert.equal(readFileSync(resolve(root, 'dist/CNAME'), 'utf8').trim(), 'mingyuniverse.com');

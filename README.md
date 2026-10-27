@@ -46,9 +46,9 @@ GitHub's Pages settings manage the HTTPS certificate and redirect between the ap
 
 - `pages/`: original public HTML snapshots for all 27 discovered pages.
 - `pages-mobile/`: matching phone snapshots, including the original mobile component order and media.
-- `assets/phone.css` and `assets/phone.js`: responsive phone sizing, readable typography, media proportions, and touch navigation. These apply below 1024 pixels; desktop styles stay unchanged.
+- `assets/responsive.css` and `assets/responsive.js`: fluid sizing, readable typography, sharp responsive images, and touch navigation. Project cards stack below 700 pixels and form two columns on tablets. At 900 pixels the introduction and About page use side-by-side layouts. All layouts below 1640 pixels share the responsive document, so iPad rotation and split-screen resizing do not reload the page. The original wide desktop composition is used from 1640 pixels, where its fixed-width content fits.
 - `assets/static-runtime.js`: adapts navigation, viewer models, and workers to the static site's origin. Wix's public read endpoints are accessed directly through CORS without visitor cookies.
-- `scripts/build-pages.mjs`: creates the static deployment in `dist/`. Each route selects its desktop or phone document before the Wix runtime starts. Resizing across the layout breakpoint reloads the appropriate document.
+- `scripts/build-pages.mjs`: creates the static deployment in `dist/`. Each route selects its wide desktop or responsive document before the Wix runtime starts. Only crossing the 1640-pixel document boundary requires a reload; phone and tablet changes use CSS.
 - `scripts/check-pages.mjs`: validates routes, viewer configuration, and the domain.
 - `scripts/capture.py`: rescans the original public portfolio.
 - `server.py`: static local preview server.

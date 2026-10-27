@@ -89,5 +89,5 @@
   }
   document.addEventListener('DOMContentLoaded', localizeLinks);
   document.addEventListener('click', localizeLinks, true);
-  matchMedia('(max-width: 1023px)').addEventListener('change', () => location.reload());
+  matchMedia('(min-width: 1640px)').addEventListener('change', () => location.reload());
 })();
