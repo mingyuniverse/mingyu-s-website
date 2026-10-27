@@ -26,27 +26,29 @@ npm run build
 npm run check
 ```
 
-The capture script downloads all discovered public pages, verifies that every page has the same Wix site revision, then updates `pages/` and `pages.json`. Commit and push those changes to publish them here.
+The capture script downloads desktop and phone versions of all discovered public pages, verifies that every page has the same Wix site revision, then updates `pages/`, `pages-mobile/`, and `pages.json`. Successful downloads are cached in the ignored `.capture-cache/` directory so an interrupted capture can resume. Commit and push those changes to publish them here.
 
 ## GoDaddy DNS
 
 Use these records for GitHub Pages:
 
-| Type | Name | Value |
-|---|---|---|
-| A | @ | 185.199.108.153 |
-| A | @ | 185.199.109.153 |
-| A | @ | 185.199.110.153 |
-| A | @ | 185.199.111.153 |
-| CNAME | www | mingyuniverse.github.io |
+| Type | Name | Value | TTL |
+|---|---|---|---|
+| A | @ | 185.199.108.153 | 600 seconds |
+| A | @ | 185.199.109.153 | 600 seconds |
+| A | @ | 185.199.110.153 | 600 seconds |
+| A | @ | 185.199.111.153 | 600 seconds |
+| CNAME | www | mingyuniverse.github.io | 3600 seconds |
 
 GitHub's Pages settings manage the HTTPS certificate and redirect between the apex domain and `www`. The build also includes `CNAME` and `.nojekyll` for compatibility.
 
 ## Source layout
 
 - `pages/`: original public HTML snapshots for all 27 discovered pages.
+- `pages-mobile/`: matching phone snapshots, including the original mobile component order and media.
+- `assets/phone.css` and `assets/phone.js`: responsive phone sizing, readable typography, media proportions, and touch navigation. These apply below 1024 pixels; desktop styles stay unchanged.
 - `assets/static-runtime.js`: adapts navigation, viewer models, and workers to the static site's origin. Wix's public read endpoints are accessed directly through CORS without visitor cookies.
-- `scripts/build-pages.mjs`: creates the static deployment in `dist/`.
+- `scripts/build-pages.mjs`: creates the static deployment in `dist/`. Each route selects its desktop or phone document before the Wix runtime starts. Resizing across the layout breakpoint reloads the appropriate document.
 - `scripts/check-pages.mjs`: validates routes, viewer configuration, and the domain.
 - `scripts/capture.py`: rescans the original public portfolio.
 - `server.py`: static local preview server.
