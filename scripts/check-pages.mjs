@@ -3,6 +3,7 @@ import {readFileSync, existsSync} from 'node:fs';
 import {resolve, dirname} from 'node:path';
 import {fileURLToPath} from 'node:url';
 import vm from 'node:vm';
+import {createHash} from 'node:crypto';
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const routes = JSON.parse(readFileSync(resolve(root, 'pages.json'), 'utf8'));
@@ -16,6 +17,8 @@ for (const route of routes) {
   assert.ok(entry.includes("matchMedia('(min-width: 1640px)')"), route);
   for (const [file, expected] of [['view-desktop.html', 'desktop'], ['view-mobile.html', 'mobile']]) {
     const html = readFileSync(resolve(root, 'dist', route, file), 'utf8');
+    const version = createHash('sha256').update(html).digest('hex').slice(0, 12);
+    assert.ok(entry.includes(`${file}?v=${version}`), `Stale document version: ${route}/${file}`);
     assert.ok(html.includes('portfolioLocalizeModel("wix-essential-viewer-model")'), route);
     assert.ok(html.includes('portfolioLocalizeModel("wix-viewer-model")'), route);
     assert.ok(html.includes('installFetchBridge'), route);

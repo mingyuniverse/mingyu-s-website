@@ -1,6 +1,7 @@
 import {readFileSync, writeFileSync, mkdirSync, cpSync, rmSync} from 'node:fs';
 import {resolve, dirname} from 'node:path';
 import {fileURLToPath} from 'node:url';
+import {createHash} from 'node:crypto';
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const out = resolve(root, 'dist');
@@ -23,7 +24,7 @@ function adapt(html, mobile) {
   return html;
 }
 
-function entry(html, route) {
+function entry(html, route, desktopVersion, responsiveVersion) {
   const title = html.match(/<title>([\s\S]*?)<\/title>/i)?.[1] || 'Mingyu Du Portfolio';
   const description = html.match(/<meta\b[^>]*name="description"[^>]*>/i)?.[0] || '';
   const canonical = 'https://mingyuniverse.com/' + (route ? encodeURI(route) + '/' : '');
@@ -34,7 +35,7 @@ function entry(html, route) {
 <script>
 (() => {
   const desktop = matchMedia('(min-width: 1640px)').matches;
-  const view = desktop ? 'view-desktop.html' : 'view-mobile.html';
+  const view = desktop ? 'view-desktop.html?v=${desktopVersion}' : 'view-mobile.html?v=${responsiveVersion}';
   fetch(new URL(view, location.href), {credentials:'same-origin'})
     .then(response => { if (!response.ok) throw new Error('Page unavailable'); return response.text(); })
     .then(html => { document.open(); document.write(html); document.close(); })
@@ -50,9 +51,12 @@ for (const route of routes) {
   const mobile = readFileSync(resolve(root, 'pages-mobile', route, 'index.html'), 'utf8');
   const directory = resolve(out, route);
   mkdirSync(directory, {recursive: true});
-  writeFileSync(resolve(directory, 'view-desktop.html'), adapt(desktop, false));
-  writeFileSync(resolve(directory, 'view-mobile.html'), adapt(mobile, true));
-  writeFileSync(resolve(directory, 'index.html'), entry(desktop, route));
+  const desktopDocument = adapt(desktop, false);
+  const responsiveDocument = adapt(mobile, true);
+  const version = document => createHash('sha256').update(document).digest('hex').slice(0, 12);
+  writeFileSync(resolve(directory, 'view-desktop.html'), desktopDocument);
+  writeFileSync(resolve(directory, 'view-mobile.html'), responsiveDocument);
+  writeFileSync(resolve(directory, 'index.html'), entry(desktop, route, version(desktopDocument), version(responsiveDocument)));
 }
 mkdirSync(resolve(out, 'home'), {recursive: true});
 for (const file of ['index.html', 'view-desktop.html', 'view-mobile.html']) cpSync(resolve(out, file), resolve(out, 'home', file));
