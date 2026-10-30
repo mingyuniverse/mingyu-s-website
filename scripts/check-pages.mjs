@@ -11,11 +11,21 @@ const runtime = readFileSync(resolve(root, 'assets/static-runtime.js'), 'utf8');
 new vm.Script(runtime);
 new vm.Script(readFileSync(resolve(root, 'assets/responsive.js'), 'utf8'));
 new vm.Script(readFileSync(resolve(root, 'assets/hero.js'), 'utf8'));
+const deviceLayout = readFileSync(resolve(root, 'assets/device-layout.js'), 'utf8');
+for (const [navigator, compact] of [
+  [{userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X)', platform: 'MacIntel', maxTouchPoints: 0}, false],
+  [{userAgent: 'Mozilla/5.0 (Windows NT 10.0)', platform: 'Win32', maxTouchPoints: 10}, false],
+  [{userAgent: 'Mozilla/5.0 (iPhone; CPU iPhone OS 18_0)', platform: 'iPhone', maxTouchPoints: 5}, true],
+  [{userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X)', platform: 'MacIntel', maxTouchPoints: 5}, true],
+  [{userAgent: 'Mozilla/5.0 (Linux; Android 15)', platform: 'Linux armv8l', maxTouchPoints: 5}, true]
+]) {
+  assert.equal(vm.runInNewContext(`${deviceLayout}\nportfolioUsesCompactLayout()`, {navigator}), compact);
+}
 for (const route of routes) {
   const entry = readFileSync(resolve(root, 'dist', route, 'index.html'), 'utf8');
   assert.ok(entry.startsWith('<!DOCTYPE html>'));
   assert.ok(entry.includes('view-mobile.html') && entry.includes('view-desktop.html'), route);
-  assert.ok(entry.includes("matchMedia('(min-width: 1640px)')"), route);
+  assert.ok(entry.includes('const desktop = !portfolioUsesCompactLayout()'), route);
   for (const [file, expected] of [['view-desktop.html', 'desktop'], ['view-mobile.html', 'mobile']]) {
     const html = readFileSync(resolve(root, 'dist', route, file), 'utf8');
     const version = createHash('sha256').update(html).digest('hex').slice(0, 12);
@@ -27,7 +37,7 @@ for (const route of routes) {
     const model = JSON.parse(html.match(/<script[^>]+id="wix-viewer-model"[^>]*>([\s\S]*?)<\/script>/)[1]);
     assert.equal(model.formFactor, expected, route);
     assert.equal(html.includes('id="portfolio-responsive-layout"'), expected === 'mobile', route);
-    assert.ok(html.includes("matchMedia('(min-width: 1640px)')"), route);
+    assert.ok(!html.includes("matchMedia('(min-width: 1640px)')"), route);
     if (expected === 'mobile') assert.ok(html.includes('width=device-width, initial-scale=1'), route);
   }
 }

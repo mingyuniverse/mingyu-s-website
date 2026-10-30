@@ -9,6 +9,7 @@ const routes = JSON.parse(readFileSync(resolve(root, 'pages.json'), 'utf8'));
 const runtime = readFileSync(resolve(root, 'assets/static-runtime.js'), 'utf8');
 const responsiveCss = readFileSync(resolve(root, 'assets/responsive.css'), 'utf8');
 const responsiveJs = readFileSync(resolve(root, 'assets/responsive.js'), 'utf8');
+const deviceLayout = readFileSync(resolve(root, 'assets/device-layout.js'), 'utf8');
 const fingerprint = content => createHash('sha256').update(content).digest('hex').slice(0, 12);
 const heroAssets = Object.fromEntries(['hero-loop.mp4', 'hero-poster.webp'].map(file => {
   const content = readFileSync(resolve(root, 'assets/media', file));
@@ -39,9 +40,9 @@ function adapt(html, mobile) {
     html = html.replace(/<\/head>/i, `${heroPreload()}</head>`);
   }
   html = html.replace(/<head([^>]*)>/i, `$&\n<script>${runtime}</script><script>${heroScript}</script><style>
-    #img_comp-mh5b5hv8 { visibility: hidden !important; }
-    .portfolio-hero-media { pointer-events: none; overflow: hidden; }
-    .portfolio-hero-media video { display: block; width: 100%; height: 100svh; object-fit: cover; object-position: 50% 50%; opacity: 1; }
+    #img_comp-mh5b5hv8 > img { visibility: hidden !important; }
+    .portfolio-hero-media { position: absolute; inset: 0; pointer-events: none; overflow: hidden; }
+    .portfolio-hero-media video { display: block; width: 100%; height: 100%; object-fit: cover; object-position: 50% 50%; opacity: 1; }
   </style>`);
   html = html.replace(/(<script\b[^>]*type="application\/json"[^>]*id="([^"]+)"[^>]*>[\s\S]*?<\/script>)/gi,
     (tag, whole, id) => `${tag}<script>portfolioLocalizeModel(${JSON.stringify(id)})</script>`);
@@ -64,8 +65,9 @@ function entry(html, route, desktopVersion, responsiveVersion) {
 <title>${title}</title>${description}<link rel="canonical" href="${canonical}">${route === '' ? heroPreload() : ''}
 <style>html,body{margin:0;background:#fff;color:#211d38}#page-loading{min-height:100svh;display:grid;place-content:center;text-align:center;font:16px/1.5 system-ui,sans-serif}#page-loading p{margin:8px}#page-loading button{font:inherit;padding:10px 18px}</style>
 <script>
+${deviceLayout}
 (() => {
-  const desktop = matchMedia('(min-width: 1640px)').matches;
+  const desktop = !portfolioUsesCompactLayout();
   const view = desktop ? 'view-desktop.html?v=${desktopVersion}' : 'view-mobile.html?v=${responsiveVersion}';
   fetch(new URL(view, location.href), {credentials:'same-origin'})
     .then(response => { if (!response.ok) throw new Error('Page unavailable'); return response.text(); })

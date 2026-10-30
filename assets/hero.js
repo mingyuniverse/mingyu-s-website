@@ -35,7 +35,7 @@
     if (!media) {
       media = document.createElement('div');
       media.id = 'portfolio-hero-media';
-      media.className = originalImage.className + ' portfolio-hero-media';
+      media.className = 'portfolio-hero-media';
       video = document.createElement('video');
       video.id = 'portfolio-hero-animation';
       video.muted = true; video.defaultMuted = true; video.loop = true; video.playsInline = true;
@@ -43,8 +43,10 @@
       video.setAttribute('aria-hidden', 'true'); video.tabIndex = -1;
       media.append(video);
     }
-    if (media.parentElement !== originalImage.parentElement) {
-      originalImage.parentElement.append(media);
+    // Reuse Wix's original sticky image wrapper. A sibling creates a second
+    // scrolling box and loses the fixed-background reveal effect.
+    if (media.parentElement !== originalImage) {
+      originalImage.append(media);
       video.autoplay = false;
     }
     if (reducedMotion.matches) {
