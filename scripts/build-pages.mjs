@@ -3,6 +3,7 @@ import {resolve, dirname} from 'node:path';
 import {fileURLToPath} from 'node:url';
 import {createHash} from 'node:crypto';
 import {applySeo, canonicalFor, siteOrigin} from './seo.mjs';
+import {applyBiography, biographyScript} from './biography.mjs';
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const out = resolve(root, 'dist');
@@ -35,6 +36,9 @@ function heroPreload() {
 }
 
 function adapt(html, mobile, route) {
+  if (html.includes('id="comp-mh5d44jq"')) {
+    html = applyBiography(html).replace(/<\/head>/i, `<script>${biographyScript}</script></head>`);
+  }
   const hasHero = html.includes('id="img_comp-mh5b5hv8"');
   if (hasHero) {
     html = html.replace(/<wow-image\b[^>]*id="img_comp-mh5b5hv8"[^>]*>[\s\S]*?<\/wow-image>/i, element => {
