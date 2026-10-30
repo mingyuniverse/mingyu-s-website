@@ -1,4 +1,4 @@
-/* Fluid layout for phones, tablets, split-screen windows, and compact desktops. */
+/* Device-selected phone and tablet layouts. Desktop typography stays unchanged. */
 html.portfolio-responsive { --site-width: 100vw !important; --screen-width: 100vw !important; }
 html.portfolio-responsive, .portfolio-responsive body { width: 100%; min-width: 0 !important; overflow-x: clip; }
 .portfolio-responsive *, .portfolio-responsive *::before, .portfolio-responsive *::after { box-sizing: border-box; }
@@ -58,7 +58,7 @@ html.portfolio-responsive, .portfolio-responsive body { width: 100%; min-width: 
 .portfolio-responsive #PAGES_CONTAINER iframe { max-width: 100%; }
 
 /* Keep the original handwritten identity, with usable touch targets. */
-.portfolio-responsive #SITE_HEADER { position: relative !important; height: auto !important; padding: 12px 16px; background: white; z-index: 20; }
+.portfolio-responsive #SITE_HEADER { position: relative !important; height: auto !important; padding: 4px 16px; background: white; z-index: 20; }
 .portfolio-responsive #SITE_HEADER :is(.wixui-column-strip, .wixui-column-strip__column) { width: 100% !important; height: auto !important; min-height: 0 !important; }
 .portfolio-responsive #SITE_HEADER [data-mesh-id] { width: 100% !important; height: auto !important; min-height: 0 !important; }
 .portfolio-responsive #SITE_HEADER [data-mesh-id$="-gridContainer"] > [id] { margin: 0 !important; left: 0 !important; top: auto !important; height: auto !important; }
@@ -68,7 +68,7 @@ html.portfolio-responsive, .portfolio-responsive body { width: 100%; min-width: 
 .portfolio-responsive #SITE_HEADER .wixui-rich-text p { margin: 0; white-space: nowrap; }
 .portfolio-responsive #SITE_HEADER a { display: inline-flex; align-items: center; justify-content: center; min-width: 44px; min-height: 44px; text-decoration: none; }
 .portfolio-responsive #comp-kj9yoihg { margin-right: auto !important; flex: 1; order: 0; }
-.portfolio-responsive #SITE_HEADER #comp-kj9yoihg :is(p, span, a) { font-size: 30px !important; }
+.portfolio-responsive #SITE_HEADER #comp-kj9yoihg :is(p, span, a) { font-size: 20px !important; }
 .portfolio-responsive #comp-mh9wxxcr { order: 1; }
 .portfolio-responsive #comp-mh9x15ts { order: 2; }
 .portfolio-responsive #comp-mh9x6bkd { order: 3; }
@@ -103,7 +103,7 @@ html.portfolio-responsive, .portfolio-responsive body { width: 100%; min-width: 
   .portfolio-responsive #SITE_HEADER { padding: 18px clamp(28px, 4vw, 64px); }
   .portfolio-responsive [data-mesh-id="comp-kj9yptsoinlineContent-gridContainer"] { gap: 24px; }
   .portfolio-responsive #SITE_HEADER .wixui-rich-text :is(p, span, a) { font-size: 26px !important; }
-  .portfolio-responsive #SITE_HEADER #comp-kj9yoihg :is(p, span, a) { font-size: 40px !important; }
+  .portfolio-responsive #SITE_HEADER #comp-kj9yoihg :is(p, span, a) { font-size: 26px !important; }
   .portfolio-responsive #PAGES_CONTAINER { padding: 40px clamp(28px, 5vw, 80px); }
   .portfolio-responsive #PAGES_CONTAINER > div { max-width: 1120px; margin-inline: auto; }
   .portfolio-responsive #PAGES_CONTAINER:has(#c1dmp) > div { max-width: none; }
@@ -151,4 +151,54 @@ html.portfolio-responsive, .portfolio-responsive body { width: 100%; min-width: 
 
 @media (prefers-reduced-motion: reduce) {
   .portfolio-responsive *, .portfolio-responsive *::before, .portfolio-responsive *::after { scroll-behavior: auto !important; animation-duration: .01ms !important; transition-duration: .01ms !important; }
+}
+
+/* Video controls are overlays, not content rows. Keep Wix playback behavior. */
+.portfolio-responsive #PAGES_CONTAINER .wixui-video-box { position: relative !important; }
+.portfolio-responsive #PAGES_CONTAINER .wixui-video-box > [data-mesh-id],
+.portfolio-responsive #PAGES_CONTAINER .wixui-video-box [data-mesh-id$="-gridContainer"] {
+  position: absolute !important; inset: 0 !important; width: 100% !important;
+  height: 100% !important; display: block !important; pointer-events: none;
+}
+.portfolio-responsive #PAGES_CONTAINER .wixui-video-box [data-mesh-id$="-gridContainer"] > [id]:has([data-testid="play-icon"]) {
+  position: absolute !important; left: 50% !important; top: 50% !important;
+  width: 52px !important; height: 52px !important; margin: 0 !important;
+  transform: translate(-50%, -50%) !important; pointer-events: none;
+}
+.portfolio-responsive #PAGES_CONTAINER .wixui-video-box [data-testid="vb-audio"] {
+  position: absolute !important; left: auto !important; right: 8px !important;
+  top: auto !important; bottom: 8px !important; width: 32px !important;
+  height: 32px !important; pointer-events: auto;
+}
+.portfolio-responsive .wixui-video-box :is([data-testid="play-icon"], [data-testid="pause-icon"]) {
+  position: absolute !important; inset: 0 !important; width: 100% !important; height: 100% !important;
+}
+.portfolio-responsive .wixui-video-box :is([data-testid="play-icon"], [data-testid="pause-icon"], [data-testid="vb-audio"]) svg {
+  display: block; width: 100% !important; height: 100% !important;
+}
+
+@media (max-width: 699px) {
+  .portfolio-responsive #PAGES_CONTAINER .wixui-rich-text :is(p, li),
+  .portfolio-responsive #PAGES_CONTAINER .wixui-rich-text .responsive-prose { font-size: 15px !important; }
+  .portfolio-responsive #PAGES_CONTAINER .wixui-rich-text :is(h1, h2, h3, h4):not(.responsive-prose) { font-size: 22px !important; }
+  .portfolio-responsive #PAGES_CONTAINER #comp-mh5b5hv8 {
+    height: auto !important; min-height: 0 !important; max-height: none;
+    aspect-ratio: 1080 / 482;
+  }
+  .portfolio-responsive #img_comp-mh5b5hv8 {
+    height: auto !important; min-height: 0 !important; aspect-ratio: 1080 / 482;
+  }
+  .portfolio-responsive #img_comp-mh5b5hv8 { transform: translateY(50px) !important; }
+  .portfolio-responsive #portfolio-hero-animation { object-fit: contain !important; }
+  .portfolio-responsive #PAGES_CONTAINER #comp-mh5ctwbs { opacity: 1 !important; }
+  .portfolio-responsive #comp-mh5b5hv8 [data-mesh-id$="-gridContainer"] { padding: 20px 22px; }
+  .portfolio-responsive #PAGES_CONTAINER #comp-mh5b5hv8 .wixui-rich-text,
+  .portfolio-responsive #PAGES_CONTAINER #comp-mh5b5hv8 h3 { text-align: left !important; }
+  .portfolio-responsive #PAGES_CONTAINER #comp-mh5b5hv8 h3 { font-size: 21px !important; max-width: 230px; }
+  .portfolio-responsive #PAGES_CONTAINER #comp-mh5cjpxt { padding: 28px 22px; }
+  .portfolio-responsive #PAGES_CONTAINER #comp-mh5cle0t p:first-child { font-size: 16px !important; }
+  .portfolio-responsive #PAGES_CONTAINER #comp-mh5cle0t p:last-child,
+  .portfolio-responsive #PAGES_CONTAINER #comp-mhaw320o p:last-child { font-size: 27px !important; }
+  .portfolio-responsive #PAGES_CONTAINER #comp-mtc2wbc71 h2 { font-size: 30px !important; }
+  .portfolio-responsive #PAGES_CONTAINER #comp-mtc2wbc3 .portfolio-project-cell h2 { font-size: 18px !important; }
 }
