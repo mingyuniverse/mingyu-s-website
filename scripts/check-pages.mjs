@@ -4,6 +4,7 @@ import {resolve, dirname} from 'node:path';
 import {fileURLToPath} from 'node:url';
 import vm from 'node:vm';
 import {createHash} from 'node:crypto';
+import {canonicalFor, googleVerification} from './seo.mjs';
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const routes = JSON.parse(readFileSync(resolve(root, 'pages.json'), 'utf8'));
@@ -11,6 +12,7 @@ const runtime = readFileSync(resolve(root, 'assets/static-runtime.js'), 'utf8');
 new vm.Script(runtime);
 new vm.Script(readFileSync(resolve(root, 'assets/responsive.js'), 'utf8'));
 new vm.Script(readFileSync(resolve(root, 'assets/hero.js'), 'utf8'));
+new vm.Script(readFileSync(resolve(root, 'assets/seo.js'), 'utf8'));
 const deviceLayout = readFileSync(resolve(root, 'assets/device-layout.js'), 'utf8');
 for (const [navigator, compact] of [
   [{userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X)', platform: 'MacIntel', maxTouchPoints: 0}, false],
@@ -26,6 +28,8 @@ for (const route of routes) {
   assert.ok(entry.startsWith('<!DOCTYPE html>'));
   assert.ok(entry.includes('view-mobile.html') && entry.includes('view-desktop.html'), route);
   assert.ok(entry.includes('const desktop = !portfolioUsesCompactLayout()'), route);
+  assert.ok(entry.includes(`<link rel="canonical" href="${canonicalFor(route)}">`), route);
+  assert.ok(entry.includes(`<meta name="google-site-verification" content="${googleVerification}">`), route);
   for (const [file, expected] of [['view-desktop.html', 'desktop'], ['view-mobile.html', 'mobile']]) {
     const html = readFileSync(resolve(root, 'dist', route, file), 'utf8');
     const version = createHash('sha256').update(html).digest('hex').slice(0, 12);
@@ -38,6 +42,9 @@ for (const route of routes) {
     assert.equal(model.formFactor, expected, route);
     assert.equal(html.includes('id="portfolio-responsive-layout"'), expected === 'mobile', route);
     assert.equal(html.includes('id="portfolio-desktop-header"'), expected === 'desktop', route);
+    const canonicalLinks = html.match(/<link\b[^>]*rel="canonical"[^>]*>/g);
+    assert.deepEqual(canonicalLinks, [`<link rel="canonical" href="${canonicalFor(route)}">`], route);
+    assert.ok(!/<meta\b[^>]*(?:og:url|og:site_name)[^>]*content="[^"]*(?:dumingyuyuyu|Dumingyuyuyu)/.test(html), route);
     assert.ok(!html.includes("matchMedia('(min-width: 1640px)')"), route);
     if (expected === 'mobile') assert.ok(html.includes('width=device-width, initial-scale=1'), route);
   }
@@ -45,6 +52,10 @@ for (const route of routes) {
 assert.equal(readFileSync(resolve(root, 'dist/CNAME'), 'utf8').trim(), 'mingyuniverse.com');
 assert.ok(existsSync(resolve(root, 'dist/.nojekyll')));
 assert.ok(existsSync(resolve(root, 'dist/home/index.html')));
+assert.ok(readFileSync(resolve(root, 'dist/robots.txt'), 'utf8').includes('Sitemap: https://mingyuniverse.com/sitemap.xml'));
+const sitemap = readFileSync(resolve(root, 'dist/sitemap.xml'), 'utf8');
+for (const route of routes.filter(route => !['blank', 'fullscreen-page'].includes(route))) assert.ok(sitemap.includes(`<loc>${canonicalFor(route)}</loc>`), route);
+assert.ok(readFileSync(resolve(root, 'dist/index.html'), 'utf8').includes('<title>Mingyuniverse |'));
 for (const file of ['view-desktop.html', 'view-mobile.html']) {
   const home = readFileSync(resolve(root, 'dist', file), 'utf8');
   const poster = home.match(/<wow-image\b[^>]*id="img_comp-mh5b5hv8"[^>]*>[\s\S]*?<img\b[^>]*src="([^"]+)"/)[1];

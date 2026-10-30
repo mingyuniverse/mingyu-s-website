@@ -57,6 +57,10 @@ GitHub's Pages settings manage the HTTPS certificate and redirect between the ap
 
 The older `worker/`, `scripts/build.mjs`, `scripts/check.mjs`, and `.openai/hosting.json` files are retained as the previous host's source; GitHub Pages does not use them.
 
+## Search indexing
+
+`scripts/seo.mjs` publishes canonical URLs on `https://mingyuniverse.com`, branded titles, homepage WebSite/Person structured data, and the owner's Google Search Console verification tag. `assets/seo.js` preserves the correct metadata when Wix updates the head. The build includes `robots.txt` and a sitemap of 25 public content routes, excluding the blank and fullscreen utility pages. The initial entry document also includes verification and homepage structured data, before JavaScript runs. Keep the verification tag after ownership verification succeeds. Submit `https://mingyuniverse.com/sitemap.xml` in the HTTPS URL-prefix Search Console property.
+
 ## Dependencies and fidelity
 
 This preserves the published Wix experience. Internet access to the original site's public Wix APIs and CDNs is still required for its runtime scripts, fonts, artwork, videos, and galleries. The site does not need a Python or Cloudflare backend in production. The reference's desktop layout and its existing video playback limitations are retained.

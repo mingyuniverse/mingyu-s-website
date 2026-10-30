@@ -2,6 +2,7 @@ import {readFileSync, writeFileSync, mkdirSync, cpSync, rmSync} from 'node:fs';
 import {resolve, dirname} from 'node:path';
 import {fileURLToPath} from 'node:url';
 import {createHash} from 'node:crypto';
+import {applySeo, canonicalFor, siteOrigin} from './seo.mjs';
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const out = resolve(root, 'dist');
@@ -11,6 +12,7 @@ const responsiveCss = readFileSync(resolve(root, 'assets/responsive.css'), 'utf8
 const responsiveJs = readFileSync(resolve(root, 'assets/responsive.js'), 'utf8');
 const deviceLayout = readFileSync(resolve(root, 'assets/device-layout.js'), 'utf8');
 const desktopHeaderCss = readFileSync(resolve(root, 'assets/desktop-header.css'), 'utf8');
+const seoScript = readFileSync(resolve(root, 'assets/seo.js'), 'utf8');
 const fingerprint = content => createHash('sha256').update(content).digest('hex').slice(0, 12);
 const heroAssets = Object.fromEntries(['hero-loop.mp4', 'hero-poster.webp'].map(file => {
   const content = readFileSync(resolve(root, 'assets/media', file));
@@ -32,7 +34,7 @@ function heroPreload() {
   })();</script>`;
 }
 
-function adapt(html, mobile) {
+function adapt(html, mobile, route) {
   const hasHero = html.includes('id="img_comp-mh5b5hv8"');
   if (hasHero) {
     html = html.replace(/<wow-image\b[^>]*id="img_comp-mh5b5hv8"[^>]*>[\s\S]*?<\/wow-image>/i, element => {
@@ -57,16 +59,19 @@ function adapt(html, mobile) {
     html = html.replace(/<html\b/i, '<html class="portfolio-desktop"');
     html = html.replace(/<\/head>/i, `<style id="portfolio-desktop-header">${desktopHeaderCss}</style></head>`);
   }
-  return html;
+  html = applySeo(html, route);
+  return html.replace(/<\/head>/i, `<script>${seoScript}</script></head>`);
 }
 
 function entry(html, route, desktopVersion, responsiveVersion) {
   const title = html.match(/<title>([\s\S]*?)<\/title>/i)?.[1] || 'Mingyu Du Portfolio';
   const description = html.match(/<meta\b[^>]*name="description"[^>]*>/i)?.[0] || '';
   const canonical = 'https://mingyuniverse.com/' + (route ? encodeURI(route) + '/' : '');
+  const verification = html.match(/<meta\b[^>]*name="google-site-verification"[^>]*>/i)?.[0] || '';
+  const structuredData = route ? '' : html.match(/<script\b[^>]*type="application\/ld\+json"[^>]*>[\s\S]*?<\/script>/gi)?.join('') || '';
   return `<!DOCTYPE html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<title>${title}</title>${description}<link rel="canonical" href="${canonical}">${route === '' ? heroPreload() : ''}
+<title>${title}</title>${description}${verification}${structuredData}<meta property="og:site_name" content="Mingyuniverse"><link rel="canonical" href="${canonical}">${route === '' ? heroPreload() : ''}
 <style>html,body{margin:0;background:#fff;color:#211d38}#page-loading{min-height:100svh;display:grid;place-content:center;text-align:center;font:16px/1.5 system-ui,sans-serif}#page-loading p{margin:8px}#page-loading button{font:inherit;padding:10px 18px}</style>
 <script>
 ${deviceLayout}
@@ -90,14 +95,17 @@ for (const route of routes) {
   const mobile = readFileSync(resolve(root, 'pages-mobile', route, 'index.html'), 'utf8');
   const directory = resolve(out, route);
   mkdirSync(directory, {recursive: true});
-  const desktopDocument = adapt(desktop, false);
-  const responsiveDocument = adapt(mobile, true);
+  const desktopDocument = adapt(desktop, false, route);
+  const responsiveDocument = adapt(mobile, true, route);
   writeFileSync(resolve(directory, 'view-desktop.html'), desktopDocument);
   writeFileSync(resolve(directory, 'view-mobile.html'), responsiveDocument);
-  writeFileSync(resolve(directory, 'index.html'), entry(desktop, route, fingerprint(desktopDocument), fingerprint(responsiveDocument)));
+  writeFileSync(resolve(directory, 'index.html'), entry(desktopDocument, route, fingerprint(desktopDocument), fingerprint(responsiveDocument)));
 }
 mkdirSync(resolve(out, 'home'), {recursive: true});
 for (const file of ['index.html', 'view-desktop.html', 'view-mobile.html']) cpSync(resolve(out, file), resolve(out, 'home', file));
 writeFileSync(resolve(out, 'CNAME'), 'mingyuniverse.com\n');
 writeFileSync(resolve(out, '.nojekyll'), '');
+writeFileSync(resolve(out, 'robots.txt'), `User-agent: *\nAllow: /\n\nSitemap: ${siteOrigin}/sitemap.xml\n`);
+const indexedRoutes = routes.filter(route => !['blank', 'fullscreen-page'].includes(route));
+writeFileSync(resolve(out, 'sitemap.xml'), `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${indexedRoutes.map(route => `  <url><loc>${canonicalFor(route)}</loc></url>`).join('\n')}\n</urlset>\n`);
 console.log(`Built ${routes.length} routes with desktop and phone layouts for GitHub Pages.`);
