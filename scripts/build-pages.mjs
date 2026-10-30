@@ -10,6 +10,7 @@ const runtime = readFileSync(resolve(root, 'assets/static-runtime.js'), 'utf8');
 const responsiveCss = readFileSync(resolve(root, 'assets/responsive.css'), 'utf8');
 const responsiveJs = readFileSync(resolve(root, 'assets/responsive.js'), 'utf8');
 const deviceLayout = readFileSync(resolve(root, 'assets/device-layout.js'), 'utf8');
+const desktopHeaderCss = readFileSync(resolve(root, 'assets/desktop-header.css'), 'utf8');
 const fingerprint = content => createHash('sha256').update(content).digest('hex').slice(0, 12);
 const heroAssets = Object.fromEntries(['hero-loop.mp4', 'hero-poster.webp'].map(file => {
   const content = readFileSync(resolve(root, 'assets/media', file));
@@ -52,6 +53,9 @@ function adapt(html, mobile) {
     html = html.replace(/<html\b/i, '<html class="portfolio-responsive"');
     html = html.replace(/(<meta\b[^>]*name="viewport"[^>]*content=")[^"]*/i, '$1width=device-width, initial-scale=1');
     html = html.replace(/<\/head>/i, `<style id="portfolio-responsive-layout">${responsiveCss}</style><script>${responsiveJs}</script></head>`);
+  } else {
+    html = html.replace(/<html\b/i, '<html class="portfolio-desktop"');
+    html = html.replace(/<\/head>/i, `<style id="portfolio-desktop-header">${desktopHeaderCss}</style></head>`);
   }
   return html;
 }

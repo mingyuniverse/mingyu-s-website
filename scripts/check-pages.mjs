@@ -37,6 +37,7 @@ for (const route of routes) {
     const model = JSON.parse(html.match(/<script[^>]+id="wix-viewer-model"[^>]*>([\s\S]*?)<\/script>/)[1]);
     assert.equal(model.formFactor, expected, route);
     assert.equal(html.includes('id="portfolio-responsive-layout"'), expected === 'mobile', route);
+    assert.equal(html.includes('id="portfolio-desktop-header"'), expected === 'desktop', route);
     assert.ok(!html.includes("matchMedia('(min-width: 1640px)')"), route);
     if (expected === 'mobile') assert.ok(html.includes('width=device-width, initial-scale=1'), route);
   }
