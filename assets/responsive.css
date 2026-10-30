@@ -194,7 +194,7 @@ html.portfolio-responsive, .portfolio-responsive body { width: 100%; min-width: 
   .portfolio-responsive #comp-mh5b5hv8 [data-mesh-id$="-gridContainer"] { padding: 20px 22px; }
   .portfolio-responsive #PAGES_CONTAINER #comp-mh5b5hv8 .wixui-rich-text,
   .portfolio-responsive #PAGES_CONTAINER #comp-mh5b5hv8 h3 { text-align: left !important; }
-  .portfolio-responsive #PAGES_CONTAINER #comp-mh5b5hv8 h3 { font-size: 21px !important; max-width: 230px; }
+  .portfolio-responsive #PAGES_CONTAINER #comp-mh5b5hv8 h3 { font-size: clamp(12px, 3.6vw, 16px) !important; max-width: none; margin: 0; }
   .portfolio-responsive #PAGES_CONTAINER #comp-mh5cjpxt { padding: 28px 22px; }
   .portfolio-responsive #PAGES_CONTAINER #comp-mh5cle0t p:first-child { font-size: 16px !important; }
   .portfolio-responsive #PAGES_CONTAINER #comp-mh5cle0t p:last-child,
