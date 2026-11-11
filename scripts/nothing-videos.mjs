@@ -29,6 +29,32 @@ export function applyProjectVideos(html, paths, slots, title, className, options
   </style><script>
   (() => {
     const markup = ${JSON.stringify(markup)};
+    const slotIds = new Set(Object.keys(markup));
+    const isLocalVideo = media => media.classList.contains('${className}');
+    const isProjectMedia = media => {
+      for (let parent = media.parentElement; parent; parent = parent.parentElement) {
+        if (slotIds.has(parent.id)) return true;
+      }
+      return false;
+    };
+    function disableLegacyMedia(media) {
+      if (!media.muted) media.muted = true;
+      if (media.volume !== 0) media.volume = 0;
+      if (media.autoplay) media.autoplay = false;
+      if (!media.paused) media.pause();
+    }
+    // Wix hydration recreates its hidden video. Hiding the controls alone does
+    // not stop audio, and its delegated click handler still sees native clicks.
+    for (const event of ['play', 'playing', 'volumechange']) {
+      document.addEventListener(event, e => {
+        const media = e.target;
+        if (media instanceof HTMLMediaElement && !isLocalVideo(media) && isProjectMedia(media)) {
+          e.stopImmediatePropagation();
+          disableLegacyMedia(media);
+        }
+      }, true);
+    }
+    const isolated = new WeakSet();
     const reduceMotion = matchMedia('(prefers-reduced-motion: reduce)');
     const observed = new WeakSet();
     const visibility = new IntersectionObserver(entries => {
@@ -43,6 +69,15 @@ export function applyProjectVideos(html, paths, slots, title, className, options
         if (!slot) continue;
         if (!slot.querySelector(':scope > .${className}')) slot.insertAdjacentHTML('afterbegin', html);
         const video = slot.querySelector(':scope > .${className}');
+        for (const media of slot.querySelectorAll('video, audio')) {
+          if (!isLocalVideo(media)) disableLegacyMedia(media);
+        }
+        if (!isolated.has(video)) {
+          isolated.add(video);
+          for (const event of ['click', 'dblclick', 'pointerdown', 'pointerup', 'mousedown', 'mouseup', 'touchstart', 'touchend', 'keydown', 'keyup']) {
+            video.addEventListener(event, e => e.stopPropagation());
+          }
+        }
         if (video.loop && !observed.has(video)) {
           observed.add(video);
           visibility.observe(video);
