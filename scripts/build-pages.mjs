@@ -22,6 +22,7 @@ const responsiveCss = readFileSync(resolve(root, 'assets/responsive.css'), 'utf8
 const responsiveJs = readFileSync(resolve(root, 'assets/responsive.js'), 'utf8');
 const deviceLayout = readFileSync(resolve(root, 'assets/device-layout.js'), 'utf8');
 const desktopHeaderCss = readFileSync(resolve(root, 'assets/desktop-header.css'), 'utf8');
+const projectHoverCss = readFileSync(resolve(root, 'assets/project-hover.css'), 'utf8');
 const seoScript = readFileSync(resolve(root, 'assets/seo.js'), 'utf8');
 const fingerprint = content => createHash('sha256').update(content).digest('hex').slice(0, 12);
 const amtrakAssets = Object.fromEntries(amtrakFiles.map(file => {
@@ -124,7 +125,7 @@ function adapt(html, mobile, route) {
     html = html.replace(/<\/head>/i, `<style id="portfolio-desktop-header">${desktopHeaderCss}</style></head>`);
   }
   html = applySeo(html, route);
-  return independentDocument(html.replace(/<\/head>/i, `<script>${seoScript}</script></head>`), route);
+  return independentDocument(html.replace(/<\/head>/i, `<style id="portfolio-project-hover">${projectHoverCss}</style><script>${seoScript}</script></head>`), route);
 }
 
 function entry(html, route, desktopVersion, responsiveVersion) {

@@ -1,0 +1,38 @@
+/* Keep the cover and caption in place; the preview remains a normal link. */
+#comp-mvqvldh5 > a {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  isolation: isolate;
+}
+#comp-mvqvldh5 > a > img {
+  transition: filter 280ms ease, transform 280ms ease;
+}
+#comp-mvqvldh5 > a::after {
+  content: "NOTHING";
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  pointer-events: none;
+  background: rgb(0 0 0 / 12%);
+  color: #fff;
+  font-family: google-sans, sans-serif;
+  font-size: clamp(26px, 3.2vw, 48px);
+  font-weight: 700;
+  letter-spacing: .14em;
+  text-indent: .14em;
+  text-shadow: 0 2px 16px rgb(0 0 0 / 15%);
+  opacity: 0;
+  transition: opacity 280ms ease;
+}
+@media (hover: hover) and (pointer: fine) {
+  #comp-mvqvldh5 > a:hover > img { filter: blur(2px); transform: scale(1.015); }
+  #comp-mvqvldh5 > a:hover::after { opacity: 1; }
+}
+#comp-mvqvldh5 > a:focus-visible > img { filter: blur(2px); transform: scale(1.015); }
+#comp-mvqvldh5 > a:focus-visible::after { opacity: 1; }
+#comp-mvqvldh5 > a:focus-visible { outline: 3px solid #3622b2; outline-offset: 4px; }
+@media (prefers-reduced-motion: reduce) {
+  #comp-mvqvldh5 > a > img, #comp-mvqvldh5 > a::after { transition: none; }
+}
