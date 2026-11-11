@@ -1,0 +1,33 @@
+html.portfolio-desktop { --portfolio-design-unit: calc(100vw / 1600); }
+html.portfolio-desktop:has(#c1dmp) { overflow-x: clip; }
+.portfolio-desktop:has(#c1dmp) #SITE_HEADER,
+.portfolio-desktop:has(#c1dmp) #SITE_HEADER_WRAPPER { min-height: clamp(64px, 4.7vw, 120px); }
+.portfolio-desktop:has(#c1dmp) #SITE_HEADER :is(p, span, a) {
+  font-size: clamp(26px, 2.1vw, 64px) !important;
+  line-height: 1.15 !important;
+}
+.portfolio-desktop:has(#c1dmp) [data-mesh-id="comp-kj9yptsoinlineContent-gridContainer"] {
+  align-items: center;
+  gap: clamp(20px, 2vw, 64px);
+  padding: clamp(12px, 1vw, 28px) 3vw;
+}
+.portfolio-desktop #comp-mh5ctwbs {
+  width: 90vw !important;
+  left: 0 !important;
+  margin: 0 !important;
+  justify-self: center !important;
+  align-self: center !important;
+  text-align: center;
+}
+.portfolio-desktop #comp-mh5ctwbs :is(h3, span) {
+  font-size: clamp(32px, 3.3vw, 104px) !important;
+  line-height: 1.25 !important;
+}
+.portfolio-desktop [data-mesh-id="comp-mh5b5hv8inlineContent-gridContainer"] {
+  min-height: clamp(520px, 45vw, 1440px) !important;
+}
+.portfolio-desktop #comp-mh5d44jq :is(p, span, a) {
+  font-size: clamp(18px, 1.25vw, 36px) !important;
+  line-height: 1.55 !important;
+}
+.portfolio-desktop:has(#c1dmp) #SITE_FOOTER :is(p, span) { font-size: clamp(12px, .75vw, 22px) !important; }
