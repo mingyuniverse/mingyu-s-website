@@ -12,12 +12,12 @@ html.portfolio-desktop:has(#c1dmp) { overflow-x: clip; }
   padding: clamp(12px, 1vw, 28px) 3vw;
 }
 .portfolio-desktop #comp-mh5ctwbs {
-  width: 90vw !important;
+  width: calc(861 * var(--portfolio-design-unit)) !important;
   left: 0 !important;
-  margin: 0 !important;
-  justify-self: center !important;
+  margin: 0 0 0 calc(284 * var(--portfolio-design-unit)) !important;
+  justify-self: start !important;
   align-self: center !important;
-  text-align: center;
+  text-align: left;
 }
 .portfolio-desktop #comp-mh5ctwbs :is(h3, span) {
   font-size: clamp(32px, 3.3vw, 104px) !important;

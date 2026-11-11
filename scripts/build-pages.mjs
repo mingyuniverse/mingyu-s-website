@@ -14,7 +14,9 @@ import {applyAmtrak, amtrakFiles, amtrakRoute} from './amtrak.mjs';
 import {removeHostedRuntime, independentDocument} from './independent.mjs';
 import {applyCollections} from './collections.mjs';
 import {applyHomeProjects} from './home-projects.mjs';
-import {applyFluidHome} from './fluid-home.mjs';
+import {applyFluidDesktop} from './fluid-home.mjs';
+import {applyAbout} from './about.mjs';
+import {applyCollectionIndex} from './collection-index.mjs';
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const out = resolve(root, 'dist');
@@ -26,6 +28,8 @@ const deviceLayout = readFileSync(resolve(root, 'assets/device-layout.js'), 'utf
 const desktopHeaderCss = readFileSync(resolve(root, 'assets/desktop-header.css'), 'utf8');
 const projectHoverCss = readFileSync(resolve(root, 'assets/project-hover.css'), 'utf8');
 const fluidHomeCss = readFileSync(resolve(root, 'assets/fluid-home.css'), 'utf8');
+const fluidDesktopCss = readFileSync(resolve(root, 'assets/fluid-desktop.css'), 'utf8');
+const desktopLayouts = JSON.parse(readFileSync(resolve(root, 'assets/desktop-layouts.json'), 'utf8'));
 const seoScript = readFileSync(resolve(root, 'assets/seo.js'), 'utf8');
 const fingerprint = content => createHash('sha256').update(content).digest('hex').slice(0, 12);
 const amtrakAssets = Object.fromEntries(amtrakFiles.map(file => {
@@ -86,7 +90,9 @@ function heroPreload() {
 
 function adapt(html, mobile, route) {
   html = removeHostedRuntime(html);
-  if (route === '' && !mobile) html = applyFluidHome(html);
+  if (!mobile) html = applyFluidDesktop(html, {referenceWidth: desktopLayouts[route]});
+  if (route === 'about') html = applyAbout(html);
+  if (route === 'selected-work') html = applyCollectionIndex(html);
   if (route === '') html = applyHomeProjects(html, {mobile});
   html = applyCollections(html, route);
   if (html.includes('id="comp-mtbucj2u"')) html = applyAmtrak(html, amtrakPaths);
@@ -130,6 +136,7 @@ function adapt(html, mobile, route) {
     html = html.replace(/<\/head>/i, `<style id="portfolio-desktop-header">${desktopHeaderCss}</style></head>`);
   }
   html = applySeo(html, route);
+  html = html.replace(/<\/head>/i, `<style id="portfolio-fluid-desktop">${!mobile ? `html.portfolio-desktop { --portfolio-design-unit: calc(100vw / ${desktopLayouts[route]}); }` : ''}${fluidDesktopCss}</style></head>`);
   if (route === '' && !mobile) html = html.replace(/<\/head>/i, `<style id="portfolio-fluid-home">${fluidHomeCss}</style></head>`);
   return independentDocument(html.replace(/<\/head>/i, `<style id="portfolio-project-hover">${projectHoverCss}</style><script>${seoScript}</script></head>`), route);
 }

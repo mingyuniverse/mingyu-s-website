@@ -9,6 +9,7 @@ import {homeProjects} from './home-projects.mjs';
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const routes = JSON.parse(readFileSync(resolve(root, 'pages.json'), 'utf8'));
+const desktopLayouts = JSON.parse(readFileSync(resolve(root, 'assets/desktop-layouts.json'), 'utf8'));
 const runtime = readFileSync(resolve(root, 'assets/independent.js'), 'utf8');
 new vm.Script(runtime);
 new vm.Script(readFileSync(resolve(root, 'assets/responsive.js'), 'utf8'));
@@ -25,6 +26,7 @@ for (const [navigator, compact] of [
   assert.equal(vm.runInNewContext(`${deviceLayout}\nportfolioUsesCompactLayout()`, {navigator}), compact);
 }
 for (const route of routes) {
+  assert.ok(Number.isInteger(desktopLayouts[route]) && desktopLayouts[route] >= 1000 && desktopLayouts[route] <= 2400, `Missing desktop sizing: ${route}`);
   const entry = readFileSync(resolve(root, 'dist', route, 'index.html'), 'utf8');
   assert.ok(entry.startsWith('<!DOCTYPE html>'));
   assert.ok(entry.includes('view-mobile.html') && entry.includes('view-desktop.html'), route);
@@ -48,6 +50,9 @@ for (const route of routes) {
     }
     assert.equal(html.includes('id="portfolio-responsive-layout"'), expected === 'mobile', route);
     assert.equal(html.includes('id="portfolio-desktop-header"'), expected === 'desktop', route);
+    assert.ok(html.includes('id="portfolio-fluid-desktop"'), route);
+    if (expected === 'desktop') assert.ok(html.includes(`--portfolio-design-unit: calc(100vw / ${desktopLayouts[route]})`), route);
+    else assert.ok(!html.includes('--portfolio-design-unit:'), `Desktop dimensions leaked into phone layout: ${route}`);
     const canonicalLinks = html.match(/<link\b[^>]*rel="canonical"[^>]*>/g);
     assert.deepEqual(canonicalLinks, [`<link rel="canonical" href="${canonicalFor(route)}">`], route);
     assert.ok(!/<meta\b[^>]*(?:og:url|og:site_name)[^>]*content="[^"]*(?:dumingyuyuyu|Dumingyuyuyu)/.test(html), route);
@@ -118,3 +123,11 @@ for (const layout of ['desktop', 'mobile']) {
   }
 }
 console.log('Verified all eight home cover titles and medium-only captions in both layouts.');
+for (const layout of ['desktop', 'mobile']) {
+  const about = readFileSync(resolve(root, 'dist/about', `view-${layout}.html`), 'utf8');
+  assert.ok(about.includes('id="portfolio-about"'));
+  assert.ok(about.includes('mailto:dumingyu17@gmail.com'));
+  const index = readFileSync(resolve(root, 'dist/selected-work', `view-${layout}.html`), 'utf8');
+  assert.equal([...index.matchAll(/<a class="portfolio-collection-tile"/g)].length, 3);
+}
+console.log('Verified per-page desktop sizing, native About layouts, and three visible collection entries.');

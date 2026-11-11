@@ -1,0 +1,53 @@
+/* Keep short pages filled and put the footer after content, never over it. */
+html, body { min-height: 100%; }
+#SITE_CONTAINER, #main_MF { min-height: 100svh; }
+#masterPage { display: flex !important; flex-direction: column; min-height: 100svh; }
+#PAGES_CONTAINER { flex: 1 0 auto; min-height: 0; }
+#SITE_HEADER, #SITE_HEADER_WRAPPER, #SITE_FOOTER { flex-shrink: 0; }
+#SITE_FOOTER { position: relative !important; bottom: auto !important; margin-top: auto; }
+
+html.portfolio-desktop { overflow-x: clip; }
+.portfolio-desktop #SITE_HEADER,
+.portfolio-desktop #SITE_HEADER_WRAPPER { min-height: clamp(64px, 4.7vw, 120px); }
+.portfolio-desktop #SITE_HEADER :is(p, span, a) { font-size: clamp(26px, 2.1vw, 64px) !important; line-height: 1.15 !important; }
+.portfolio-desktop [data-mesh-id="comp-kj9yptsoinlineContent-gridContainer"] {
+  align-items: center; gap: clamp(20px, 2vw, 64px); padding: clamp(12px, 1vw, 28px) 3vw;
+}
+.portfolio-desktop #SITE_FOOTER :is(p, span) { font-size: clamp(12px, .75vw, 22px) !important; }
+.portfolio-project-card > a, .independent-collection-card, .portfolio-collection-tile > div { border-radius: clamp(8px, .6vw, 16px); }
+.portfolio-desktop #comp-m3znw8x5.independent-collection { width: 88vw !important; max-width: none !important; }
+.portfolio-desktop .independent-collection h1 { font-size: clamp(40px, 3.4vw, 88px); }
+.portfolio-desktop .independent-collection-back { font-size: clamp(18px, 1vw, 28px); }
+.portfolio-desktop .independent-collection-card span { font-size: clamp(24px, 2vw, 48px); }
+
+/* The About and collection-index pages use native content-sized layouts. */
+:is(html:has(#portfolio-about), html:has(#portfolio-collection-index)) #PAGES_CONTAINER [data-mesh-id$="-gridContainer"] { display: block !important; min-height: 0 !important; height: auto !important; }
+html:has(#portfolio-about) #PAGES_CONTAINER { background: #f3f0e7; }
+#portfolio-about { box-sizing: border-box; width: 86vw; margin: 0 auto; padding: clamp(32px, 2.5vw, 64px) 0; }
+#PAGES_CONTAINER #portfolio-about h1 { margin: 0 0 clamp(32px, 2.5vw, 64px); text-align: center; font: clamp(38px, 3.2vw, 84px)/1.2 braggadocio-w01,fantasy; letter-spacing: .06em; color: #080808; }
+.portfolio-about-grid { display: grid; grid-template-columns: minmax(0, 1.15fr) minmax(0, .85fr); align-items: start; gap: 7vw; }
+.portfolio-about-copy { font: clamp(20px, 1.35vw, 36px)/1.45 avenir-lt-w01_35-light1475496,sans-serif; }
+#PAGES_CONTAINER #portfolio-about .wixui-rich-text { position: static !important; margin: 0 !important; width: auto !important; height: auto !important; min-height: 0 !important; }
+#PAGES_CONTAINER #portfolio-about .portfolio-about-copy :is(p, span, a) { font-size: inherit !important; line-height: inherit !important; }
+#PAGES_CONTAINER #portfolio-about .portfolio-about-copy p { margin: 0 0 .45em; }
+#PAGES_CONTAINER #portfolio-about #comp-mhaw320o { margin-bottom: .7em !important; }
+#PAGES_CONTAINER #portfolio-about #comp-mhaw320o p:last-child { font-size: clamp(32px, 2.6vw, 68px) !important; }
+.portfolio-about-portrait { width: 100%; max-width: 760px; margin: 0; justify-self: end; }
+.portfolio-about-portrait img { display: block; width: 100%; height: auto; border-radius: 12px; }
+
+html:has(#portfolio-collection-index) #PAGES_CONTAINER { background: #f3f0e7; }
+#portfolio-collection-index { width: 88vw; margin: 0 auto; padding: clamp(35px, 3vw, 80px) 0; }
+#PAGES_CONTAINER #portfolio-collection-index > h1 { font: clamp(36px, 3.3vw, 84px)/1.2 braggadocio-w01,fantasy; margin: 0 0 4vw; }
+.portfolio-collection-index-grid { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap: 4vw; }
+.portfolio-collection-tile { color: #111; text-decoration: none; }
+.portfolio-collection-tile > div { aspect-ratio: 1; overflow: hidden; }
+.portfolio-collection-tile img { display: block; width: 100%; height: 100%; object-fit: cover; }
+#PAGES_CONTAINER .portfolio-collection-tile h2 { font: 700 clamp(20px, 1.4vw, 36px)/1.4 google-sans,sans-serif; margin: 14px 0 0; }
+@media (max-width: 699px) {
+  .portfolio-responsive #portfolio-about { width: 100%; padding: 28px 0; }
+  .portfolio-responsive .portfolio-about-grid { display: flex; flex-direction: column; gap: 28px; }
+  .portfolio-responsive .portfolio-about-copy { font-size: 19px; }
+  .portfolio-responsive .portfolio-about-portrait { order: -1; width: 85%; align-self: center; }
+  .portfolio-responsive #portfolio-collection-index { width: 100%; padding: 24px 0; }
+  .portfolio-responsive .portfolio-collection-index-grid { grid-template-columns: 1fr; gap: 32px; }
+}
