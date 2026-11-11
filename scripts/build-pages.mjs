@@ -4,6 +4,13 @@ import {fileURLToPath} from 'node:url';
 import {createHash} from 'node:crypto';
 import {applySeo, canonicalFor, siteOrigin} from './seo.mjs';
 import {applyBiography, biographyScript} from './biography.mjs';
+import {applyNothingVideos, nothingVideos} from './nothing-videos.mjs';
+import {applyRoomDesign, roomFiles} from './room-design.mjs';
+import {applyThirteenReasons, thirteenFiles} from './thirteen-reasons.mjs';
+import {applyStillLife, stillLifeFiles} from './still-life.mjs';
+import {applyAppleMusic, appleMusicFiles} from './apple-music.mjs';
+import {applyMome729Video, mome729Files} from './mome729-videos.mjs';
+import {applyAmtrak, amtrakFiles, amtrakRoute} from './amtrak.mjs';
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const out = resolve(root, 'dist');
@@ -15,6 +22,42 @@ const deviceLayout = readFileSync(resolve(root, 'assets/device-layout.js'), 'utf
 const desktopHeaderCss = readFileSync(resolve(root, 'assets/desktop-header.css'), 'utf8');
 const seoScript = readFileSync(resolve(root, 'assets/seo.js'), 'utf8');
 const fingerprint = content => createHash('sha256').update(content).digest('hex').slice(0, 12);
+const amtrakAssets = Object.fromEntries(amtrakFiles.map(file => {
+  const content = readFileSync(resolve(root, 'assets/projects/amtrak', file));
+  return [file, {content, path: `assets/amtrak/${file.slice(0, -4).replaceAll(' ', '-')}.${fingerprint(content)}${file.slice(-4)}`}];
+}));
+const amtrakPaths = Object.fromEntries(Object.entries(amtrakAssets).map(([file, asset]) => [file, asset.path]));
+// These older Wix routes were captured with the Amtrak body under other project titles.
+const projectAliases = new Map([
+  ['portfolio-collections/motion-media-design/apple-music', 'apple-music'],
+  ['portfolio-collections/motion-media-design/project-title-2', '1984'],
+  ['portfolio-collections/motion-media-design/project-title-6', 'towriteloveonherarms'],
+]);
+const mome729Assets = Object.fromEntries(mome729Files.map(file => {
+  const content = readFileSync(resolve(root, 'assets/projects/mome729', file));
+  return [file, {content, path: `assets/mome729/${file.slice(0, -4)}.${fingerprint(content)}${file.slice(-4)}`}];
+}));
+const mome729Paths = Object.fromEntries(Object.entries(mome729Assets).map(([file, asset]) => [file, asset.path]));
+const appleMusicAssets = Object.fromEntries(appleMusicFiles.map(file => {
+  const content = readFileSync(resolve(root, 'assets/projects/apple-music', file));
+  return [file, {content, path: `assets/apple-music/${file.slice(0, -4)}.${fingerprint(content)}${file.slice(-4)}`}];
+}));
+const stillLifeAssets = Object.fromEntries(stillLifeFiles.map(file => {
+  const content = readFileSync(resolve(root, 'assets/projects/still-life', file));
+  return [file, {content, path: `assets/still-life/${file.slice(0, -4)}.${fingerprint(content)}${file.slice(-4)}`}];
+}));
+const nothingAssets = Object.fromEntries(Object.values(nothingVideos).map(file => {
+  const content = readFileSync(resolve(root, 'assets/projects/nothing', file));
+  return [file, {content, path: `assets/nothing/${file.slice(0, -4)}.${fingerprint(content)}.mp4`}];
+}));
+const roomAssets = Object.fromEntries(roomFiles.map(file => {
+  const content = readFileSync(resolve(root, 'assets/projects/room-design', file));
+  return [file, {content, path: `assets/room-design/${file.slice(0, -4)}.${fingerprint(content)}${file.slice(-4)}`}];
+}));
+const thirteenAssets = Object.fromEntries(thirteenFiles.map(file => {
+  const content = readFileSync(resolve(root, 'assets/projects/13-reasons-why', file));
+  return [file, {content, path: `assets/13-reasons-why/${file.slice(0, -4)}.${fingerprint(content)}${file.slice(-4)}`}];
+}));
 const heroAssets = Object.fromEntries(['hero-loop.mp4', 'hero-poster.webp'].map(file => {
   const content = readFileSync(resolve(root, 'assets/media', file));
   const extension = file.slice(file.lastIndexOf('.'));
@@ -36,6 +79,23 @@ function heroPreload() {
 }
 
 function adapt(html, mobile, route) {
+  if (route === amtrakRoute) html = applyAmtrak(html, amtrakPaths);
+  html = applyMome729Video(html, mome729Paths, route);
+  if (route === 'apple-music') {
+    html = applyAppleMusic(html, Object.fromEntries(Object.entries(appleMusicAssets).map(([file, asset]) => [file, asset.path])));
+  }
+  if (route === 'butter' || route === 'blank') {
+    html = applyStillLife(html, Object.fromEntries(Object.entries(stillLifeAssets).map(([file, asset]) => [file, asset.path])));
+  }
+  if (route === 'not') {
+    html = applyNothingVideos(html, Object.fromEntries(Object.entries(nothingAssets).map(([file, asset]) => [file, asset.path])));
+  }
+  if (route === 'weverse') {
+    html = applyRoomDesign(html, Object.fromEntries(Object.entries(roomAssets).map(([file, asset]) => [file, asset.path])));
+  }
+  if (route === '13reasons-why') {
+    html = applyThirteenReasons(html, Object.fromEntries(Object.entries(thirteenAssets).map(([file, asset]) => [file, asset.path])));
+  }
   if (html.includes('id="comp-mh5d44jq"')) {
     html = applyBiography(html).replace(/<\/head>/i, `<script>${biographyScript}</script></head>`);
   }
@@ -68,6 +128,7 @@ function adapt(html, mobile, route) {
 }
 
 function entry(html, route, desktopVersion, responsiveVersion) {
+  const alias = projectAliases.get(route);
   const title = html.match(/<title>([\s\S]*?)<\/title>/i)?.[1] || 'Mingyu Du Portfolio';
   const description = html.match(/<meta\b[^>]*name="description"[^>]*>/i)?.[0] || '';
   const canonical = 'https://mingyuniverse.com/' + (route ? encodeURI(route) + '/' : '');
@@ -80,6 +141,7 @@ function entry(html, route, desktopVersion, responsiveVersion) {
 <script>
 ${deviceLayout}
 (() => {
+  ${alias ? `location.replace(new URL('../../../${alias}/', location.href)); return;` : ''}
   const desktop = !portfolioUsesCompactLayout();
   const view = desktop ? 'view-desktop.html?v=${desktopVersion}' : 'view-mobile.html?v=${responsiveVersion}';
   fetch(new URL(view, location.href), {credentials:'same-origin'})
@@ -94,6 +156,22 @@ rmSync(out, {recursive: true, force: true});
 mkdirSync(out, {recursive: true});
 mkdirSync(resolve(out, 'assets'), {recursive: true});
 for (const asset of Object.values(heroAssets)) writeFileSync(resolve(out, asset.path), asset.content);
+mkdirSync(resolve(out, 'assets/nothing'), {recursive: true});
+for (const asset of Object.values(nothingAssets)) writeFileSync(resolve(out, asset.path), asset.content);
+mkdirSync(resolve(out, 'assets/room-design'), {recursive: true});
+for (const asset of Object.values(roomAssets)) writeFileSync(resolve(out, asset.path), asset.content);
+mkdirSync(resolve(out, 'assets/13-reasons-why'), {recursive: true});
+for (const asset of Object.values(thirteenAssets)) writeFileSync(resolve(out, asset.path), asset.content);
+mkdirSync(resolve(out, 'assets/still-life'), {recursive: true});
+for (const asset of Object.values(stillLifeAssets)) writeFileSync(resolve(out, asset.path), asset.content);
+mkdirSync(resolve(out, 'assets/apple-music'), {recursive: true});
+for (const asset of Object.values(appleMusicAssets)) writeFileSync(resolve(out, asset.path), asset.content);
+mkdirSync(resolve(out, 'assets/mome729'), {recursive: true});
+for (const asset of Object.values(mome729Assets)) writeFileSync(resolve(out, asset.path), asset.content);
+for (const asset of Object.values(amtrakAssets)) {
+  mkdirSync(dirname(resolve(out, asset.path)), {recursive: true});
+  writeFileSync(resolve(out, asset.path), asset.content);
+}
 for (const route of routes) {
   const desktop = readFileSync(resolve(root, 'pages', route, 'index.html'), 'utf8');
   const mobile = readFileSync(resolve(root, 'pages-mobile', route, 'index.html'), 'utf8');

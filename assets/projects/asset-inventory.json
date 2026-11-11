@@ -1,0 +1,281 @@
+{
+  "status": "All eight updated portfolio projects have their replacement media connected locally.",
+  "downloaded_photo_source": "https://static.wixstatic.com/media/00e65c_e027b9e8fa6e4261866e0640980dbc42~mv2.png",
+  "assets": [
+    {
+      "file": "amtrak/intro.mp4",
+      "bytes": 17462295,
+      "sha256": "b3dbc63a87cdae313ac3e3c867e071c9ac87a47535c17ebd300978fbf6c47957"
+    },
+    {
+      "file": "amtrak/project-photos.png",
+      "bytes": 3804635,
+      "sha256": "076cac0ef04811f69220a67feacadbcb39dc2bf0a845b19b323cb8bc59552580"
+    },
+    {
+      "file": "amtrak/stamp.mp4",
+      "bytes": 19365631,
+      "sha256": "fa4d97a47a705de4ac062cc0efd1cf42c1b33aaf4943e1bc56402ff8c0338b44"
+    },
+    {
+      "file": "amtrak/stamps/chicago.png",
+      "bytes": 1389750,
+      "sha256": "946ff942b62450e7a267be8f4280136f46df2446f7731fbd4ba5a155067f3c63"
+    },
+    {
+      "file": "amtrak/stamps/denver_no bg.png",
+      "bytes": 1054080,
+      "sha256": "96a6a6c9a4edb451df968afd997b59b4e239f54fdcd1c6200cb13759fab91d87"
+    },
+    {
+      "file": "amtrak/stamps/houston.png",
+      "bytes": 1957997,
+      "sha256": "0af780ca7aff591e480ce6248ff7bee237094506d203f14778f86f5ef6be79ff"
+    },
+    {
+      "file": "amtrak/stamps/jacksonville_no bg.png",
+      "bytes": 1451781,
+      "sha256": "67cea90b07b496b8d8e3cc0bc3a4bf32167943c2f01482645cc171880988e86c"
+    },
+    {
+      "file": "amtrak/stamps/los angeles.png",
+      "bytes": 1350375,
+      "sha256": "5e72b68db9336612af4c1ae198a97da1a2cd5fdcb37354e49c2a030a559cb143"
+    },
+    {
+      "file": "amtrak/stamps/miami.png",
+      "bytes": 2184883,
+      "sha256": "75b86aa1b50c255bdec736de99857e76dd8bf9fc97e3db6da979cccdac52c21c"
+    },
+    {
+      "file": "amtrak/stamps/new orleans.png",
+      "bytes": 1327359,
+      "sha256": "5434277bc8e305fe365d5ce18f28ff0c146db8b83f092678994f0cdbc9029836"
+    },
+    {
+      "file": "amtrak/stamps/orlando.png",
+      "bytes": 1388646,
+      "sha256": "85da7bf1679640f1415457972a1bc638119fb9501fbfcb04c9e9a103b13bc6e0"
+    },
+    {
+      "file": "amtrak/stamps/portland.png",
+      "bytes": 1533340,
+      "sha256": "9715a01495d80ebcec9cbfb29886cace5365687bf4708d29dff53db7c6c23923"
+    },
+    {
+      "file": "amtrak/stamps/salinas.png",
+      "bytes": 1070331,
+      "sha256": "f8a406cb5c4118b763b3623a3c988c73c79ad516ebb6ad42327dc8230917a615"
+    },
+    {
+      "file": "amtrak/stamps/santa barbara.png",
+      "bytes": 1652623,
+      "sha256": "462cd56ebb98693592752b82277f2ca8ec332e9afdc8ec6af56e6e6d3bdfcbcd"
+    },
+    {
+      "file": "amtrak/stamps/seattle.png",
+      "bytes": 1065537,
+      "sha256": "9fc738252b2f0464852286311ff81248dba95bb481f8bf09994fbadcc71c6de1"
+    },
+    {
+      "file": "amtrak/stamps/truckee.png",
+      "bytes": 1285379,
+      "sha256": "8ea31b6dae1d7bf9d4d4b0f58c075cf9d61e8a9d2a4b745e94b8af8cbf983a25"
+    },
+    {
+      "file": "nothing/clip-1.mp4",
+      "bytes": 1661390,
+      "sha256": "5326dfdb02218e7e972c8db78b0d1cbede58029b81ad31c451b3542e9f4ade0d"
+    },
+    {
+      "file": "nothing/clip-2.mp4",
+      "bytes": 1866584,
+      "sha256": "d48d303020f9028a4bb555e46c2e14cd26f1cf7db063b409afa06838d7420615"
+    },
+    {
+      "file": "nothing/clip-3.mp4",
+      "bytes": 6575335,
+      "sha256": "da234653861c6818e4d05fde3b66db1e9a6409fca93fc239e28340b5a5d62c27"
+    },
+    {
+      "file": "nothing/clip-e.mp4",
+      "bytes": 2728843,
+      "sha256": "e85c3c6e39977d43f0b02e595f36f5da99b103ded196ac5be95295e91a2443ed"
+    },
+    {
+      "file": "nothing/main.mp4",
+      "bytes": 12305694,
+      "sha256": "fc97e0e2dd1a7c5ac8ae048c6704fb2f44b579f317f33ebea99108a948608ba0"
+    },
+    {
+      "file": "room-design/A1_01.jpg",
+      "bytes": 394551,
+      "sha256": "d7e528159659bc074604d070c8655d1351b87fd4edb622ae69a1b6daa4bbd9d5"
+    },
+    {
+      "file": "room-design/A1_02.jpg",
+      "bytes": 257786,
+      "sha256": "610bf8485ecce150989588ada52951049be40182a54556370faa7e517f9aeab1"
+    },
+    {
+      "file": "room-design/A1_03.jpg",
+      "bytes": 451396,
+      "sha256": "6b5e6ad9fc5fca590b355e6421a2ea768461e3a48f023618c95ddd517da274c2"
+    },
+    {
+      "file": "room-design/main.mp4",
+      "bytes": 4602783,
+      "sha256": "0f7fa3f6524a65d5e39fe6b98b4b3b0c1c303ca0d386ba3a6c5d193fee3a2845"
+    },
+    {
+      "file": "13-reasons-why/episode-cards.mp4",
+      "bytes": 38054302,
+      "sha256": "ac2988692207b71011d813a02aeeeeadc480b313c2341f687f1b83c7978437f2"
+    },
+    {
+      "file": "13-reasons-why/instagram-mockups.mp4",
+      "bytes": 271989,
+      "sha256": "fe615a723947fe7b6919e47b8ba08bb2f2e70da635f5953f807d5fae691d92b5"
+    },
+    {
+      "file": "13-reasons-why/instagram-poster.jpg",
+      "bytes": 76051,
+      "sha256": "6db7901e609b085c3a4ca7e1b73bd864326748bae22e2a3c0d88f91d63f26878"
+    },
+    {
+      "file": "13-reasons-why/social-platform.mp4",
+      "bytes": 6559591,
+      "sha256": "91273027cdcaa0da02c27d5f674a5f0c1d0716814761da148df0a2dcbd7e2398"
+    },
+    {
+      "file": "13-reasons-why/title-sequence.mp4",
+      "bytes": 26045893,
+      "sha256": "961b6e78b677d83c65b11caba13d07f139ce0bf15fa7fdde159e7e4a212c46f7"
+    },
+    {
+      "file": "still-life/render-01.png",
+      "bytes": 1974961,
+      "sha256": "32b500186ae17a5ef735af132a4919167107e509cdf08cf0196820fa3ab43c5a"
+    },
+    {
+      "file": "still-life/render-02.png",
+      "bytes": 2831416,
+      "sha256": "f645294cd9f4a9d85b513fbfa32ba32cae5e84d3ef9f9fa2ad8ea8899d87e033"
+    },
+    {
+      "file": "still-life/sketch.png",
+      "bytes": 586607,
+      "sha256": "65c2ed5938903a309863c6ec79023db37ab9d503cad5bff5ca987c4c361eb3eb"
+    },
+    {
+      "file": "still-life/white-model.jpg",
+      "bytes": 230869,
+      "sha256": "4a411ebe6a6074bce6bf77ccdcf3eb8f54bcaef5e12ae10b264178dcd15b7fd4"
+    },
+    {
+      "file": "apple-music/art-1.png",
+      "bytes": 2582185,
+      "sha256": "0b641a063f720fec2c0ae7ef0f3bb366caef4daf5cbfd5842953819c2ed92ad7"
+    },
+    {
+      "file": "apple-music/art-2.png",
+      "bytes": 2594430,
+      "sha256": "e49ddcd67f008e16341563b8df8f5db2f332ecc0629eea0ea3292963f1866a4a"
+    },
+    {
+      "file": "apple-music/art-3.png",
+      "bytes": 1733486,
+      "sha256": "a9645f9cdca3f319b1e8fb2ea445697c1c6fa9c02661c18fc5f1b3fa59bd46fe"
+    },
+    {
+      "file": "apple-music/art-4.png",
+      "bytes": 1970599,
+      "sha256": "c96c00b6dafe759142ddcb1ae11aa6c63ea3eacdb1747c562d65711676e496f6"
+    },
+    {
+      "file": "apple-music/art-5.png",
+      "bytes": 489227,
+      "sha256": "699cf35fa6ba062ddf6e9eb611904e3e2996711ebaa670003c72de404401daa9"
+    },
+    {
+      "file": "apple-music/art.png",
+      "bytes": 1817126,
+      "sha256": "d6ad52a9085e8ad201cedb02f280673d4c660845eddc1173524f3af2e00f095c"
+    },
+    {
+      "file": "apple-music/flower.png",
+      "bytes": 1216160,
+      "sha256": "e2ae587f84d15e3e898719bc22085bef8450e68f2d57c107c6c96fbb80d797e8"
+    },
+    {
+      "file": "apple-music/motion-poster.jpg",
+      "bytes": 226564,
+      "sha256": "4e494c5341ab19021c0a3a9c81d3035b24eb07ecf09d9ce942b6bfc7319a1b8b"
+    },
+    {
+      "file": "apple-music/motion.mp4",
+      "bytes": 5577423,
+      "sha256": "59b463c8e5d4100d5475034622fe9d3c39f30c5f6de9c7fab03ce9b5d22d8adf"
+    },
+    {
+      "file": "apple-music/sketch-1.png",
+      "bytes": 539024,
+      "sha256": "acabb4c01c5248527848e7ef54e50ff398a0ff4e17a8e43787f626c5c81429e8"
+    },
+    {
+      "file": "apple-music/sketch-2.png",
+      "bytes": 937257,
+      "sha256": "1051e8784a981cf2fe1ae10b6b3d900a2fb43cdc7d0bb5cfa650d0c15c9c1802"
+    },
+    {
+      "file": "apple-music/sketch-3.png",
+      "bytes": 487024,
+      "sha256": "12724d68cde1577908832f420df8a00095bef91c8d06b221acf401f122a167af"
+    },
+    {
+      "file": "apple-music/sketch-4.png",
+      "bytes": 962295,
+      "sha256": "056901d2737f66a5a0899634f37779ed184c51a13ad032ed80e5cc7e3e64a3e6"
+    },
+    {
+      "file": "apple-music/sketch-5.png",
+      "bytes": 653289,
+      "sha256": "4215d489f8239d4fb46724424f8ecd23a2fed19088707dddde3f11a5a679f5c5"
+    },
+    {
+      "file": "apple-music/sketch-6.png",
+      "bytes": 302951,
+      "sha256": "e7405158660bd894156f166f85d36dac59c1c71def72b48e8e09ededc750990c"
+    },
+    {
+      "file": "apple-music/sketch-7.png",
+      "bytes": 339247,
+      "sha256": "3120a00fb760c47809587e50a40441ef8401fc81856d04cca7934e269be98303"
+    },
+    {
+      "file": "apple-music/sketch-8.png",
+      "bytes": 300932,
+      "sha256": "5ef3ad5442479470a1aade2dde5eca549e58b13f8c7a20232015007ee61efb38"
+    },
+    {
+      "file": "mome729/1984-poster.jpg",
+      "bytes": 377884,
+      "sha256": "dc4dec7dfea25dc5d5b0a0669777e579835fa17938d1adb6dda8adf07322bb7d"
+    },
+    {
+      "file": "mome729/1984.mp4",
+      "bytes": 86481180,
+      "sha256": "715edc8683673f50e75950a0ba6983b1d8acae06f9280871734972f5b70f94f4"
+    },
+    {
+      "file": "mome729/twloha-poster.jpg",
+      "bytes": 25747,
+      "sha256": "b86d0f899308387a2debc2283b3063918455faabff78bf37121eb8a6835fbe0d"
+    },
+    {
+      "file": "mome729/twloha.mp4",
+      "bytes": 6844656,
+      "sha256": "3debe465f84d51a0d5cee7c34fedde3ed65b5419b87451609a18e255dafa8849"
+    }
+  ]
+}

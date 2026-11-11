@@ -44,6 +44,23 @@ GitHub's Pages settings manage the HTTPS certificate and redirect between the ap
 
 ## Source layout
 
+### Local project replacements
+
+The updated project pages use files in `assets/projects/` through the adapters in
+`scripts/`. The build copies only the referenced files to fingerprinted URLs in
+`dist/assets/`. Original source HTML snapshots remain available in `pages/` and
+`pages-mobile/`; update the local files and rebuild to publish replacement media.
+
+Local replacements cover Nothing, Room Design, 13 Reasons Why, Still Life,
+Apple Music, 1984, To Write Love on Her Arms, and Amtrak. The Apple Music sketch
+section includes sketches 1–8. The Instagram mockups are combined in the original
+three-phone arrangement. Older collection links for Apple Music, 1984, and the
+PSA redirect to their corresponding updated project pages.
+
+`assets/projects/asset-inventory.json` records source file sizes and hashes.
+The build checks verify both layouts, media files, cache fingerprints, and
+relative links from the nested Amtrak route.
+
 - `pages/`: original public HTML snapshots for all 27 discovered pages.
 - `pages-mobile/`: matching phone snapshots, including the original mobile component order and media.
 - `assets/desktop-header.css`: anchors Home, Work, and About to the right side of the window while retaining the original desktop typography.

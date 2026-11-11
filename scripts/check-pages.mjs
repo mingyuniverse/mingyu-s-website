@@ -67,3 +67,36 @@ for (const file of ['view-desktop.html', 'view-mobile.html']) {
   assert.ok(bytes.indexOf('moov') < bytes.indexOf('mdat'), 'MP4 must support fast startup');
 }
 console.log(`Verified ${routes.length} routes with matching desktop/phone documents, runtime adapters, and custom domain.`);
+
+// Local project media must ship with both layouts and resolve from nested routes.
+const projectPages = [
+  ['not', 'nothing-video', 4, 0],
+  ['weverse', 'room-design-video', 1, 3],
+  ['13reasons-why', 'thirteen-reasons-video', 4, 0],
+  ['butter', null, 0, 4],
+  ['blank', null, 0, 4],
+  ['apple-music', 'apple-music-video', 1, 15],
+  ['1984', 'mome729-video', 1, 0],
+  ['towriteloveonherarms', 'mome729-video', 1, 0],
+  ['portfolio-collections/motion-media-design/project-title-4', 'amtrak-video', 2, 14],
+];
+for (const [route, videoClass, videos, images] of projectPages) {
+  for (const layout of ['desktop', 'mobile']) {
+    const directory = resolve(root, 'dist', route);
+    const html = readFileSync(resolve(directory, `view-${layout}.html`), 'utf8');
+    const videoTags = [...html.matchAll(/<video\b[^>]*>/g)].filter(([tag]) => tag.includes(`class="${videoClass}"`));
+    assert.equal(videoTags.length, videos, `${route}: video slots (${layout})`);
+    assert.equal([...html.matchAll(/<img src="(?:\.\.\/)+assets\//g)].length, images, `${route}: image slots (${layout})`);
+    for (const [, reference] of html.matchAll(/(?:src|poster)="((?:\.\.\/)+assets\/[^"]+)"/g)) {
+      const path = resolve(directory, reference);
+      assert.ok(existsSync(path), `Missing media: ${route}/${reference}`);
+      const expected = reference.match(/\.([a-f0-9]{12})\.[a-z0-9]+$/)?.[1];
+      assert.equal(createHash('sha256').update(readFileSync(path)).digest('hex').slice(0, 12), expected, path);
+    }
+    if (route === 'apple-music') {
+      const gallery = html.match(/<div class="apple-music-sketches"[^>]*>([\s\S]*?)<\/div>/)?.[1];
+      assert.deepEqual([...gallery.matchAll(/alt="Apple Music sketch (\d+)"/g)].map(match => match[1]), ['1','2','3','4','5','6','7','8']);
+    }
+  }
+}
+console.log('Verified all updated project media, cache fingerprints, nested paths, and sketch order.');
