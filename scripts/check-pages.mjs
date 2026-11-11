@@ -5,6 +5,7 @@ import {fileURLToPath} from 'node:url';
 import vm from 'node:vm';
 import {createHash} from 'node:crypto';
 import {canonicalFor, googleVerification} from './seo.mjs';
+import {homeProjects} from './home-projects.mjs';
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const routes = JSON.parse(readFileSync(resolve(root, 'pages.json'), 'utf8'));
@@ -106,3 +107,14 @@ for (const [route, videoClass, videos, images] of projectPages) {
   }
 }
 console.log('Verified all updated project media, cache fingerprints, nested paths, and sketch order.');
+
+for (const layout of ['desktop', 'mobile']) {
+  const home = readFileSync(resolve(root, 'dist', `view-${layout}.html`), 'utf8');
+  assert.equal([...home.matchAll(/<a\b[^>]*\bdata-project-cover(?:\s|>)/g)].length, homeProjects.length);
+  for (const [cover, caption, title, medium] of homeProjects) {
+    assert.ok(!home.includes(`<div id="${caption}"`), `Duplicate title caption: ${caption}`);
+    assert.ok(home.includes(`aria-label="${title.replaceAll('&', '&amp;')}" data-project-cover`), `${cover}: title`);
+    assert.ok(home.includes(`<p class="portfolio-project-medium">${medium.replaceAll('&', '&amp;')}</p>`), `${cover}: medium`);
+  }
+}
+console.log('Verified all eight home cover titles and medium-only captions in both layouts.');

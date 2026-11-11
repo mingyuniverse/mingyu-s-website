@@ -25,6 +25,12 @@
     // moving Wix-managed components or changing their reading order.
     const cards = document.querySelectorAll('[data-mesh-id="comp-mtc2wbc3inlineContent-gridContainer"] > .wixui-image');
     cards.forEach((image, index) => {
+      if (image.classList.contains('portfolio-project-card')) {
+        image.classList.add('portfolio-project-cell');
+        image.style.setProperty('--project-column', String(index % 2 + 1));
+        image.style.setProperty('--project-row', String(Math.floor(index / 2) + 3));
+        return;
+      }
       const caption = image.nextElementSibling;
       for (const [element, offset] of [[image, 0], [caption, 1]]) {
         if (!element) continue;

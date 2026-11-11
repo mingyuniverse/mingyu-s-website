@@ -13,6 +13,7 @@ import {applyMome729Video, mome729Files} from './mome729-videos.mjs';
 import {applyAmtrak, amtrakFiles, amtrakRoute} from './amtrak.mjs';
 import {removeHostedRuntime, independentDocument} from './independent.mjs';
 import {applyCollections} from './collections.mjs';
+import {applyHomeProjects} from './home-projects.mjs';
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const out = resolve(root, 'dist');
@@ -83,6 +84,7 @@ function heroPreload() {
 
 function adapt(html, mobile, route) {
   html = removeHostedRuntime(html);
+  if (route === '') html = applyHomeProjects(html);
   html = applyCollections(html, route);
   if (html.includes('id="comp-mtbucj2u"')) html = applyAmtrak(html, amtrakPaths);
   html = applyMome729Video(html, mome729Paths, route);
