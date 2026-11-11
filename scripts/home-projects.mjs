@@ -11,7 +11,7 @@ export const homeProjects = [
   ['comp-mtc4uugv', 'comp-mtc511bg', '1984', 'Title Sequence'],
 ];
 
-export function applyHomeProjects(html) {
+export function applyHomeProjects(html, {mobile = false} = {}) {
   for (const [imageId, captionId, title, medium] of homeProjects) {
     const caption = new RegExp(`<div\\b[^>]*\\bid="${captionId}"[^>]*>[\\s\\S]*?<\\/div>`);
     if (!caption.test(html)) throw new Error(`Missing home caption: ${captionId}`);
@@ -23,6 +23,11 @@ export function applyHomeProjects(html) {
       const width = img?.match(/\bwidth="(\d+)"/)?.[1];
       const height = img?.match(/\bheight="(\d+)"/)?.[1];
       if (!width || !height) throw new Error(`Missing image dimensions: ${imageId}`);
+      // Width descriptors let an enlarged cover select its archived high-res
+      // candidate instead of stretching the old fixed-width 1x thumbnail.
+      body = body.replace(/<img\b[^>]*>/i, tag => tag
+        .replace(/\bsrcset="([^"]*)"/i, (_, sources) => `srcset="${sources.replace(/(\S+)\s+([\d.]+)x(?=,|$)/g, (_, url, density) => `${url} ${Math.round(Number(width) * Number(density))}w`)}"`)
+        .replace(/\bsizes="[^"]*"/i, `sizes="${mobile ? 'calc(100vw - 40px)' : `${Number(width) / 16}vw`}"`));
       open = open.replace(/class="([^"]*)"/, 'class="$1 portfolio-project-card"');
       open = open.replace(/>$/, ` style="--portfolio-cover-ratio:${width}/${height}">`);
       body = body.replace(/<a\b([^>]*)>/, (tag, attrs) => `<a${attrs} aria-label="${escapeHtml(title)}" data-project-cover>`)

@@ -87,7 +87,7 @@ function heroPreload() {
 function adapt(html, mobile, route) {
   html = removeHostedRuntime(html);
   if (route === '' && !mobile) html = applyFluidHome(html);
-  if (route === '') html = applyHomeProjects(html);
+  if (route === '') html = applyHomeProjects(html, {mobile});
   html = applyCollections(html, route);
   if (html.includes('id="comp-mtbucj2u"')) html = applyAmtrak(html, amtrakPaths);
   html = applyMome729Video(html, mome729Paths, route);
