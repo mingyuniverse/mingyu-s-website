@@ -8,7 +8,7 @@ import {canonicalFor, googleVerification} from './seo.mjs';
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const routes = JSON.parse(readFileSync(resolve(root, 'pages.json'), 'utf8'));
-const runtime = readFileSync(resolve(root, 'assets/static-runtime.js'), 'utf8');
+const runtime = readFileSync(resolve(root, 'assets/independent.js'), 'utf8');
 new vm.Script(runtime);
 new vm.Script(readFileSync(resolve(root, 'assets/responsive.js'), 'utf8'));
 new vm.Script(readFileSync(resolve(root, 'assets/hero.js'), 'utf8'));
@@ -34,12 +34,17 @@ for (const route of routes) {
     const html = readFileSync(resolve(root, 'dist', route, file), 'utf8');
     const version = createHash('sha256').update(html).digest('hex').slice(0, 12);
     assert.ok(entry.includes(`${file}?v=${version}`), `Stale document version: ${route}/${file}`);
-    assert.ok(html.includes('portfolioLocalizeModel("wix-essential-viewer-model")'), route);
-    assert.ok(html.includes('portfolioLocalizeModel("wix-viewer-model")'), route);
-    assert.ok(html.includes('installFetchBridge'), route);
-    assert.ok(html.includes('importScripts('), route);
-    const model = JSON.parse(html.match(/<script[^>]+id="wix-viewer-model"[^>]*>([\s\S]*?)<\/script>/)[1]);
-    assert.equal(model.formFactor, expected, route);
+    assert.ok(html.includes('http-equiv="Content-Security-Policy"'), route);
+    assert.ok(html.includes("connect-src 'self'"), route);
+    assert.ok(!html.includes('installFetchBridge'), route);
+    assert.ok(!html.includes('importScripts('), route);
+    assert.ok(!html.includes('id="wix-viewer-model"'), route);
+    assert.ok(!/<script\b[^>]*\bsrc="https?:/i.test(html), route);
+    assert.ok(!/url\(['"]?(?:https?:)?\/\//i.test(html), `External CSS resource: ${route}`);
+    assert.ok(!/\b(?:src|poster|srcset)="(?:https?:)?\/\//i.test(html), `External media: ${route}`);
+    for (const [, attrs, script] of html.matchAll(/<script\b([^>]*)>([\s\S]*?)<\/script>/gi)) {
+      if (!/type="application\/ld\+json"/.test(attrs)) new vm.Script(script, {filename: `${route}/${file}`});
+    }
     assert.equal(html.includes('id="portfolio-responsive-layout"'), expected === 'mobile', route);
     assert.equal(html.includes('id="portfolio-desktop-header"'), expected === 'desktop', route);
     const canonicalLinks = html.match(/<link\b[^>]*rel="canonical"[^>]*>/g);
@@ -66,7 +71,7 @@ for (const file of ['view-desktop.html', 'view-mobile.html']) {
   assert.ok(bytes.length < 1024 * 1024, 'Keep the opening animation below 1 MB');
   assert.ok(bytes.indexOf('moov') < bytes.indexOf('mdat'), 'MP4 must support fast startup');
 }
-console.log(`Verified ${routes.length} routes with matching desktop/phone documents, runtime adapters, and custom domain.`);
+console.log(`Verified ${routes.length} routes with desktop/phone documents, self-only resource policy, and no hosted runtime.`);
 
 // Local project media must ship with both layouts and resolve from nested routes.
 const projectPages = [
@@ -90,8 +95,9 @@ for (const [route, videoClass, videos, images] of projectPages) {
     for (const [, reference] of html.matchAll(/(?:src|poster)="((?:\.\.\/)+assets\/[^"]+)"/g)) {
       const path = resolve(directory, reference);
       assert.ok(existsSync(path), `Missing media: ${route}/${reference}`);
-      const expected = reference.match(/\.([a-f0-9]{12})\.[a-z0-9]+$/)?.[1];
-      assert.equal(createHash('sha256').update(readFileSync(path)).digest('hex').slice(0, 12), expected, path);
+      const expected = reference.match(/\.([a-f0-9]{12})\.[a-z0-9]+$/)?.[1] ?? reference.match(/\/([a-f0-9]{24})\.[a-z0-9]+$/)?.[1];
+      assert.ok(expected, `Missing fingerprint: ${reference}`);
+      assert.equal(createHash('sha256').update(readFileSync(path)).digest('hex').slice(0, expected.length), expected, path);
     }
     if (route === 'apple-music') {
       const gallery = html.match(/<div class="apple-music-sketches"[^>]*>([\s\S]*?)<\/div>/)?.[1];

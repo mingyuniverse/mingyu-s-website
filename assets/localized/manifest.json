@@ -1,0 +1,2861 @@
+{
+  "https://static.parastorage.com/fonts/v2/1429fbf8-2c4c-4aa9-af7e-2089d86d1199/v1/alfabet.cyrillic-ext.woff2": {
+    "bytes": 1272,
+    "path": "assets/localized/ca0a4d47d9a3564b624c0e54.woff2",
+    "sha256": "ca0a4d47d9a3564b624c0e54990dabe3c1c97543128130bded7cf82998c19299",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/fonts/v2/1429fbf8-2c4c-4aa9-af7e-2089d86d1199/v1/alfabet.cyrillic.woff2": {
+    "bytes": 6996,
+    "path": "assets/localized/be900912195c93841fca0dd0.woff2",
+    "sha256": "be900912195c93841fca0dd07c9c7ecaa512b6ecfc4476869fd272ecdb82093c",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/fonts/v2/1429fbf8-2c4c-4aa9-af7e-2089d86d1199/v1/alfabet.greek.woff2": {
+    "bytes": 4496,
+    "path": "assets/localized/36b61f1bd3ffd978cde1c405.woff2",
+    "sha256": "36b61f1bd3ffd978cde1c4052ad99a32e93b09aae8e111474d96f4b42bb3149f",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/fonts/v2/1429fbf8-2c4c-4aa9-af7e-2089d86d1199/v1/alfabet.latin-ext.woff2": {
+    "bytes": 7156,
+    "path": "assets/localized/9281238b0b5b2d34536242b8.woff2",
+    "sha256": "9281238b0b5b2d34536242b8c4cf08402b35d25df80c0e193d1ec4f5e817859c",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/fonts/v2/1429fbf8-2c4c-4aa9-af7e-2089d86d1199/v1/alfabet.latin.woff2": {
+    "bytes": 12556,
+    "path": "assets/localized/80a6b82f22e672c6bba2ebe9.woff2",
+    "sha256": "80a6b82f22e672c6bba2ebe92ed1b98872a08355519d74b1399256230ad4df5d",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/fonts/v2/1429fbf8-2c4c-4aa9-af7e-2089d86d1199/v1/alfabet.math.woff2": {
+    "bytes": 1812,
+    "path": "assets/localized/a83fe09a7f6e9d9b4155793e.woff2",
+    "sha256": "a83fe09a7f6e9d9b4155793e3cfcacafed381cd92823112c158fbf345964423d",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/fonts/v2/1429fbf8-2c4c-4aa9-af7e-2089d86d1199/v1/alfabet.other.woff2": {
+    "bytes": 2432,
+    "path": "assets/localized/8adca534bd5f17e53821b555.woff2",
+    "sha256": "8adca534bd5f17e53821b5550b1132b101421158aed024e26ddf28d2cdb04cb3",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/fonts/v2/1429fbf8-2c4c-4aa9-af7e-2089d86d1199/v1/alfabet.symbols.woff2": {
+    "bytes": 1540,
+    "path": "assets/localized/8c3faeeba3d35f76462d3279.woff2",
+    "sha256": "8c3faeeba3d35f76462d3279f813f3471fd8bf41adc8355e7635a19258535bc9",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/fonts/v2/1429fbf8-2c4c-4aa9-af7e-2089d86d1199/v1/alfabet.vietnamese.woff2": {
+    "bytes": 2612,
+    "path": "assets/localized/ecd49188575e1a1c5c5f9ab8.woff2",
+    "sha256": "ecd49188575e1a1c5c5f9ab820cf4f9a4fb8464255bf92093dfe5aa9e7366b2b",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/fonts/v2/19247d19-0454-4de8-b907-b818135794bd/madefor-text.var.original.woff2": {
+    "bytes": 28068,
+    "path": "assets/localized/48fbdf011cfcf86e0fabecd3.woff2",
+    "sha256": "48fbdf011cfcf86e0fabecd301e0945923106b6e52ab60a37f1d7fa6e63ec27c",
+    "type": "text/plain"
+  },
+  "https://static.parastorage.com/fonts/v2/2dd83e1f-8864-4fb4-a8fa-f25dad96c4bb/v1/alfabet.cyrillic-ext.woff2": {
+    "bytes": 1252,
+    "path": "assets/localized/97e565ca5e0c0a5856cd92d3.woff2",
+    "sha256": "97e565ca5e0c0a5856cd92d34d32dc747b3e3763d836a104d7efe4243ed89a03",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/fonts/v2/2dd83e1f-8864-4fb4-a8fa-f25dad96c4bb/v1/alfabet.cyrillic.woff2": {
+    "bytes": 6868,
+    "path": "assets/localized/f5e997c87c7d64b67a79de49.woff2",
+    "sha256": "f5e997c87c7d64b67a79de49e61bb20be7e2cce52517030f03084dec25833026",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/fonts/v2/2dd83e1f-8864-4fb4-a8fa-f25dad96c4bb/v1/alfabet.greek.woff2": {
+    "bytes": 4524,
+    "path": "assets/localized/ac66630dc1d0872f803cb6cb.woff2",
+    "sha256": "ac66630dc1d0872f803cb6cbf104fe33a0092b4f95e24b8389227559febca670",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/fonts/v2/2dd83e1f-8864-4fb4-a8fa-f25dad96c4bb/v1/alfabet.latin-ext.woff2": {
+    "bytes": 7260,
+    "path": "assets/localized/597e3eb26165b4d7f93a6c73.woff2",
+    "sha256": "597e3eb26165b4d7f93a6c738200066f35c9a2968d7dafacdaee033ba4535600",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/fonts/v2/2dd83e1f-8864-4fb4-a8fa-f25dad96c4bb/v1/alfabet.latin.woff2": {
+    "bytes": 12848,
+    "path": "assets/localized/2578df974a62c10c0d46c540.woff2",
+    "sha256": "2578df974a62c10c0d46c540a2032a20478e7e9a938fc09ab41672c233a5f949",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/fonts/v2/2dd83e1f-8864-4fb4-a8fa-f25dad96c4bb/v1/alfabet.math.woff2": {
+    "bytes": 1820,
+    "path": "assets/localized/2a3820fb5dd30bbc6b50efe0.woff2",
+    "sha256": "2a3820fb5dd30bbc6b50efe021cbc1fda2f6849090256d5d0a6236d105360568",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/fonts/v2/2dd83e1f-8864-4fb4-a8fa-f25dad96c4bb/v1/alfabet.other.woff2": {
+    "bytes": 2372,
+    "path": "assets/localized/3196fa2fc52392f53da5bb7f.woff2",
+    "sha256": "3196fa2fc52392f53da5bb7f560edc45e7fd6480001612eb5aa8e810460df71b",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/fonts/v2/2dd83e1f-8864-4fb4-a8fa-f25dad96c4bb/v1/alfabet.symbols.woff2": {
+    "bytes": 1520,
+    "path": "assets/localized/c13994ca9320a07c9250264c.woff2",
+    "sha256": "c13994ca9320a07c9250264cd6c51f033b399aa3d52164ad444739d7a538487c",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/fonts/v2/2dd83e1f-8864-4fb4-a8fa-f25dad96c4bb/v1/alfabet.vietnamese.woff2": {
+    "bytes": 2740,
+    "path": "assets/localized/534ac22c7ce13c2782d05b8c.woff2",
+    "sha256": "534ac22c7ce13c2782d05b8c63ecb5e4df6e370bacf9b1928a5946bb45e43ae7",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/fonts/v2/43607f95-d640-451e-a405-0a01d27c6a43/v1/alfabet.cyrillic-ext.woff2": {
+    "bytes": 852,
+    "path": "assets/localized/83bd671043ab28a042a7b637.woff2",
+    "sha256": "83bd671043ab28a042a7b637d44ece99b421d172140b8debfec4ac2b39541e00",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/fonts/v2/43607f95-d640-451e-a405-0a01d27c6a43/v1/alfabet.cyrillic.woff2": {
+    "bytes": 6308,
+    "path": "assets/localized/546b259e83be62c1291b853c.woff2",
+    "sha256": "546b259e83be62c1291b853cf9bca22b4b0f2c37401d130f02c3892a2cd4df4f",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/fonts/v2/43607f95-d640-451e-a405-0a01d27c6a43/v1/alfabet.greek.woff2": {
+    "bytes": 4164,
+    "path": "assets/localized/ee3446f6327304966cdaf354.woff2",
+    "sha256": "ee3446f6327304966cdaf35489fa646fde3f7fe08714643d68bbb68978b7f117",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/fonts/v2/43607f95-d640-451e-a405-0a01d27c6a43/v1/alfabet.latin-ext.woff2": {
+    "bytes": 7116,
+    "path": "assets/localized/57612479d87869c4bf4e2131.woff2",
+    "sha256": "57612479d87869c4bf4e2131a97077d15bbaabeb2fb42cbebfe3fa783b11cf17",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/fonts/v2/43607f95-d640-451e-a405-0a01d27c6a43/v1/alfabet.latin.woff2": {
+    "bytes": 12084,
+    "path": "assets/localized/eb51837adc5f33dac16a8d7c.woff2",
+    "sha256": "eb51837adc5f33dac16a8d7cf75a5cc5488ca8997a4d0378f80000231c6cab99",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/fonts/v2/43607f95-d640-451e-a405-0a01d27c6a43/v1/alfabet.math.woff2": {
+    "bytes": 1752,
+    "path": "assets/localized/692377d805b476bdea59c1e3.woff2",
+    "sha256": "692377d805b476bdea59c1e334ed23f1ef1f37d3aeafa3bbb705e5db1bca7b03",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/fonts/v2/43607f95-d640-451e-a405-0a01d27c6a43/v1/alfabet.other.woff2": {
+    "bytes": 2452,
+    "path": "assets/localized/8794ca60d5333af16eea6403.woff2",
+    "sha256": "8794ca60d5333af16eea6403787d03c4ca9c90ca94f7553cc3ac2daba882bffd",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/fonts/v2/43607f95-d640-451e-a405-0a01d27c6a43/v1/alfabet.symbols.woff2": {
+    "bytes": 1408,
+    "path": "assets/localized/1d3b87780e16f092e26c6a20.woff2",
+    "sha256": "1d3b87780e16f092e26c6a2001eaff645987e1df23c6bcc918809e5f27bddf88",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/fonts/v2/43607f95-d640-451e-a405-0a01d27c6a43/v1/alfabet.vietnamese.woff2": {
+    "bytes": 2620,
+    "path": "assets/localized/5fb21b98a6dbf5a11ba18875.woff2",
+    "sha256": "5fb21b98a6dbf5a11ba188752d60a6a72fdcc8b0e21c57638f34199924f96668",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/fonts/v2/53c347d1-d57a-45ca-9bba-7d996d153eeb/v1/arp-display.latin-ext.woff2": {
+    "bytes": 9088,
+    "path": "assets/localized/dbee41ea9a64b53943bbb925.woff2",
+    "sha256": "dbee41ea9a64b53943bbb925ed4ea66994fe82a303ffbd5b09d751b53ec9764a",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/fonts/v2/53c347d1-d57a-45ca-9bba-7d996d153eeb/v1/arp-display.latin.woff2": {
+    "bytes": 15524,
+    "path": "assets/localized/0c0d05c4abd3caa5fe20dc52.woff2",
+    "sha256": "0c0d05c4abd3caa5fe20dc52cf80bde0c46d74b1f75b8fa9d2e62819cd1bfa84",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/fonts/v2/53c347d1-d57a-45ca-9bba-7d996d153eeb/v1/arp-display.math.woff2": {
+    "bytes": 1844,
+    "path": "assets/localized/af89694c60274dc5d1f8cb6c.woff2",
+    "sha256": "af89694c60274dc5d1f8cb6ca723ccfe900ee8fe043a57b438eec47725d765bb",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/fonts/v2/53c347d1-d57a-45ca-9bba-7d996d153eeb/v1/arp-display.other.woff2": {
+    "bytes": 4320,
+    "path": "assets/localized/a3775d6fa3aca8361c52e28e.woff2",
+    "sha256": "a3775d6fa3aca8361c52e28e285ab33a17ed639d5e541993acca42a16042f3a1",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/fonts/v2/53c347d1-d57a-45ca-9bba-7d996d153eeb/v1/arp-display.symbols.woff2": {
+    "bytes": 3448,
+    "path": "assets/localized/87400c8d448c3e1431e871c5.woff2",
+    "sha256": "87400c8d448c3e1431e871c5adb650890657652966923b7bd120e43ba50bffa4",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/fonts/v2/567034c6-ccd3-4772-be13-0f025452544c/v1/braggadocio-w01.latin-ext.woff2": {
+    "bytes": 2572,
+    "path": "assets/localized/d6553543ade2ac83d2453e14.woff2",
+    "sha256": "d6553543ade2ac83d2453e149f2556b369c1a0724d3c8aff5df24ab01f52a5eb",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/fonts/v2/567034c6-ccd3-4772-be13-0f025452544c/v1/braggadocio-w01.latin.woff2": {
+    "bytes": 13688,
+    "path": "assets/localized/ba5078d603423f326ea1dc7c.woff2",
+    "sha256": "ba5078d603423f326ea1dc7c48ba1e2c86497e765bad8cd90d614d8bcc5d42ec",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/fonts/v2/567034c6-ccd3-4772-be13-0f025452544c/v1/braggadocio-w01.math.woff2": {
+    "bytes": 2868,
+    "path": "assets/localized/136d1a2fde0d61f9d175ed56.woff2",
+    "sha256": "136d1a2fde0d61f9d175ed5679dabf6cdb7a1400ef3cc51986de9ac18e1b7635",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/fonts/v2/567034c6-ccd3-4772-be13-0f025452544c/v1/braggadocio-w01.other.woff2": {
+    "bytes": 2400,
+    "path": "assets/localized/54661733af86fdc58d1e19be.woff2",
+    "sha256": "54661733af86fdc58d1e19be0edcebe0c93fa5a75b43b6f8a4b9ce78ac9956be",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/fonts/v2/66eddc50-4627-4019-b723-2758f8d52177/v1/alfabet.cyrillic-ext.woff2": {
+    "bytes": 1208,
+    "path": "assets/localized/01fcf97c981817fbd22539e5.woff2",
+    "sha256": "01fcf97c981817fbd22539e59a40adab55a79c3004687e7fe8ae69dc45a75e07",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/fonts/v2/66eddc50-4627-4019-b723-2758f8d52177/v1/alfabet.cyrillic.woff2": {
+    "bytes": 6672,
+    "path": "assets/localized/2ba4f3d4fa3360fefbc99168.woff2",
+    "sha256": "2ba4f3d4fa3360fefbc99168a6d57522761829d0c9269a7138a5cb8fa5f9e608",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/fonts/v2/66eddc50-4627-4019-b723-2758f8d52177/v1/alfabet.greek.woff2": {
+    "bytes": 4416,
+    "path": "assets/localized/a515f6f9f80738f4c18a7130.woff2",
+    "sha256": "a515f6f9f80738f4c18a71300c45f431fe708adcb6f394618f103195c9b2c394",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/fonts/v2/66eddc50-4627-4019-b723-2758f8d52177/v1/alfabet.latin-ext.woff2": {
+    "bytes": 7124,
+    "path": "assets/localized/6b61b69745f4a043cdb91087.woff2",
+    "sha256": "6b61b69745f4a043cdb91087b027a990be671e0afc4dbb0d1839614a46436b89",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/fonts/v2/66eddc50-4627-4019-b723-2758f8d52177/v1/alfabet.latin.woff2": {
+    "bytes": 12096,
+    "path": "assets/localized/957415622dbb37fb7a3ea933.woff2",
+    "sha256": "957415622dbb37fb7a3ea93321dc96852fdb9f05c666bad5101571f75fd2b932",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/fonts/v2/66eddc50-4627-4019-b723-2758f8d52177/v1/alfabet.math.woff2": {
+    "bytes": 1732,
+    "path": "assets/localized/33e9c5c664392ac5feb6fd09.woff2",
+    "sha256": "33e9c5c664392ac5feb6fd09ba559ebf0b850bfa9f74134a8b2f8138a2eddd2e",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/fonts/v2/66eddc50-4627-4019-b723-2758f8d52177/v1/alfabet.other.woff2": {
+    "bytes": 2392,
+    "path": "assets/localized/0e9b58ba484ecc417b6cabc7.woff2",
+    "sha256": "0e9b58ba484ecc417b6cabc74314285ee7899c1583e4354dee3472767c7cb63e",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/fonts/v2/66eddc50-4627-4019-b723-2758f8d52177/v1/alfabet.symbols.woff2": {
+    "bytes": 1512,
+    "path": "assets/localized/0118cc326784cbe57a4f0487.woff2",
+    "sha256": "0118cc326784cbe57a4f0487fcafdc87d6996a648fead087ebd788d2244f0bfb",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/fonts/v2/66eddc50-4627-4019-b723-2758f8d52177/v1/alfabet.vietnamese.woff2": {
+    "bytes": 2788,
+    "path": "assets/localized/9e6ec6448afb87c6ed3bdb98.woff2",
+    "sha256": "9e6ec6448afb87c6ed3bdb98fd8bee1b693e3bd9519beb52431866483f2419cb",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/fonts/v2/68b86ae9-7ca0-48cc-b777-6559005a8f94/v1/helveticaneuew10-45ligh.cyrillic.woff2": {
+    "bytes": 9708,
+    "path": "assets/localized/44537c26f6888b3fff71b68a.woff2",
+    "sha256": "44537c26f6888b3fff71b68af08dad53a2006ab28e4d65db912785cc3ec469d2",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/fonts/v2/68b86ae9-7ca0-48cc-b777-6559005a8f94/v1/helveticaneuew10-45ligh.greek.woff2": {
+    "bytes": 7388,
+    "path": "assets/localized/56cc6924e3e3146fe69bf9c2.woff2",
+    "sha256": "56cc6924e3e3146fe69bf9c2038b98a72dd83dd41aba767cea305a35d983102a",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/fonts/v2/68b86ae9-7ca0-48cc-b777-6559005a8f94/v1/helveticaneuew10-45ligh.latin-ext.woff2": {
+    "bytes": 12148,
+    "path": "assets/localized/c844fdba2a5a6d65d8db41a5.woff2",
+    "sha256": "c844fdba2a5a6d65d8db41a584637fa6f3b2ca63505b43af054345ba5dcb7d88",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/fonts/v2/68b86ae9-7ca0-48cc-b777-6559005a8f94/v1/helveticaneuew10-45ligh.latin.woff2": {
+    "bytes": 17084,
+    "path": "assets/localized/7837db2fb2ccbc72f04add5b.woff2",
+    "sha256": "7837db2fb2ccbc72f04add5bb3baadeaad7a52395effe60d20a4ee24c43f8118",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/fonts/v2/68b86ae9-7ca0-48cc-b777-6559005a8f94/v1/helveticaneuew10-45ligh.math.woff2": {
+    "bytes": 3908,
+    "path": "assets/localized/72fdcdbf993ae5445578039e.woff2",
+    "sha256": "72fdcdbf993ae5445578039e0fc84291aa38bf9ee011f6ad9cab431245b34dfc",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/fonts/v2/68b86ae9-7ca0-48cc-b777-6559005a8f94/v1/helveticaneuew10-45ligh.other.woff2": {
+    "bytes": 6548,
+    "path": "assets/localized/316ecfec4e0ef615a8a17fcf.woff2",
+    "sha256": "316ecfec4e0ef615a8a17fcf9fab6a5d7767102feb727a515d79dd932791ec15",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/fonts/v2/6d5055c2-7d2e-47e7-ba22-fb81f960dffb/v1/madefor-text-mediumbold.woff2": {
+    "bytes": 24768,
+    "path": "assets/localized/b905405a2d55d4d4f98f55d7.woff2",
+    "sha256": "b905405a2d55d4d4f98f55d7ebe0bb3543caf78bdda4675a9ac15ce37d00dccb",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/fonts/v2/74290729-59ae-4129-87d0-2eec3974dce1/v1/avenir-lt-w01_85-heavy1475544.woff2": {
+    "bytes": 17176,
+    "path": "assets/localized/9c9224b0743c9ae4c456fdb5.woff2",
+    "sha256": "9c9224b0743c9ae4c456fdb5a45303c1110253b1a88f6d143cedf2b4acb9032e",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/fonts/v2/74290729-59ae-4129-87d0-2eec3974dce1/v1/avenir-lt-w05_85-heavy.woff2": {
+    "bytes": 26744,
+    "path": "assets/localized/60a711365e42e9442527a5a8.woff2",
+    "sha256": "60a711365e42e9442527a5a8d08ab37ad5da6144eb67cb13de8baaf5ba7e1f9e",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/fonts/v2/81cf67b7-ef0b-438b-b097-ba36f6380000/v1/alfabet.cyrillic-ext.woff2": {
+    "bytes": 852,
+    "path": "assets/localized/a593e62efdda91d894a76d47.woff2",
+    "sha256": "a593e62efdda91d894a76d47ee0cb0d93053d228f97250b67e0d39b820d97a5a",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/fonts/v2/81cf67b7-ef0b-438b-b097-ba36f6380000/v1/alfabet.cyrillic.woff2": {
+    "bytes": 6380,
+    "path": "assets/localized/71f53da1ce11f0602ce3c5f0.woff2",
+    "sha256": "71f53da1ce11f0602ce3c5f049bf7ac415ce395c4ef56a4b1ac88a0352151f53",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/fonts/v2/81cf67b7-ef0b-438b-b097-ba36f6380000/v1/alfabet.greek.woff2": {
+    "bytes": 4172,
+    "path": "assets/localized/9131ee71037bab87b4225005.woff2",
+    "sha256": "9131ee71037bab87b422500515f5e39a665d1c2b08b04123ce5784c636774aea",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/fonts/v2/81cf67b7-ef0b-438b-b097-ba36f6380000/v1/alfabet.latin-ext.woff2": {
+    "bytes": 7072,
+    "path": "assets/localized/13a491fe62cf864ad34e0a34.woff2",
+    "sha256": "13a491fe62cf864ad34e0a34aa3daffc415f74860cca65924998ba852385e65d",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/fonts/v2/81cf67b7-ef0b-438b-b097-ba36f6380000/v1/alfabet.latin.woff2": {
+    "bytes": 11868,
+    "path": "assets/localized/ff33445f0fc3cfcd85c12ff5.woff2",
+    "sha256": "ff33445f0fc3cfcd85c12ff52d05889d31684851fa403806de0675f4b80295ca",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/fonts/v2/81cf67b7-ef0b-438b-b097-ba36f6380000/v1/alfabet.math.woff2": {
+    "bytes": 1764,
+    "path": "assets/localized/4a2269b79a090054a5b91859.woff2",
+    "sha256": "4a2269b79a090054a5b91859f3ef665fccaeaeafadd79430b581515e37e766a6",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/fonts/v2/81cf67b7-ef0b-438b-b097-ba36f6380000/v1/alfabet.other.woff2": {
+    "bytes": 2452,
+    "path": "assets/localized/0c74e1d54c3a73db365cbf89.woff2",
+    "sha256": "0c74e1d54c3a73db365cbf8966f33e3e911f64517efedcc78e822eec9155ff42",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/fonts/v2/81cf67b7-ef0b-438b-b097-ba36f6380000/v1/alfabet.symbols.woff2": {
+    "bytes": 1436,
+    "path": "assets/localized/88561b2c656c9e5d65d0978b.woff2",
+    "sha256": "88561b2c656c9e5d65d0978b62500fccc6cc527b7ee232723792846148492034",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/fonts/v2/81cf67b7-ef0b-438b-b097-ba36f6380000/v1/alfabet.vietnamese.woff2": {
+    "bytes": 2600,
+    "path": "assets/localized/0e84c6d6a556353312d7b7ac.woff2",
+    "sha256": "0e84c6d6a556353312d7b7ac41115abfded3cf6a5d85a10064efb1cfafec8032",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/fonts/v2/8eac109b-0fa9-42bf-a305-43e471e23779/v1/helvetica-w01-light.woff2": {
+    "bytes": 17348,
+    "path": "assets/localized/f0e5c2783ecd83f649506473.woff2",
+    "sha256": "f0e5c2783ecd83f6495064730d26fefd8eba34f24c550210a7452961a3117dc7",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/fonts/v2/8eac109b-0fa9-42bf-a305-43e471e23779/v1/helvetica-w02-light.woff2": {
+    "bytes": 22492,
+    "path": "assets/localized/2be90a76ac71b5abf5eb25f5.woff2",
+    "sha256": "2be90a76ac71b5abf5eb25f5a2feb93819852f99957e5b121df8ecad0190a5a5",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/fonts/v2/94b4d08f-f75d-4f94-ae24-dd5892820cba/v1/arp-display.latin-ext.woff2": {
+    "bytes": 8160,
+    "path": "assets/localized/3fd9d390df47b3fc33c75619.woff2",
+    "sha256": "3fd9d390df47b3fc33c75619ea1b6def0d87cdc778beea65c76794ca020b7506",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/fonts/v2/94b4d08f-f75d-4f94-ae24-dd5892820cba/v1/arp-display.latin.woff2": {
+    "bytes": 15192,
+    "path": "assets/localized/cede78e5c220d83a32ad98a5.woff2",
+    "sha256": "cede78e5c220d83a32ad98a5e4cb86672a90ca34f7e264194a69f156060d62cd",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/fonts/v2/94b4d08f-f75d-4f94-ae24-dd5892820cba/v1/arp-display.math.woff2": {
+    "bytes": 1856,
+    "path": "assets/localized/94defa386bee107af605c044.woff2",
+    "sha256": "94defa386bee107af605c044a76d1ec5389146dbbf2b0826e7adf1a9267c63a5",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/fonts/v2/94b4d08f-f75d-4f94-ae24-dd5892820cba/v1/arp-display.other.woff2": {
+    "bytes": 4704,
+    "path": "assets/localized/5c18c323845df98c0bce9f8e.woff2",
+    "sha256": "5c18c323845df98c0bce9f8eea6dc6548df2c484bc59d80c5ed6a24aebfc520c",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/fonts/v2/94b4d08f-f75d-4f94-ae24-dd5892820cba/v1/arp-display.symbols.woff2": {
+    "bytes": 3576,
+    "path": "assets/localized/c631d6daf6072798ad3c02ce.woff2",
+    "sha256": "c631d6daf6072798ad3c02cee73fee63cce2dd12b7490b26da0dbf3152afaa3b",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/fonts/v2/af36905f-3c92-4ef9-b0c1-f91432f16ac1/v1/avenir-lt-w01_35-light1475496.woff2": {
+    "bytes": 17216,
+    "path": "assets/localized/0ddce0e617794fd30b60e5c8.woff2",
+    "sha256": "0ddce0e617794fd30b60e5c829fe12b9d7eeba14e561e7d89da5fcaf2fe900c3",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/fonts/v2/af36905f-3c92-4ef9-b0c1-f91432f16ac1/v1/avenir-lt-w05_35-light.woff2": {
+    "bytes": 24560,
+    "path": "assets/localized/8f0df435bfdc31c4ae406019.woff2",
+    "sha256": "8f0df435bfdc31c4ae406019c9d872754028b5ecb2125dc9322890f42af1a308",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/fonts/v2/bcaffff6-40a1-4827-ace9-c65e93f5fb5f/v1/helveticaneuew02-45ligh.latin-ext.woff2": {
+    "bytes": 10548,
+    "path": "assets/localized/30fed48652346a5512067fa2.woff2",
+    "sha256": "30fed48652346a5512067fa26f3c61007e3b57f706a96080cf4be5c50a12a7a6",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/fonts/v2/bcaffff6-40a1-4827-ace9-c65e93f5fb5f/v1/helveticaneuew02-45ligh.latin.woff2": {
+    "bytes": 15432,
+    "path": "assets/localized/604364f8913dd38624c8c728.woff2",
+    "sha256": "604364f8913dd38624c8c728cc26896ba157545425cd7571f2fc8166c74d2f98",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/fonts/v2/bcaffff6-40a1-4827-ace9-c65e93f5fb5f/v1/helveticaneuew02-45ligh.math.woff2": {
+    "bytes": 4144,
+    "path": "assets/localized/53b078bd163f16c0d801be3e.woff2",
+    "sha256": "53b078bd163f16c0d801be3e7149570aaf69d3aeb36d6bbcfdbd5b8d11a9770e",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/fonts/v2/bcaffff6-40a1-4827-ace9-c65e93f5fb5f/v1/helveticaneuew02-45ligh.other.woff2": {
+    "bytes": 4228,
+    "path": "assets/localized/60885f8be4f8ed408f8a860f.woff2",
+    "sha256": "60885f8be4f8ed408f8a860fd53a5d01ec3f2528c92229784a774b7c43de650d",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/fonts/v2/c24fcada-6239-48bc-8b88-9288338191c9/v1/proxima-n-w01-reg.woff2": {
+    "bytes": 23088,
+    "path": "assets/localized/5571fff42dc7e301a496d7af.woff2",
+    "sha256": "5571fff42dc7e301a496d7affcc5305688037d897a6a4cbad6a3de042e384717",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/fonts/v2/c24fcada-6239-48bc-8b88-9288338191c9/v1/proxima-n-w05-reg.woff2": {
+    "bytes": 82024,
+    "path": "assets/localized/5185daf236a2f25ecc182bbe.woff2",
+    "sha256": "5185daf236a2f25ecc182bbe3dee5a66f42d8ed6a4d4e065cc0feec9a6ace90d",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/fonts/v2/d9790bc6-b72c-4d96-a717-5b424961c92b/v1/alfabet.cyrillic-ext.woff2": {
+    "bytes": 844,
+    "path": "assets/localized/2abfd9046485074bdded64d6.woff2",
+    "sha256": "2abfd9046485074bdded64d6821c56ad1ad0c0be183e463a68bc17b87df04be3",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/fonts/v2/d9790bc6-b72c-4d96-a717-5b424961c92b/v1/alfabet.cyrillic.woff2": {
+    "bytes": 6120,
+    "path": "assets/localized/cb290da88fff4eacff59689e.woff2",
+    "sha256": "cb290da88fff4eacff59689e789f3ffb4162736eedf9a1a0975f9765fca47976",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/fonts/v2/d9790bc6-b72c-4d96-a717-5b424961c92b/v1/alfabet.greek.woff2": {
+    "bytes": 4072,
+    "path": "assets/localized/e63cdf0421ba2717e1cbdd78.woff2",
+    "sha256": "e63cdf0421ba2717e1cbdd789ac027652b97ce43559a9b397614e066d9fa2d03",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/fonts/v2/d9790bc6-b72c-4d96-a717-5b424961c92b/v1/alfabet.latin-ext.woff2": {
+    "bytes": 6856,
+    "path": "assets/localized/65fbc0e40bae6c53fc8f8640.woff2",
+    "sha256": "65fbc0e40bae6c53fc8f8640baf5dd4e574cba59d14867bafa5a47ddd872b496",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/fonts/v2/d9790bc6-b72c-4d96-a717-5b424961c92b/v1/alfabet.latin.woff2": {
+    "bytes": 11552,
+    "path": "assets/localized/7c96352f014d9fe30ec30940.woff2",
+    "sha256": "7c96352f014d9fe30ec30940e127a3ee72abe1b4bb0770f182c18373d48ddbd5",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/fonts/v2/d9790bc6-b72c-4d96-a717-5b424961c92b/v1/alfabet.math.woff2": {
+    "bytes": 1664,
+    "path": "assets/localized/19c65a1ab4a7dfac84647a4a.woff2",
+    "sha256": "19c65a1ab4a7dfac84647a4adb927001e3ba7f751f9a9868129265df29a08c8c",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/fonts/v2/d9790bc6-b72c-4d96-a717-5b424961c92b/v1/alfabet.other.woff2": {
+    "bytes": 2444,
+    "path": "assets/localized/c1ae484d3c0d9f87036e81a1.woff2",
+    "sha256": "c1ae484d3c0d9f87036e81a1f7dde73c0024093553d3c27d87dc4e3cc7771e12",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/fonts/v2/d9790bc6-b72c-4d96-a717-5b424961c92b/v1/alfabet.symbols.woff2": {
+    "bytes": 1436,
+    "path": "assets/localized/6e58534354dd5f413f48b8c0.woff2",
+    "sha256": "6e58534354dd5f413f48b8c0cff43151eecf15a528619bb3cd60fc2ea246d794",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/fonts/v2/d9790bc6-b72c-4d96-a717-5b424961c92b/v1/alfabet.vietnamese.woff2": {
+    "bytes": 2656,
+    "path": "assets/localized/ea5889c6859d7b820bfa8548.woff2",
+    "sha256": "ea5889c6859d7b820bfa854807ba78222230db87d0eb434bf31fa5d061c4378f",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/fonts/v2/dbfbb677-95bd-4b2a-87fb-2ba3101a5f68/v1/madefor-text-mediumbold.woff2": {
+    "bytes": 33808,
+    "path": "assets/localized/73c1b1a6042000cee9f3005f.woff2",
+    "sha256": "73c1b1a6042000cee9f3005fa246a0cf86f4d63b409b909d42b3f20c464da7f3",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/fonts/v2/e333842f-0a84-43f9-9ab7-fb1093ba1628/v1/helveticaneuew01-45ligh.latin-ext.woff2": {
+    "bytes": 3600,
+    "path": "assets/localized/80537af326a5c6e1a8c5f3af.woff2",
+    "sha256": "80537af326a5c6e1a8c5f3af0d7bd70a5d6420bb2eaf4aa5fc85374eaf410e3b",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/fonts/v2/e333842f-0a84-43f9-9ab7-fb1093ba1628/v1/helveticaneuew01-45ligh.latin.woff2": {
+    "bytes": 14836,
+    "path": "assets/localized/76029a65d9ab47554262a6c2.woff2",
+    "sha256": "76029a65d9ab47554262a6c2dd23bdf9352dbe90fe785a636bc55087434a1f73",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/fonts/v2/e333842f-0a84-43f9-9ab7-fb1093ba1628/v1/helveticaneuew01-45ligh.other.woff2": {
+    "bytes": 3268,
+    "path": "assets/localized/c5ca2082dcf8a51aa3c32b62.woff2",
+    "sha256": "c5ca2082dcf8a51aa3c32b62116b843ffecee6f66dbdc2fd5075bb1935c4c2d0",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/fonts/v2/e345c0c8-ef65-47f0-bc42-949fa89ccf0e/v1/arp-display.latin-ext.woff2": {
+    "bytes": 8472,
+    "path": "assets/localized/31b451afa0d8e1e98cf53452.woff2",
+    "sha256": "31b451afa0d8e1e98cf534521283be4f5b502020d856d88daccd277cc88dfa4d",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/fonts/v2/e345c0c8-ef65-47f0-bc42-949fa89ccf0e/v1/arp-display.latin.woff2": {
+    "bytes": 15976,
+    "path": "assets/localized/ed93b6aa68494e10e1424c3f.woff2",
+    "sha256": "ed93b6aa68494e10e1424c3f51a57057ef155579a72f89561f07e3cd781e141c",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/fonts/v2/e345c0c8-ef65-47f0-bc42-949fa89ccf0e/v1/arp-display.math.woff2": {
+    "bytes": 1892,
+    "path": "assets/localized/d9b87322e2dbe66b7e444137.woff2",
+    "sha256": "d9b87322e2dbe66b7e444137c5ff47ead0124dfc2b7005642ee37ecafce72679",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/fonts/v2/e345c0c8-ef65-47f0-bc42-949fa89ccf0e/v1/arp-display.other.woff2": {
+    "bytes": 4928,
+    "path": "assets/localized/766e323d88cf15be0605aa7b.woff2",
+    "sha256": "766e323d88cf15be0605aa7bc7b0b2906403ff7853c1e089effad449273c8c2e",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/fonts/v2/e345c0c8-ef65-47f0-bc42-949fa89ccf0e/v1/arp-display.symbols.woff2": {
+    "bytes": 3736,
+    "path": "assets/localized/9096b0194c9a9e7b1a545430.woff2",
+    "sha256": "9096b0194c9a9e7b1a54543018ec8f959e22668b7d9286cc99fc6982791b68eb",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/fonts/v2/eaac9869-e403-4fd8-9f05-6e3c5019107c/v1/arp-display.latin-ext.woff2": {
+    "bytes": 9328,
+    "path": "assets/localized/e206a097d65edd58bb68d230.woff2",
+    "sha256": "e206a097d65edd58bb68d230044df71ddf29c0bede5c8a7df323965df95e9a42",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/fonts/v2/eaac9869-e403-4fd8-9f05-6e3c5019107c/v1/arp-display.latin.woff2": {
+    "bytes": 16476,
+    "path": "assets/localized/e86fc327daa5cec97b9e4af2.woff2",
+    "sha256": "e86fc327daa5cec97b9e4af2ed699faea747859204fc5b375fa9e88605468045",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/fonts/v2/eaac9869-e403-4fd8-9f05-6e3c5019107c/v1/arp-display.math.woff2": {
+    "bytes": 1880,
+    "path": "assets/localized/a11f7f01f646f35e6090fbe9.woff2",
+    "sha256": "a11f7f01f646f35e6090fbe9e05beb1591d00655671d6783b7f7913a29e0f0f8",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/fonts/v2/eaac9869-e403-4fd8-9f05-6e3c5019107c/v1/arp-display.other.woff2": {
+    "bytes": 4808,
+    "path": "assets/localized/186b5c35b712ee895b947269.woff2",
+    "sha256": "186b5c35b712ee895b947269522c6a45ceca895a39fd1d6888161429b7262438",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/fonts/v2/eaac9869-e403-4fd8-9f05-6e3c5019107c/v1/arp-display.symbols.woff2": {
+    "bytes": 3812,
+    "path": "assets/localized/b509c4302d7475f4dff305d2.woff2",
+    "sha256": "b509c4302d7475f4dff305d207fdec3e7e6fdfa8c72da6cb66a0432f9b6ec603",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/fonts/v2/eca8b0cd-45d8-43cf-aee7-ca462bc5497c/v1/din-next-w01-light.woff2": {
+    "bytes": 20988,
+    "path": "assets/localized/6156303f614ae366b8b64bcd.woff2",
+    "sha256": "6156303f614ae366b8b64bcd9d5bae47e24fee316244d6dcd3e85f02d8bdfe7f",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/fonts/v2/eca8b0cd-45d8-43cf-aee7-ca462bc5497c/v1/din-next-w02-light.woff2": {
+    "bytes": 37024,
+    "path": "assets/localized/ebfb2353b529b5a4ff2920ea.woff2",
+    "sha256": "ebfb2353b529b5a4ff2920ea70d2ebc5ffd06402c1eb76f9fe2f055d9f679235",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/fonts/v2/eca8b0cd-45d8-43cf-aee7-ca462bc5497c/v1/din-next-w10-light.woff2": {
+    "bytes": 15504,
+    "path": "assets/localized/3bd3fee65e14af4c8c1bb0d1.woff2",
+    "sha256": "3bd3fee65e14af4c8c1bb0d129fab577a907fbc5086e041fdd05199c1a5f4d23",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/fonts/v2/f73e760d-c6b3-4659-9a8c-9ce1d76c1173/madefor-text.var.original.woff2": {
+    "bytes": 40188,
+    "path": "assets/localized/83ea0d46fbd594420a315e27.woff2",
+    "sha256": "83ea0d46fbd594420a315e27c37eea919af248077b529bbc4df7ad0eeb4e43f2",
+    "type": "text/plain"
+  },
+  "https://static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/amaticsc/v13/TUZ3zwprpvBS1izr_vOMscGKcLUC_2fi-Vl4.woff2": {
+    "bytes": 15276,
+    "path": "assets/localized/b2ca6f23600927168f61bd90.woff2",
+    "sha256": "b2ca6f23600927168f61bd90a5958f5a9230ab2513b9c1da44ec698441c62f4c",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/amaticsc/v13/TUZ3zwprpvBS1izr_vOMscGKcbUC_2fi-Vl4.woff2": {
+    "bytes": 4504,
+    "path": "assets/localized/c80a640c42b3047640a543f5.woff2",
+    "sha256": "c80a640c42b3047640a543f5664a60d52153e5040dc40284c71f7768553698e9",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/amaticsc/v13/TUZ3zwprpvBS1izr_vOMscGKerUC_2fi-Vl4.woff2": {
+    "bytes": 14060,
+    "path": "assets/localized/91af12bd2af6f99bd675109b.woff2",
+    "sha256": "91af12bd2af6f99bd675109b5bb27b0ec305a2fb992a6653c04d0e525d9ed709",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/amaticsc/v13/TUZ3zwprpvBS1izr_vOMscGKfLUC_2fi-Vl4.woff2": {
+    "bytes": 5348,
+    "path": "assets/localized/17be2620362f5697239a0fb2.woff2",
+    "sha256": "17be2620362f5697239a0fb222ccf5d2a35bd9226861dc2083893b0d8d88bc1c",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/amaticsc/v13/TUZ3zwprpvBS1izr_vOMscGKfrUC_2fi-Q.woff2": {
+    "bytes": 17212,
+    "path": "assets/localized/f50e2740763a231b6aa791df.woff2",
+    "sha256": "f50e2740763a231b6aa791df539e2bc265dad7466388523b92e616c20464c455",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/amaticsc/v13/TUZyzwprpvBS1izr_vOEBOSfU5cP1V3r.woff2": {
+    "bytes": 15976,
+    "path": "assets/localized/f7577829c1795b505363e311.woff2",
+    "sha256": "f7577829c1795b505363e3115a142744600bf2e4efd4b671428ee4ae7c5ecf93",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/amaticsc/v13/TUZyzwprpvBS1izr_vOEBeSfU5cP1V3r.woff2": {
+    "bytes": 4488,
+    "path": "assets/localized/02288b92b8882c7bfc5a0527.woff2",
+    "sha256": "02288b92b8882c7bfc5a05271773b18f98cfe9643ad02ecf90dd1eb5b0c8258f",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/amaticsc/v13/TUZyzwprpvBS1izr_vOECOSfU5cP1V3r.woff2": {
+    "bytes": 5320,
+    "path": "assets/localized/b1ebc3557141827a98be4e92.woff2",
+    "sha256": "b1ebc3557141827a98be4e92e93363be82604186c5681d0a68a6f44477ef6b7a",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/amaticsc/v13/TUZyzwprpvBS1izr_vOECuSfU5cP1Q.woff2": {
+    "bytes": 18528,
+    "path": "assets/localized/ea9aa8e3aa24093bfb1738a8.woff2",
+    "sha256": "ea9aa8e3aa24093bfb1738a8c728aa1a5349cca3debbfa75b017bd5ba91bc05d",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/amaticsc/v13/TUZyzwprpvBS1izr_vOEDuSfU5cP1V3r.woff2": {
+    "bytes": 14352,
+    "path": "assets/localized/b98e16ab0c6164130125b734.woff2",
+    "sha256": "b98e16ab0c6164130125b734774dbba71c84ca0344cc40557c522d784f79f6db",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/cinzel/v9/8vIJ7ww63mVu7gt7-GT7PkRXM8Xx.woff2": {
+    "bytes": 7616,
+    "path": "assets/localized/e03b68ee717fb352ed2bbc42.woff2",
+    "sha256": "e03b68ee717fb352ed2bbc4291c7f9156f017f45461c3b30fb7430cce9cd9e38",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/cinzel/v9/8vIJ7ww63mVu7gt79mT7PkRXMw.woff2": {
+    "bytes": 13428,
+    "path": "assets/localized/12136ad7edd0bd96099343dc.woff2",
+    "sha256": "12136ad7edd0bd96099343dc7e97e5fa654983ed57ddcd619bc035f47912f438",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/cinzel/v9/8vIK7ww63mVu7gtzTUHuE2ZaGf_4-g.woff2": {
+    "bytes": 14556,
+    "path": "assets/localized/287c4be9d64b8954e0cc9d84.woff2",
+    "sha256": "287c4be9d64b8954e0cc9d84874695a2fda5a49f297e4612254b1304b51f8a59",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/cinzel/v9/8vIK7ww63mVu7gtzTUHuHWZaGf_4-ial.woff2": {
+    "bytes": 7928,
+    "path": "assets/localized/ce9347311d1964bd2b5c2266.woff2",
+    "sha256": "ce9347311d1964bd2b5c226603e33683499621c1e0791fa8950afa4c30a794c9",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/googlesans/v67/4UairENHsxJlGDuGo1OIlL3L2JB874GPhFI9_IqmuRqGpjeaLi42kO8QvnQk0b4vqeMXtoTN.woff2": {
+    "bytes": 21436,
+    "path": "assets/localized/f8f0cabae762586b984d53ad.woff2",
+    "sha256": "f8f0cabae762586b984d53ad446c53b172b5d215b56735fa5aa2882d9b8038e5",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/googlesans/v67/4UairENHsxJlGDuGo1OIlL3L2JB874GPhFI9_IqmuRqGpjeaLi42kO8QvnQkkL4vqeMXtoTN.woff2": {
+    "bytes": 2384,
+    "path": "assets/localized/dace8980c9a2a22328a73974.woff2",
+    "sha256": "dace8980c9a2a22328a73974754322bfc1d56b76752bb87d029bbee9df04f3ea",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/googlesans/v67/4UairENHsxJlGDuGo1OIlL3L2JB874GPhFI9_IqmuRqGpjeaLi42kO8QvnQknL4vqeMXtoTN.woff2": {
+    "bytes": 18992,
+    "path": "assets/localized/79af2d953e2a9de153534cf9.woff2",
+    "sha256": "79af2d953e2a9de153534cf93a10ecf1a3c616f16973377b79d86f438138be38",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/googlesans/v67/4UairENHsxJlGDuGo1OIlL3L2JB874GPhFI9_IqmuRqGpjeaLi42kO8QvnQko74vqeMXtoTN.woff2": {
+    "bytes": 73028,
+    "path": "assets/localized/e878f90beed9fb3272a4a7b2.woff2",
+    "sha256": "e878f90beed9fb3272a4a7b21c56641e6c9eed980df24cea15b6228705324108",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/googlesans/v67/4UairENHsxJlGDuGo1OIlL3L2JB874GPhFI9_IqmuRqGpjeaLi42kO8QvnQkoL4vqeMXtoTN.woff2": {
+    "bytes": 18516,
+    "path": "assets/localized/e10fd216e037af4efd8d0414.woff2",
+    "sha256": "e10fd216e037af4efd8d04148319774cb7962e493e3f5c6a267f583af3d4f1b4",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/googlesans/v67/4UairENHsxJlGDuGo1OIlL3L2JB874GPhFI9_IqmuRqGpjeaLi42kO8QvnQkor4vqeMXtoTN.woff2": {
+    "bytes": 77064,
+    "path": "assets/localized/c83510ae7a408e2be6f68f25.woff2",
+    "sha256": "c83510ae7a408e2be6f68f251ba64aaa20ca3d44d0deebf79317f82b6d481897",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/googlesans/v67/4UairENHsxJlGDuGo1OIlL3L2JB874GPhFI9_IqmuRqGpjeaLi42kO8QvnQkp74vqeMXtoTN.woff2": {
+    "bytes": 44556,
+    "path": "assets/localized/c0be0264cafb185e5877e0b5.woff2",
+    "sha256": "c0be0264cafb185e5877e0b52bdd101882df1ef36dd982c6fdfe14e532d18728",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/googlesans/v67/4UairENHsxJlGDuGo1OIlL3L2JB874GPhFI9_IqmuRqGpjeaLi42kO8QvnQkpL4vqeMXtoTN.woff2": {
+    "bytes": 52704,
+    "path": "assets/localized/1d05f2be1bc9309c6948f4dc.woff2",
+    "sha256": "1d05f2be1bc9309c6948f4dc44955b4ab7d701e8d975b7f79601b05e24880326",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/googlesans/v67/4UairENHsxJlGDuGo1OIlL3L2JB874GPhFI9_IqmuRqGpjeaLi42kO8QvnQkpr4vqeMXtoTN.woff2": {
+    "bytes": 66420,
+    "path": "assets/localized/154d8ea98a177ab68a73e4a4.woff2",
+    "sha256": "154d8ea98a177ab68a73e4a4fbf1e7371da38aeed39fffda0e55d7fe4d832c2c",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/googlesans/v67/4UairENHsxJlGDuGo1OIlL3L2JB874GPhFI9_IqmuRqGpjeaLi42kO8QvnQkq74vqeMXtoTN.woff2": {
+    "bytes": 19140,
+    "path": "assets/localized/d0101870f090619abb8074c9.woff2",
+    "sha256": "d0101870f090619abb8074c9232e53d0c842a13624b3cd2bdd34bfef98abcfbc",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/googlesans/v67/4UairENHsxJlGDuGo1OIlL3L2JB874GPhFI9_IqmuRqGpjeaLi42kO8QvnQkqb4vqeMXtoTN.woff2": {
+    "bytes": 29144,
+    "path": "assets/localized/2eea29d6932abe2d949933a1.woff2",
+    "sha256": "2eea29d6932abe2d949933a1a1fb413252b54dde2397b189be12738c1a39a37f",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/googlesans/v67/4UairENHsxJlGDuGo1OIlL3L2JB874GPhFI9_IqmuRqGpjeaLi42kO8QvnQkr74vqeMXtoTN.woff2": {
+    "bytes": 16892,
+    "path": "assets/localized/aaa1c3acfc10238e142d74c1.woff2",
+    "sha256": "aaa1c3acfc10238e142d74c1a31870c2d85f1fd06dc42beebeb1b433964ba1db",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/googlesans/v67/4UairENHsxJlGDuGo1OIlL3L2JB874GPhFI9_IqmuRqGpjeaLi42kO8QvnQkrb4vqeMXtoTN.woff2": {
+    "bytes": 83484,
+    "path": "assets/localized/409ae6c7b27735b051b2a5ce.woff2",
+    "sha256": "409ae6c7b27735b051b2a5ce4f466de5909c53006dde7fdc1ca214f3fda0ffa8",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/googlesans/v67/4UairENHsxJlGDuGo1OIlL3L2JB874GPhFI9_IqmuRqGpjeaLi42kO8QvnQkrr4vqeMXtoTN.woff2": {
+    "bytes": 260368,
+    "path": "assets/localized/8965d69df62a02843f7d15bf.woff2",
+    "sha256": "8965d69df62a02843f7d15bfc9dcd01c409d4360f49d6eb311366a9d3943fb0b",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/googlesans/v67/4UairENHsxJlGDuGo1OIlL3L2JB874GPhFI9_IqmuRqGpjeaLi42kO8QvnQks74vqeMXtoTN.woff2": {
+    "bytes": 8716,
+    "path": "assets/localized/893e8a21bf022710767f4208.woff2",
+    "sha256": "893e8a21bf022710767f42082ab02d9a9460f3d122a0cd7be47d329e676f1a29",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/googlesans/v67/4UairENHsxJlGDuGo1OIlL3L2JB874GPhFI9_IqmuRqGpjeaLi42kO8QvnQksL4vqeMXtoTN.woff2": {
+    "bytes": 8992,
+    "path": "assets/localized/1a2a31bcb27d08f6c3337bbe.woff2",
+    "sha256": "1a2a31bcb27d08f6c3337bbea82b499095ec4dd8b2dcd6cb60ea9d4b9cc74e1b",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/googlesans/v67/4UairENHsxJlGDuGo1OIlL3L2JB874GPhFI9_IqmuRqGpjeaLi42kO8QvnQksb4vqeMXtoTN.woff2": {
+    "bytes": 22248,
+    "path": "assets/localized/f00c0f21ee67cb6df0d69380.woff2",
+    "sha256": "f00c0f21ee67cb6df0d69380bcdf2f6d7ea54091f8b01e1a803509d87fd2a46c",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/googlesans/v67/4UairENHsxJlGDuGo1OIlL3L2JB874GPhFI9_IqmuRqGpjeaLi42kO8QvnQksr4vqeMXtoTN.woff2": {
+    "bytes": 16672,
+    "path": "assets/localized/2c19bf5d4c9b4d0faf290acf.woff2",
+    "sha256": "2c19bf5d4c9b4d0faf290acfaa258b3fdcc54802810f8fb4863382fd35a252a9",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/googlesans/v67/4UairENHsxJlGDuGo1OIlL3L2JB874GPhFI9_IqmuRqGpjeaLi42kO8QvnQktL4vqeMXtoTN.woff2": {
+    "bytes": 68032,
+    "path": "assets/localized/e07102faa60be3b57ff2ef77.woff2",
+    "sha256": "e07102faa60be3b57ff2ef77eed9458b6e9950c0ebb3d285538e3d2b5b715dd0",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/googlesans/v67/4UairENHsxJlGDuGo1OIlL3L2JB874GPhFI9_IqmuRqGpjeaLi42kO8QvnQktr4vqeMXtoTN.woff2": {
+    "bytes": 19552,
+    "path": "assets/localized/3bee1cb5755d6812479f24a5.woff2",
+    "sha256": "3bee1cb5755d6812479f24a5b9a7462a6463d637c7d05b54b13f670e1268ce64",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/googlesans/v67/4UairENHsxJlGDuGo1OIlL3L2JB874GPhFI9_IqmuRqGpjeaLi42kO8QvnQku74vqeMXtoTN.woff2": {
+    "bytes": 16680,
+    "path": "assets/localized/016dfdbb4966751716e11763.woff2",
+    "sha256": "016dfdbb4966751716e11763ea617026445db56211fab1d1a160677b73eeeb0e",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/googlesans/v67/4UairENHsxJlGDuGo1OIlL3L2JB874GPhFI9_IqmuRqGpjeaLi42kO8QvnQkv74vqeMXtg.woff2": {
+    "bytes": 38832,
+    "path": "assets/localized/8eb2c16f937da5e91872928a.woff2",
+    "sha256": "8eb2c16f937da5e91872928ac4ccc62879640fd33b2c0dc4e36278eb230e6e55",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/googlesans/v67/4UairENHsxJlGDuGo1OIlL3L2JB874GPhFI9_IqmuRqGpjeaLi42kO8QvnQkvL4vqeMXtoTN.woff2": {
+    "bytes": 9356,
+    "path": "assets/localized/cb1ad7089ba4de3b4e09038a.woff2",
+    "sha256": "cb1ad7089ba4de3b4e09038a44d665a1d99260b205ae1506a7fce471b9604dbd",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/googlesans/v67/4UairENHsxJlGDuGo1OIlL3L2JB874GPhFI9_IqmuRqGpjeaLi42kO8QvnQkvb4vqeMXtoTN.woff2": {
+    "bytes": 12820,
+    "path": "assets/localized/4edcd2fa3772ea79c1ce72a2.woff2",
+    "sha256": "4edcd2fa3772ea79c1ce72a22dbbc3d16f65a868551fb303ac9c19ecbd86ce01",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/googlesans/v67/4UairENHsxJlGDuGo1OIlL3L2JB874GPhFI9_IqmuRqGpjeaLi42kO8QvnQkvr4vqeMXtoTN.woff2": {
+    "bytes": 51304,
+    "path": "assets/localized/176b04378ba39e2838f8f69d.woff2",
+    "sha256": "176b04378ba39e2838f8f69d5ce767b3a110f31fd22e46bfc399ae71a7548be7",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/googlesans/v67/4UasrENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RPh0UvbQoi-Entw.woff2": {
+    "bytes": 2320,
+    "path": "assets/localized/9719ec62c12d4d7882d45e55.woff2",
+    "sha256": "9719ec62c12d4d7882d45e555e00e3b2ee75474f65b1fbbc09d3d685101aaace",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/googlesans/v67/4UasrENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RPhEUvbQoi-Entw.woff2": {
+    "bytes": 17300,
+    "path": "assets/localized/4ac3bd8a1b838dca74ccb04b.woff2",
+    "sha256": "4ac3bd8a1b838dca74ccb04b1d8cf52ffde69dd63fb6ca33f874edef26814252",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/googlesans/v67/4UasrENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RPi0UvbQoi-Entw.woff2": {
+    "bytes": 17824,
+    "path": "assets/localized/d0ed5d8b8eb5f1fc9387bae3.woff2",
+    "sha256": "d0ed5d8b8eb5f1fc9387bae300c1534101465e67eaeb7ab915f0d0d0f1082b75",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/googlesans/v67/4UasrENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RPi4UvbQoi-Entw.woff2": {
+    "bytes": 66060,
+    "path": "assets/localized/ebdb7eb7c9ad404bdecefa66.woff2",
+    "sha256": "ebdb7eb7c9ad404bdecefa6643aecdb0721d788093cf5533026ef604ac809f78",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/googlesans/v67/4UasrENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RPi8UvbQoi-Entw.woff2": {
+    "bytes": 71916,
+    "path": "assets/localized/0e8283dec71e3195652c87a3.woff2",
+    "sha256": "0e8283dec71e3195652c87a3a62ca262fe901109e5baf36179ccdb653b7e3ff7",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/googlesans/v67/4UasrENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RPiAUvbQoi-Entw.woff2": {
+    "bytes": 75740,
+    "path": "assets/localized/30492d1053341a684c7516cb.woff2",
+    "sha256": "30492d1053341a684c7516cb80002f9a9722bb0c3dd69041d5a0906b7a541113",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/googlesans/v67/4UasrENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RPiIUvbQoi-Entw.woff2": {
+    "bytes": 15520,
+    "path": "assets/localized/324365f6a01d078bb9c92275.woff2",
+    "sha256": "324365f6a01d078bb9c92275f3b49ed73e032a15bb6071284f2382bad2797eca",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/googlesans/v67/4UasrENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RPiMUvbQoi-Entw.woff2": {
+    "bytes": 247856,
+    "path": "assets/localized/6ad06c0314a74201e6805494.woff2",
+    "sha256": "6ad06c0314a74201e6805494e73c3b054818b3b0aaa363e6b48e081055bde270",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/googlesans/v67/4UasrENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RPiQUvbQoi-Entw.woff2": {
+    "bytes": 23884,
+    "path": "assets/localized/be663461978902bb463c99b9.woff2",
+    "sha256": "be663461978902bb463c99b9d1c63937303065e30ad66ea02e96797229e75a77",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/googlesans/v67/4UasrENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RPiYUvbQoi-Entw.woff2": {
+    "bytes": 17408,
+    "path": "assets/localized/58aa417c965da52f924bf59b.woff2",
+    "sha256": "58aa417c965da52f924bf59b76579c02e9db2ad4e460bc1bde51002ed44d0c7f",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/googlesans/v67/4UasrENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RPikUvbQoi-Entw.woff2": {
+    "bytes": 40924,
+    "path": "assets/localized/c04ae4b7903e360049ef186e.woff2",
+    "sha256": "c04ae4b7903e360049ef186e2fddf9aef4a2fb5807a9b4f775ae3ba52651764b",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/googlesans/v67/4UasrENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RPioUvbQoi-Entw.woff2": {
+    "bytes": 41496,
+    "path": "assets/localized/2e84c6d9c0b7dba9f58b7513.woff2",
+    "sha256": "2e84c6d9c0b7dba9f58b75139ab93a9744a386f6f282f082cc8ac58ad8097b18",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/googlesans/v67/4UasrENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RPisUvbQoi-Entw.woff2": {
+    "bytes": 45956,
+    "path": "assets/localized/6c49a067f00f4800cd8d524e.woff2",
+    "sha256": "6c49a067f00f4800cd8d524ece3cb570640b32c1d648d049fc8f7102a15f6dbf",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/googlesans/v67/4UasrENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RPj0UvbQoi-Entw.woff2": {
+    "bytes": 8312,
+    "path": "assets/localized/4bbac5cd47df6ac2f2a4b4d4.woff2",
+    "sha256": "4bbac5cd47df6ac2f2a4b4d43ca7b3c2240234ae9cf503f0f70d0019b376f194",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/googlesans/v67/4UasrENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RPj4UvbQoi-Entw.woff2": {
+    "bytes": 8232,
+    "path": "assets/localized/9d94462c8adcb06f1b8a248b.woff2",
+    "sha256": "9d94462c8adcb06f1b8a248b7ab71c4d8a15fe7de0df8121630888fa3fa8b11d",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/googlesans/v67/4UasrENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RPj8UvbQoi-Entw.woff2": {
+    "bytes": 15728,
+    "path": "assets/localized/8e3fbed1c8a7f367ac7e5fe9.woff2",
+    "sha256": "8e3fbed1c8a7f367ac7e5fe98a4d17e2efe4692af7fda410b554fb05754f9893",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/googlesans/v67/4UasrENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RPjAUvbQoi-Entw.woff2": {
+    "bytes": 12084,
+    "path": "assets/localized/e881057eb3b0b532e09b4afe.woff2",
+    "sha256": "e881057eb3b0b532e09b4afeaf2d814685838a2869ee95c65d72595f7fdead7f",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/googlesans/v67/4UasrENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RPjEUvbQoi-Entw.woff2": {
+    "bytes": 9000,
+    "path": "assets/localized/ef553b332c7bc5a5638c8b96.woff2",
+    "sha256": "ef553b332c7bc5a5638c8b96de0f5da23e883fbaec7122a30e4abb463913e8b0",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/googlesans/v67/4UasrENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RPjIUvbQoi-E.woff2": {
+    "bytes": 36144,
+    "path": "assets/localized/e88e0918429c7e7ecff8b646.woff2",
+    "sha256": "e88e0918429c7e7ecff8b6463e437fe9102628f022661e648a715e7d40f80736",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/googlesans/v67/4UasrENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RPjMUvbQoi-Entw.woff2": {
+    "bytes": 47112,
+    "path": "assets/localized/8c0ecba97a0c15f93ca3b2cb.woff2",
+    "sha256": "8c0ecba97a0c15f93ca3b2cb713ea58b6b4341d6131597f10230d8747613652b",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/googlesans/v67/4UasrENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RPjYUvbQoi-Entw.woff2": {
+    "bytes": 15552,
+    "path": "assets/localized/c8128ca71dc098282890446b.woff2",
+    "sha256": "c8128ca71dc098282890446ba38c6cedb87c0dff3f242940dd2e60d256f3e284",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/googlesans/v67/4UasrENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RPjkUvbQoi-Entw.woff2": {
+    "bytes": 61000,
+    "path": "assets/localized/bf2dc66f664bb7e41a86d685.woff2",
+    "sha256": "bf2dc66f664bb7e41a86d6851925c4279deac2fe8cdcea5c1c018ab1ce53debb",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/googlesans/v67/4UasrENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RPjsUvbQoi-Entw.woff2": {
+    "bytes": 17280,
+    "path": "assets/localized/3001545e997148a85107d5ae.woff2",
+    "sha256": "3001545e997148a85107d5aeeb8d04f18ae16117c5262146979b04e2bfd9980a",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/googlesans/v67/4UasrENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RPjwUvbQoi-Entw.woff2": {
+    "bytes": 21392,
+    "path": "assets/localized/f8294c03f5a54505ea502602.woff2",
+    "sha256": "f8294c03f5a54505ea502602c8e3dd4dee56951535f8eea34ebe473d35f90515",
+    "type": "font/woff2"
+  },
+  "https://static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/googlesans/v67/4UasrENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RPlwUvbQoi-Entw.woff2": {
+    "bytes": 20288,
+    "path": "assets/localized/cc79df85f1d5709ea64a96dc.woff2",
+    "sha256": "cc79df85f1d5709ea64a96dcc9f0269b943e223860dc33f6b042eca521eecd67",
+    "type": "font/woff2"
+  },
+  "https://static.wixstatic.com/media/00e65c_07f12cdd54ca48f08b0d242e3285d51f~mv2.png/v1/fill/w_1,h_1,q_90/00e65c_07f12cdd54ca48f08b0d242e3285d51f~mv2.png": {
+    "bytes": 474,
+    "path": "assets/localized/398476e05530290b69949907.png",
+    "sha256": "398476e05530290b69949907c567a7e1392804e682bdefacadc16cedd15370cb",
+    "type": "image/png"
+  },
+  "https://static.wixstatic.com/media/00e65c_07f12cdd54ca48f08b0d242e3285d51f~mv2.png/v1/fill/w_1,h_1,q_90/00e65c_07f12cdd54ca48f08b0d242e3285d51f~mv2.webp": {
+    "bytes": 250,
+    "path": "assets/localized/ca146b8b0c04ff2e1439928d.webp",
+    "sha256": "ca146b8b0c04ff2e1439928d05796f0dbc2138384686fe674d2109f8509e0d21",
+    "type": "image/webp"
+  },
+  "https://static.wixstatic.com/media/00e65c_07f12cdd54ca48f08b0d242e3285d51f~mv2.png/v1/fill/w_1090,h_818,q_90,enc_avif,quality_auto/00e65c_07f12cdd54ca48f08b0d242e3285d51f~mv2.png": {
+    "bytes": 490290,
+    "lossless": true,
+    "originalBytes": 750235,
+    "originalSha256": "abe292389d7956671c93d576104b138c248312b26271c600462b99408fe88e42",
+    "path": "assets/localized/c94f68d2b6afab453f0ba621.webp",
+    "sha256": "c94f68d2b6afab453f0ba6218755f2584de84a8275980ca6ef783c0a2ee6ac15",
+    "type": "image/webp"
+  },
+  "https://static.wixstatic.com/media/00e65c_07f12cdd54ca48f08b0d242e3285d51f~mv2.png/v1/fill/w_1635,h_1227,q_90,enc_avif,quality_auto/00e65c_07f12cdd54ca48f08b0d242e3285d51f~mv2.png": {
+    "bytes": 795148,
+    "lossless": true,
+    "originalBytes": 1305755,
+    "originalSha256": "2206b20a91a10a7b074a400f1202e652e9a79fa769273d8d40067a6b43438fb8",
+    "path": "assets/localized/b463ce8de801cd975c2636bc.webp",
+    "sha256": "b463ce8de801cd975c2636bc2f8ee5fc75b1f37cdc8e833362a06e04af97e99a",
+    "type": "image/webp"
+  },
+  "https://static.wixstatic.com/media/00e65c_07f12cdd54ca48f08b0d242e3285d51f~mv2.png/v1/fill/w_2180,h_1636,q_90,enc_avif,quality_auto/00e65c_07f12cdd54ca48f08b0d242e3285d51f~mv2.png": {
+    "bytes": 1234410,
+    "lossless": true,
+    "originalBytes": 2149283,
+    "originalSha256": "3dde7b600d35ba3fa0881bacacad12a36dbcf0190db9afdd9fe3ce162d2f837b",
+    "path": "assets/localized/e7243954c928d0698fa76114.webp",
+    "sha256": "e7243954c928d0698fa76114b3549709326c3cd0f50ef5a3a50dddb7491f67dc",
+    "type": "image/webp"
+  },
+  "https://static.wixstatic.com/media/00e65c_07f12cdd54ca48f08b0d242e3285d51f~mv2.png/v1/fill/w_2725,h_2045,q_90,enc_avif,quality_auto/00e65c_07f12cdd54ca48f08b0d242e3285d51f~mv2.png": {
+    "bytes": 1705544,
+    "lossless": true,
+    "originalBytes": 3136784,
+    "originalSha256": "ae7003c3bd59389d221cb96a92901220f0b361cffef3f74eccb601290f04516c",
+    "path": "assets/localized/b4b3026f636df5fed69d0e16.webp",
+    "sha256": "b4b3026f636df5fed69d0e168aeb83a48eb797f89f135cafac65bc72a86d4b58",
+    "type": "image/webp"
+  },
+  "https://static.wixstatic.com/media/00e65c_07f12cdd54ca48f08b0d242e3285d51f~mv2.png/v1/fill/w_545,h_409,q_90,enc_avif,quality_auto/00e65c_07f12cdd54ca48f08b0d242e3285d51f~mv2.png": {
+    "bytes": 178056,
+    "lossless": true,
+    "originalBytes": 269767,
+    "originalSha256": "be7f5844f0b1e228a86cf6667d230faf7da3a0a1042ec2ec11496d8b0339e022",
+    "path": "assets/localized/ba8563dd288f6d8aa04659d8.webp",
+    "sha256": "ba8563dd288f6d8aa04659d8a55a9c6ed7cab3758c50a854462f9c5d938151a5",
+    "type": "image/webp"
+  },
+  "https://static.wixstatic.com/media/00e65c_07f12cdd54ca48f08b0d242e3285d51f~mv2.png/v1/fill/w_7844,h_4412,al_c/00e65c_07f12cdd54ca48f08b0d242e3285d51f~mv2.png": {
+    "bytes": 4767692,
+    "lossless": true,
+    "originalBytes": 8450544,
+    "originalSha256": "a7d367f513208841b1e242e2ccfe1d3a812a4b5780454d6f6287cf92e9df2bc6",
+    "path": "assets/localized/58640e634ed32cd97cebba53.webp",
+    "sha256": "58640e634ed32cd97cebba5397f6deac0377d9dbed8fccede9b65c33dabffc03",
+    "type": "image/webp"
+  },
+  "https://static.wixstatic.com/media/00e65c_07f12cdd54ca48f08b0d242e3285d51f~mv2.png/v1/fit/w_1440,h_1083,q_90,enc_avif,quality_auto/00e65c_07f12cdd54ca48f08b0d242e3285d51f~mv2.png": {
+    "bytes": 534662,
+    "lossless": true,
+    "originalBytes": 806145,
+    "originalSha256": "2bbe265c3fb9c04a1bf855f9eef58d0524ad438d6fb5936d6d7403bc1bb6b1ce",
+    "path": "assets/localized/1bb05eeaa34536ce6758050d.webp",
+    "sha256": "1bb05eeaa34536ce6758050de9105d97e1fa5e149d851aa8c8fd9de4fba47dab",
+    "type": "image/webp"
+  },
+  "https://static.wixstatic.com/media/00e65c_07f12cdd54ca48f08b0d242e3285d51f~mv2.png/v1/fit/w_1440,h_1923,q_90,enc_avif,quality_auto/00e65c_07f12cdd54ca48f08b0d242e3285d51f~mv2.png": {
+    "bytes": 534662,
+    "lossless": true,
+    "originalBytes": 806145,
+    "originalSha256": "2bbe265c3fb9c04a1bf855f9eef58d0524ad438d6fb5936d6d7403bc1bb6b1ce",
+    "path": "assets/localized/1bb05eeaa34536ce6758050d.webp",
+    "sha256": "1bb05eeaa34536ce6758050de9105d97e1fa5e149d851aa8c8fd9de4fba47dab",
+    "type": "image/webp"
+  },
+  "https://static.wixstatic.com/media/00e65c_07f12cdd54ca48f08b0d242e3285d51f~mv2.png/v1/fit/w_1920,h_1444,q_90,enc_avif,quality_auto/00e65c_07f12cdd54ca48f08b0d242e3285d51f~mv2.png": {
+    "bytes": 846464,
+    "lossless": true,
+    "originalBytes": 1365607,
+    "originalSha256": "37a9551cc79c39ee7e6fddb97ef013b478574ceb38196d583eb7fa32f2281c7a",
+    "path": "assets/localized/888985fcecac73ad2606c5b7.webp",
+    "sha256": "888985fcecac73ad2606c5b7f54bdfb3869434331aa4bb0d4c8de0a4fee3673b",
+    "type": "image/webp"
+  },
+  "https://static.wixstatic.com/media/00e65c_07f12cdd54ca48f08b0d242e3285d51f~mv2.png/v1/fit/w_1920,h_2564,q_90,enc_avif,quality_auto/00e65c_07f12cdd54ca48f08b0d242e3285d51f~mv2.png": {
+    "bytes": 846464,
+    "lossless": true,
+    "originalBytes": 1365607,
+    "originalSha256": "37a9551cc79c39ee7e6fddb97ef013b478574ceb38196d583eb7fa32f2281c7a",
+    "path": "assets/localized/888985fcecac73ad2606c5b7.webp",
+    "sha256": "888985fcecac73ad2606c5b7f54bdfb3869434331aa4bb0d4c8de0a4fee3673b",
+    "type": "image/webp"
+  },
+  "https://static.wixstatic.com/media/00e65c_07f12cdd54ca48f08b0d242e3285d51f~mv2.png/v1/fit/w_2400,h_1805,q_90,enc_avif,quality_auto/00e65c_07f12cdd54ca48f08b0d242e3285d51f~mv2.png": {
+    "bytes": 1131242,
+    "lossless": true,
+    "originalBytes": 1913005,
+    "originalSha256": "1ea1874855e75bd249da08203c1991d3830db0f8ab6910643ef44ffb6e871499",
+    "path": "assets/localized/11493cd70802fec750fc0538.webp",
+    "sha256": "11493cd70802fec750fc053869d50eedab110b16a52165cb0178d3250a3f0e8b",
+    "type": "image/webp"
+  },
+  "https://static.wixstatic.com/media/00e65c_07f12cdd54ca48f08b0d242e3285d51f~mv2.png/v1/fit/w_2400,h_3205,q_90,enc_avif,quality_auto/00e65c_07f12cdd54ca48f08b0d242e3285d51f~mv2.png": {
+    "bytes": 1131242,
+    "lossless": true,
+    "originalBytes": 1913005,
+    "originalSha256": "1ea1874855e75bd249da08203c1991d3830db0f8ab6910643ef44ffb6e871499",
+    "path": "assets/localized/11493cd70802fec750fc0538.webp",
+    "sha256": "11493cd70802fec750fc053869d50eedab110b16a52165cb0178d3250a3f0e8b",
+    "type": "image/webp"
+  },
+  "https://static.wixstatic.com/media/00e65c_07f12cdd54ca48f08b0d242e3285d51f~mv2.png/v1/fit/w_480,h_361,q_90,enc_avif,quality_auto/00e65c_07f12cdd54ca48f08b0d242e3285d51f~mv2.png": {
+    "bytes": 180439,
+    "path": "assets/localized/253268cf1895803d2033db6c.png",
+    "sha256": "253268cf1895803d2033db6c7d05ca3b05acb32fc9970f6100e1e64ba2981807",
+    "type": "image/png"
+  },
+  "https://static.wixstatic.com/media/00e65c_07f12cdd54ca48f08b0d242e3285d51f~mv2.png/v1/fit/w_480,h_641,q_90,enc_avif,quality_auto/00e65c_07f12cdd54ca48f08b0d242e3285d51f~mv2.png": {
+    "bytes": 180439,
+    "path": "assets/localized/253268cf1895803d2033db6c.png",
+    "sha256": "253268cf1895803d2033db6c7d05ca3b05acb32fc9970f6100e1e64ba2981807",
+    "type": "image/png"
+  },
+  "https://static.wixstatic.com/media/00e65c_07f12cdd54ca48f08b0d242e3285d51f~mv2.png/v1/fit/w_960,h_1282,q_90,enc_avif,quality_auto/00e65c_07f12cdd54ca48f08b0d242e3285d51f~mv2.png": {
+    "bytes": 321606,
+    "lossless": true,
+    "originalBytes": 504712,
+    "originalSha256": "4413e03b8ae76e024f5bbcee7be396aa7f5d473bb98135f4a1bd37505160826c",
+    "path": "assets/localized/5d81c948e9593e71310b7c03.webp",
+    "sha256": "5d81c948e9593e71310b7c0332e99fa4e08eaad20c0ac23871d2547fb0a97d81",
+    "type": "image/webp"
+  },
+  "https://static.wixstatic.com/media/00e65c_07f12cdd54ca48f08b0d242e3285d51f~mv2.png/v1/fit/w_960,h_722,q_90,enc_avif,quality_auto/00e65c_07f12cdd54ca48f08b0d242e3285d51f~mv2.png": {
+    "bytes": 321606,
+    "lossless": true,
+    "originalBytes": 504712,
+    "originalSha256": "4413e03b8ae76e024f5bbcee7be396aa7f5d473bb98135f4a1bd37505160826c",
+    "path": "assets/localized/5d81c948e9593e71310b7c03.webp",
+    "sha256": "5d81c948e9593e71310b7c0332e99fa4e08eaad20c0ac23871d2547fb0a97d81",
+    "type": "image/webp"
+  },
+  "https://static.wixstatic.com/media/00e65c_098ad60d566947b7be6f5d2d97656ce2~mv2.png/v1/fill/w_1,h_1,q_90/00e65c_098ad60d566947b7be6f5d2d97656ce2~mv2.png": {
+    "bytes": 810,
+    "path": "assets/localized/a8818729fb43d60b2c1fe786.png",
+    "sha256": "a8818729fb43d60b2c1fe786f1a557039f17c5564c94c0e96c451fa6e33ed0d1",
+    "type": "image/png"
+  },
+  "https://static.wixstatic.com/media/00e65c_098ad60d566947b7be6f5d2d97656ce2~mv2.png/v1/fill/w_1,h_1,q_90/00e65c_098ad60d566947b7be6f5d2d97656ce2~mv2.webp": {
+    "bytes": 714,
+    "path": "assets/localized/e4c1613316430e48bdc2795d.webp",
+    "sha256": "e4c1613316430e48bdc2795d1d9d971d262ac17f7940830436a1149a0ca31f28",
+    "type": "image/webp"
+  },
+  "https://static.wixstatic.com/media/00e65c_098ad60d566947b7be6f5d2d97656ce2~mv2.png/v1/fill/w_3076,h_1932,al_c/00e65c_098ad60d566947b7be6f5d2d97656ce2~mv2.png": {
+    "bytes": 5010352,
+    "lossless": true,
+    "originalBytes": 11145456,
+    "originalSha256": "0d73a18e912dbe356d753ffec4dac1edb697ac6d9e86683c07ba2403e84bbc9d",
+    "path": "assets/localized/71e1ceb78b174d55f7232275.webp",
+    "sha256": "71e1ceb78b174d55f7232275d5d7c24fe1d6d6753378ca16e228ae46048c7bcf",
+    "type": "image/webp"
+  },
+  "https://static.wixstatic.com/media/00e65c_098ad60d566947b7be6f5d2d97656ce2~mv2.png/v1/fit/w_1440,h_1440,q_90,enc_avif,quality_auto/00e65c_098ad60d566947b7be6f5d2d97656ce2~mv2.png": {
+    "bytes": 1499476,
+    "lossless": true,
+    "originalBytes": 2800074,
+    "originalSha256": "062f50ce73fc0b30f057041f49fd22e27e039517af75ae2cdd066b0327147e52",
+    "path": "assets/localized/9494580a6abe3e6cc9e8f52f.webp",
+    "sha256": "9494580a6abe3e6cc9e8f52f1cfa3c1f903f70cac3e875d877a7be9baa08c7da",
+    "type": "image/webp"
+  },
+  "https://static.wixstatic.com/media/00e65c_098ad60d566947b7be6f5d2d97656ce2~mv2.png/v1/fit/w_1920,h_1920,q_90,enc_avif,quality_auto/00e65c_098ad60d566947b7be6f5d2d97656ce2~mv2.png": {
+    "bytes": 2548946,
+    "lossless": true,
+    "originalBytes": 4735754,
+    "originalSha256": "e64af443780393522937835b0b53c945593bbb70f6dbc901e649cdcb8dc8e86e",
+    "path": "assets/localized/a67af5d88ad91462a0bc2a09.webp",
+    "sha256": "a67af5d88ad91462a0bc2a0989a1d8872e112b9be0cd38427ba5a2ba411cf492",
+    "type": "image/webp"
+  },
+  "https://static.wixstatic.com/media/00e65c_098ad60d566947b7be6f5d2d97656ce2~mv2.png/v1/fit/w_2400,h_2400,q_90,enc_avif,quality_auto/00e65c_098ad60d566947b7be6f5d2d97656ce2~mv2.png": {
+    "bytes": 3525068,
+    "lossless": true,
+    "originalBytes": 7072190,
+    "originalSha256": "8e83a52edda39bb85d9aece6c7c3ce0f49c6f273e81e360ade94f21eb00bebf7",
+    "path": "assets/localized/73bb3868b2144f6332ec3192.webp",
+    "sha256": "73bb3868b2144f6332ec31928f313aa3424f50cbfc8463d5a51edfaa6a5ea621",
+    "type": "image/webp"
+  },
+  "https://static.wixstatic.com/media/00e65c_098ad60d566947b7be6f5d2d97656ce2~mv2.png/v1/fit/w_480,h_480,q_90,enc_avif,quality_auto/00e65c_098ad60d566947b7be6f5d2d97656ce2~mv2.png": {
+    "bytes": 195442,
+    "lossless": true,
+    "originalBytes": 336765,
+    "originalSha256": "0ab203e5d10f3125f77c2c8e4493f0659bf3692d2feb465bb242b85cc2efde02",
+    "path": "assets/localized/6a34eb97dbe19f5befe26f3c.webp",
+    "sha256": "6a34eb97dbe19f5befe26f3c7add3b91f5b39d3bab91344d28a4c80958952243",
+    "type": "image/webp"
+  },
+  "https://static.wixstatic.com/media/00e65c_098ad60d566947b7be6f5d2d97656ce2~mv2.png/v1/fit/w_960,h_960,q_90,enc_avif,quality_auto/00e65c_098ad60d566947b7be6f5d2d97656ce2~mv2.png": {
+    "bytes": 692102,
+    "lossless": true,
+    "originalBytes": 1280999,
+    "originalSha256": "0872bd92c6f2b6a02d69343307ef33552df95a20ba456c92dd0d4c953c657738",
+    "path": "assets/localized/b5fab17897310c128650f0ff.webp",
+    "sha256": "b5fab17897310c128650f0ff394b161215aabaa35c95bdaeb2e3ddd412530d19",
+    "type": "image/webp"
+  },
+  "https://static.wixstatic.com/media/00e65c_15a75efa993346d0b2058892ac66bd99~mv2.png/v1/fill/w_1,h_1,fp_0.5_0.46,q_90/00e65c_15a75efa993346d0b2058892ac66bd99~mv2.png": {
+    "bytes": 475,
+    "path": "assets/localized/48785b5c6daae09fe82d2c92.png",
+    "sha256": "48785b5c6daae09fe82d2c92cb61a6b0f9adcad4a6b31427a6b62311d4f1698c",
+    "type": "image/png"
+  },
+  "https://static.wixstatic.com/media/00e65c_15a75efa993346d0b2058892ac66bd99~mv2.png/v1/fill/w_1,h_1,fp_0.5_0.46,q_90/00e65c_15a75efa993346d0b2058892ac66bd99~mv2.webp": {
+    "bytes": 250,
+    "path": "assets/localized/c07c4ddbddcc067a5e900746.webp",
+    "sha256": "c07c4ddbddcc067a5e9007461f0dcecffa83783188afbde4a38b9dbffcd9e55a",
+    "type": "image/webp"
+  },
+  "https://static.wixstatic.com/media/00e65c_15a75efa993346d0b2058892ac66bd99~mv2.png/v1/fill/w_1090,h_818,fp_0.5_0.46,q_90,enc_avif,quality_auto/00e65c_15a75efa993346d0b2058892ac66bd99~mv2.png": {
+    "bytes": 1094208,
+    "lossless": true,
+    "originalBytes": 1763754,
+    "originalSha256": "2403efcca96c86a59af822720159d2ac13488094a925a71999cf7701982d81f5",
+    "path": "assets/localized/88f39a093a5f0a16b823c0b7.webp",
+    "sha256": "88f39a093a5f0a16b823c0b7c6b2251cc52d1b420c5b0332af9c014e82366e5e",
+    "type": "image/webp"
+  },
+  "https://static.wixstatic.com/media/00e65c_15a75efa993346d0b2058892ac66bd99~mv2.png/v1/fill/w_1440,h_1083,fp_0.5_0.46,q_90,enc_avif,quality_auto/00e65c_15a75efa993346d0b2058892ac66bd99~mv2.png": {
+    "bytes": 1811034,
+    "lossless": true,
+    "originalBytes": 2795828,
+    "originalSha256": "f9d4bba4c4c56ece0d4c8f1f3386c7051150908aa2348601278ab2ba657587d2",
+    "path": "assets/localized/9e3244b8272e10636ff7a002.webp",
+    "sha256": "9e3244b8272e10636ff7a002f9c0383568d28f6b9a7f2110db4e0ecead8c4430",
+    "type": "image/webp"
+  },
+  "https://static.wixstatic.com/media/00e65c_15a75efa993346d0b2058892ac66bd99~mv2.png/v1/fill/w_1440,h_1923,fp_0.5_0.46,q_90,enc_avif,quality_auto/00e65c_15a75efa993346d0b2058892ac66bd99~mv2.png": {
+    "bytes": 2991014,
+    "lossless": true,
+    "originalBytes": 4705107,
+    "originalSha256": "5bfaf941d6b08333e0e1c251e05fc3b95f22f0ee7a305660ba69ef946eae19fa",
+    "path": "assets/localized/9ca4e29f5a6141e0064fb346.webp",
+    "sha256": "9ca4e29f5a6141e0064fb3461fc9466ecc7234dfdad1b66b5f6f1b69d0cc6cff",
+    "type": "image/webp"
+  },
+  "https://static.wixstatic.com/media/00e65c_15a75efa993346d0b2058892ac66bd99~mv2.png/v1/fill/w_1635,h_1227,fp_0.5_0.46,q_90,enc_avif,quality_auto/00e65c_15a75efa993346d0b2058892ac66bd99~mv2.png": {
+    "bytes": 2312710,
+    "lossless": true,
+    "originalBytes": 3606652,
+    "originalSha256": "f46a84d570a1a543ccc7e7714d8183039502e33b947b93184be2b1edea815c89",
+    "path": "assets/localized/cc36c1f04c458e58bfa25071.webp",
+    "sha256": "cc36c1f04c458e58bfa25071219ec226e6737117ad8ab8c88d99095a32fcab30",
+    "type": "image/webp"
+  },
+  "https://static.wixstatic.com/media/00e65c_15a75efa993346d0b2058892ac66bd99~mv2.png/v1/fill/w_1640,h_2190,fp_0.5_0.46,q_90,enc_avif,quality_auto/00e65c_15a75efa993346d0b2058892ac66bd99~mv2.png": {
+    "bytes": 3707806,
+    "lossless": true,
+    "originalBytes": 6028467,
+    "originalSha256": "e4ad099d88f21c0f029077a76d38d384f6e8d1c685e9642645299b042a11f302",
+    "path": "assets/localized/d00d358543e9f43fba888c1e.webp",
+    "sha256": "d00d358543e9f43fba888c1ed71585aa5bcc304c1b587966fec35490c88c7768",
+    "type": "image/webp"
+  },
+  "https://static.wixstatic.com/media/00e65c_15a75efa993346d0b2058892ac66bd99~mv2.png/v1/fill/w_1920,h_1444,fp_0.5_0.46,q_90,enc_avif,quality_auto/00e65c_15a75efa993346d0b2058892ac66bd99~mv2.png": {
+    "bytes": 3181730,
+    "lossless": true,
+    "originalBytes": 4955570,
+    "originalSha256": "c4e569ecebc1ad0c918a66a8d9c756f94166792a1b10269e54359cb2ef74c38d",
+    "path": "assets/localized/fd4462a01903dafd2b013445.webp",
+    "sha256": "fd4462a01903dafd2b013445c49cb9a699ab7c7ec1fe14b13dcca95e7c0857e2",
+    "type": "image/webp"
+  },
+  "https://static.wixstatic.com/media/00e65c_15a75efa993346d0b2058892ac66bd99~mv2.png/v1/fill/w_2097,h_1713,al_c/00e65c_15a75efa993346d0b2058892ac66bd99~mv2.png": {
+    "bytes": 3694848,
+    "lossless": true,
+    "originalBytes": 5085147,
+    "originalSha256": "ce05cc7d01a7c45ce820c8c62d1c241323f18ff3ca5e8fa951849c53607b12ab",
+    "path": "assets/localized/180ad080ab15766bca0a3344.webp",
+    "sha256": "180ad080ab15766bca0a3344bbf1a3cdd6b042b291fc7bb79bbb296a30d7dbde",
+    "type": "image/webp"
+  },
+  "https://static.wixstatic.com/media/00e65c_15a75efa993346d0b2058892ac66bd99~mv2.png/v1/fill/w_2180,h_1636,fp_0.5_0.46,q_90,enc_avif,quality_auto/00e65c_15a75efa993346d0b2058892ac66bd99~mv2.png": {
+    "bytes": 3902366,
+    "lossless": true,
+    "originalBytes": 6741247,
+    "originalSha256": "54610b60f282eb9e45a27dcd88bd68e5021e475cabab85adf7ba19c4567efd4f",
+    "path": "assets/localized/a2d8923aa7c056f67aefaa16.webp",
+    "sha256": "a2d8923aa7c056f67aefaa1637737bbfd0c954cadd16b6eca7caa50427d25ef9",
+    "type": "image/webp"
+  },
+  "https://static.wixstatic.com/media/00e65c_15a75efa993346d0b2058892ac66bd99~mv2.png/v1/fill/w_2185,h_1643,fp_0.5_0.46,q_90,enc_avif,quality_auto/00e65c_15a75efa993346d0b2058892ac66bd99~mv2.png": {
+    "bytes": 3859976,
+    "lossless": true,
+    "originalBytes": 6224168,
+    "originalSha256": "4701575cdd4d526d68982fe3145a2ae0467c08b9593997c4f3a6e3aabf0c91be",
+    "path": "assets/localized/90ce784107524b8e9580ad4d.webp",
+    "sha256": "90ce784107524b8e9580ad4daad7abb994ebfc0f42d4af2b11d402c1d0b823d5",
+    "type": "image/webp"
+  },
+  "https://static.wixstatic.com/media/00e65c_15a75efa993346d0b2058892ac66bd99~mv2.png/v1/fill/w_2187,h_1641,fp_0.5_0.46,q_90,enc_avif,quality_auto/00e65c_15a75efa993346d0b2058892ac66bd99~mv2.png": {
+    "bytes": 3921788,
+    "lossless": true,
+    "originalBytes": 6781570,
+    "originalSha256": "65f91247f7824cccb5ac7af8b9325784e708580073eee314e3637de01b2dd2b3",
+    "path": "assets/localized/a8ee01ea67560c4f3a7d5d25.webp",
+    "sha256": "a8ee01ea67560c4f3a7d5d257b727839c5bae8688187b7806d0ddd391568e991",
+    "type": "image/webp"
+  },
+  "https://static.wixstatic.com/media/00e65c_15a75efa993346d0b2058892ac66bd99~mv2.png/v1/fill/w_480,h_361,fp_0.5_0.46,q_90,enc_avif,quality_auto/00e65c_15a75efa993346d0b2058892ac66bd99~mv2.png": {
+    "bytes": 216726,
+    "lossless": true,
+    "originalBytes": 349022,
+    "originalSha256": "5b3df60472f33398150573a46546c6677ad9fa293c8b9dd21b7042299a8884a3",
+    "path": "assets/localized/31d49cde05879bce2d24b316.webp",
+    "sha256": "31d49cde05879bce2d24b3168447dbd365889ac9616ddfc87376b3dba81bf21c",
+    "type": "image/webp"
+  },
+  "https://static.wixstatic.com/media/00e65c_15a75efa993346d0b2058892ac66bd99~mv2.png/v1/fill/w_480,h_641,fp_0.5_0.46,q_90,enc_avif,quality_auto/00e65c_15a75efa993346d0b2058892ac66bd99~mv2.png": {
+    "bytes": 387958,
+    "lossless": true,
+    "originalBytes": 611094,
+    "originalSha256": "576286c0f256c3bbc02577f3ee5fc63e093ebd329259f78a3c094239ddac924f",
+    "path": "assets/localized/2edd89aa9a5e9f40503fabbd.webp",
+    "sha256": "2edd89aa9a5e9f40503fabbd393c73809c8d798197d26a24c04a0a55f4d2a107",
+    "type": "image/webp"
+  },
+  "https://static.wixstatic.com/media/00e65c_15a75efa993346d0b2058892ac66bd99~mv2.png/v1/fill/w_545,h_409,fp_0.5_0.46,q_90,enc_avif,quality_auto/00e65c_15a75efa993346d0b2058892ac66bd99~mv2.png": {
+    "bytes": 256460,
+    "lossless": true,
+    "originalBytes": 433515,
+    "originalSha256": "991c76f7ddd4776ad6ff29ca8843e32939eed21d2a71f857731220f40d8fb3c5",
+    "path": "assets/localized/f1496149dc3f6d43181d171c.webp",
+    "sha256": "f1496149dc3f6d43181d171c112b76136313505c59dd1c7d85cae0b9d92ac162",
+    "type": "image/webp"
+  },
+  "https://static.wixstatic.com/media/00e65c_15a75efa993346d0b2058892ac66bd99~mv2.png/v1/fill/w_960,h_1282,fp_0.5_0.46,q_90,enc_avif,quality_auto/00e65c_15a75efa993346d0b2058892ac66bd99~mv2.png": {
+    "bytes": 1496304,
+    "lossless": true,
+    "originalBytes": 2391331,
+    "originalSha256": "b3a1f2bedd40fb28776fb2e04e4d02a2a0b79a12f03bedf8322888466c8592d0",
+    "path": "assets/localized/831f554ad6cfea9303b0fc06.webp",
+    "sha256": "831f554ad6cfea9303b0fc06ec185f4dec254ce4414a8144ace42dc67e55f75c",
+    "type": "image/webp"
+  },
+  "https://static.wixstatic.com/media/00e65c_15a75efa993346d0b2058892ac66bd99~mv2.png/v1/fill/w_960,h_722,fp_0.5_0.46,q_90,enc_avif,quality_auto/00e65c_15a75efa993346d0b2058892ac66bd99~mv2.png": {
+    "bytes": 856604,
+    "lossless": true,
+    "originalBytes": 1379743,
+    "originalSha256": "2783d3551dfccb3fb9a6a9d5b2859fc81ca7cd2b057492d01b00ac0710a0f46d",
+    "path": "assets/localized/43f1476e3d9e06f1ebb3c9d6.webp",
+    "sha256": "43f1476e3d9e06f1ebb3c9d609680700516afd672ec9ddfdcb283233df7d4745",
+    "type": "image/webp"
+  },
+  "https://static.wixstatic.com/media/00e65c_1c08af1c66c24b07931916f4495d9aeb~mv2.png/v1/fill/w_280,h_305,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/07149CF8-29CC-43EB-A94D-296BF40C2410_PNG.png": {
+    "bytes": 147559,
+    "path": "assets/localized/1fd034b986970516f48c7d05.png",
+    "sha256": "1fd034b986970516f48c7d05909b3618514dd5fae117ae3a71f987d2db12947e",
+    "type": "image/png"
+  },
+  "https://static.wixstatic.com/media/00e65c_1c08af1c66c24b07931916f4495d9aeb~mv2.png/v1/fill/w_428,h_466,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/07149CF8-29CC-43EB-A94D-296BF40C2410_PNG.png": {
+    "bytes": 183192,
+    "lossless": true,
+    "originalBytes": 335324,
+    "originalSha256": "e8d86d862694955c3e9a1fdcf5f2c2436b557a43402758d94eb552dd9b3e4dbd",
+    "path": "assets/localized/1adb2fbea7b7a5ccd57551a8.webp",
+    "sha256": "1adb2fbea7b7a5ccd57551a86434943a9c497624a92eb7aab46708c9e4f2e84f",
+    "type": "image/webp"
+  },
+  "https://static.wixstatic.com/media/00e65c_1c08af1c66c24b07931916f4495d9aeb~mv2.png/v1/fill/w_560,h_610,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/07149CF8-29CC-43EB-A94D-296BF40C2410_PNG.png": {
+    "bytes": 328740,
+    "lossless": true,
+    "originalBytes": 594570,
+    "originalSha256": "85ee720996dc3936c45f9d25bd64cd44169712164dacc09ef0e955f7a487089e",
+    "path": "assets/localized/9f99b0546d3d8fefd80ef67e.webp",
+    "sha256": "9f99b0546d3d8fefd80ef67ea40475ad1d7e74032693aaa06831c8810403d97e",
+    "type": "image/webp"
+  },
+  "https://static.wixstatic.com/media/00e65c_1c08af1c66c24b07931916f4495d9aeb~mv2.png/v1/fill/w_856,h_932,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/07149CF8-29CC-43EB-A94D-296BF40C2410_PNG.png": {
+    "bytes": 777584,
+    "lossless": true,
+    "originalBytes": 1408719,
+    "originalSha256": "6a39986f87d5768b8786e8c5eebcf8738dcd6b4cbc4ae4015eaac86a38c9e2cb",
+    "path": "assets/localized/3b4541e334641d7f8ba59075.webp",
+    "sha256": "3b4541e334641d7f8ba590754e58d36ed523af306894692ed5c6be8b99c1c152",
+    "type": "image/webp"
+  },
+  "https://static.wixstatic.com/media/00e65c_24b5b3c6ce724aa5b78d4c728a5f43c6~mv2.avif/v1/fill/w_240,h_240,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/oertraesk-coffee-table-brown-ash-veneer__1543873_pe1018962_s5.avif": {
+    "bytes": 1225,
+    "path": "assets/localized/edd13feb73d4e882e4549815.avif",
+    "sha256": "edd13feb73d4e882e4549815fb2336d5f210d9326ee54add012f28d23687e70c",
+    "type": "image/avif"
+  },
+  "https://static.wixstatic.com/media/00e65c_24b5b3c6ce724aa5b78d4c728a5f43c6~mv2.avif/v1/fill/w_337,h_337,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/oertraesk-coffee-table-brown-ash-veneer__1543873_pe1018962_s5.avif": {
+    "bytes": 1533,
+    "path": "assets/localized/bce9e3c0ac27df204d34a842.avif",
+    "sha256": "bce9e3c0ac27df204d34a842e86d05c37726ebe242f6a4e01d9a1e48f68b57d1",
+    "type": "image/avif"
+  },
+  "https://static.wixstatic.com/media/00e65c_24b5b3c6ce724aa5b78d4c728a5f43c6~mv2.avif/v1/fill/w_480,h_480,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/oertraesk-coffee-table-brown-ash-veneer__1543873_pe1018962_s5.avif": {
+    "bytes": 1734,
+    "path": "assets/localized/ab7e0d9b042d1c575d12d902.avif",
+    "sha256": "ab7e0d9b042d1c575d12d902defe67d2236a440f2118493e6eed58623cc7b65b",
+    "type": "image/avif"
+  },
+  "https://static.wixstatic.com/media/00e65c_24b5b3c6ce724aa5b78d4c728a5f43c6~mv2.avif/v1/fill/w_674,h_674,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/oertraesk-coffee-table-brown-ash-veneer__1543873_pe1018962_s5.avif": {
+    "bytes": 2340,
+    "path": "assets/localized/b933560424528deb8f398814.avif",
+    "sha256": "b933560424528deb8f398814e1ef8a2e76683480dc5178780b6fa0b980792cd8",
+    "type": "image/avif"
+  },
+  "https://static.wixstatic.com/media/00e65c_29cfd6244fb540fa98b613d808b38c9d~mv2.png/v1/fill/w_1,h_1,q_90/00e65c_29cfd6244fb540fa98b613d808b38c9d~mv2.png": {
+    "bytes": 810,
+    "path": "assets/localized/1759f4af1eae1ea88cca6aae.png",
+    "sha256": "1759f4af1eae1ea88cca6aae0c8af27631c38c884d15baf9ac560e9d1278c15b",
+    "type": "image/png"
+  },
+  "https://static.wixstatic.com/media/00e65c_29cfd6244fb540fa98b613d808b38c9d~mv2.png/v1/fill/w_1,h_1,q_90/00e65c_29cfd6244fb540fa98b613d808b38c9d~mv2.webp": {
+    "bytes": 714,
+    "path": "assets/localized/460acbe524144dced075e99b.webp",
+    "sha256": "460acbe524144dced075e99bf4250127f013f2d120193ea465ab629dde50eb5d",
+    "type": "image/webp"
+  },
+  "https://static.wixstatic.com/media/00e65c_29cfd6244fb540fa98b613d808b38c9d~mv2.png/v1/fill/w_2628,h_1874,al_c/00e65c_29cfd6244fb540fa98b613d808b38c9d~mv2.png": {
+    "bytes": 516804,
+    "lossless": true,
+    "originalBytes": 1189074,
+    "originalSha256": "0f3b9daffdbd1e1ac962f44a881ba1f877c2a3f016c4e5795b6edf30c14127c1",
+    "path": "assets/localized/d1b7769d634578d76135bc80.webp",
+    "sha256": "d1b7769d634578d76135bc8037548eebc440aa6d68017ba0ab69fc2e23d4bd89",
+    "type": "image/webp"
+  },
+  "https://static.wixstatic.com/media/00e65c_29cfd6244fb540fa98b613d808b38c9d~mv2.png/v1/fit/w_1440,h_1083,q_90,enc_avif,quality_auto/00e65c_29cfd6244fb540fa98b613d808b38c9d~mv2.png": {
+    "bytes": 305348,
+    "lossless": true,
+    "originalBytes": 595560,
+    "originalSha256": "c676b0636e9d6ceac09def8563a1a9124680e44b6d00acd4c0eaf9f1ce7820d7",
+    "path": "assets/localized/feb3ee5d1c739f3d733c5978.webp",
+    "sha256": "feb3ee5d1c739f3d733c5978841277125e284e21cb1d96d6cfca171e546f0b78",
+    "type": "image/webp"
+  },
+  "https://static.wixstatic.com/media/00e65c_29cfd6244fb540fa98b613d808b38c9d~mv2.png/v1/fit/w_1440,h_1923,q_90,enc_avif,quality_auto/00e65c_29cfd6244fb540fa98b613d808b38c9d~mv2.png": {
+    "bytes": 305348,
+    "lossless": true,
+    "originalBytes": 595560,
+    "originalSha256": "c676b0636e9d6ceac09def8563a1a9124680e44b6d00acd4c0eaf9f1ce7820d7",
+    "path": "assets/localized/feb3ee5d1c739f3d733c5978.webp",
+    "sha256": "feb3ee5d1c739f3d733c5978841277125e284e21cb1d96d6cfca171e546f0b78",
+    "type": "image/webp"
+  },
+  "https://static.wixstatic.com/media/00e65c_29cfd6244fb540fa98b613d808b38c9d~mv2.png/v1/fit/w_1920,h_1444,q_90,enc_avif,quality_auto/00e65c_29cfd6244fb540fa98b613d808b38c9d~mv2.png": {
+    "bytes": 483514,
+    "lossless": true,
+    "originalBytes": 918742,
+    "originalSha256": "065ac512d7c476cb065a0eea4adefe3567066090f1c4259e8c1aecd49a6ca087",
+    "path": "assets/localized/c06387ee445615d7ea80fbf0.webp",
+    "sha256": "c06387ee445615d7ea80fbf062b042afdb17bd6a037da145c519c2ffeef41fcd",
+    "type": "image/webp"
+  },
+  "https://static.wixstatic.com/media/00e65c_29cfd6244fb540fa98b613d808b38c9d~mv2.png/v1/fit/w_1920,h_2564,q_90,enc_avif,quality_auto/00e65c_29cfd6244fb540fa98b613d808b38c9d~mv2.png": {
+    "bytes": 483514,
+    "lossless": true,
+    "originalBytes": 918742,
+    "originalSha256": "065ac512d7c476cb065a0eea4adefe3567066090f1c4259e8c1aecd49a6ca087",
+    "path": "assets/localized/c06387ee445615d7ea80fbf0.webp",
+    "sha256": "c06387ee445615d7ea80fbf062b042afdb17bd6a037da145c519c2ffeef41fcd",
+    "type": "image/webp"
+  },
+  "https://static.wixstatic.com/media/00e65c_29cfd6244fb540fa98b613d808b38c9d~mv2.png/v1/fit/w_2400,h_1805,q_90,enc_avif,quality_auto/00e65c_29cfd6244fb540fa98b613d808b38c9d~mv2.png": {
+    "bytes": 623938,
+    "lossless": true,
+    "originalBytes": 1283952,
+    "originalSha256": "3be5341f0739d99d8359ff07b6557929b55f11363310d0b3fbb60822417c4847",
+    "path": "assets/localized/8efafb7618f93dafdab335b3.webp",
+    "sha256": "8efafb7618f93dafdab335b35c7348db17735790cbde1479bde702784ae276c4",
+    "type": "image/webp"
+  },
+  "https://static.wixstatic.com/media/00e65c_29cfd6244fb540fa98b613d808b38c9d~mv2.png/v1/fit/w_480,h_361,q_90,enc_avif,quality_auto/00e65c_29cfd6244fb540fa98b613d808b38c9d~mv2.png": {
+    "bytes": 93272,
+    "path": "assets/localized/ae6efb5aa3efa7664b07a567.png",
+    "sha256": "ae6efb5aa3efa7664b07a5673bdda177c8164be241447c373878a6e4aacdf6e4",
+    "type": "image/png"
+  },
+  "https://static.wixstatic.com/media/00e65c_29cfd6244fb540fa98b613d808b38c9d~mv2.png/v1/fit/w_480,h_641,q_90,enc_avif,quality_auto/00e65c_29cfd6244fb540fa98b613d808b38c9d~mv2.png": {
+    "bytes": 93272,
+    "path": "assets/localized/ae6efb5aa3efa7664b07a567.png",
+    "sha256": "ae6efb5aa3efa7664b07a5673bdda177c8164be241447c373878a6e4aacdf6e4",
+    "type": "image/png"
+  },
+  "https://static.wixstatic.com/media/00e65c_29cfd6244fb540fa98b613d808b38c9d~mv2.png/v1/fit/w_960,h_1282,q_90,enc_avif,quality_auto/00e65c_29cfd6244fb540fa98b613d808b38c9d~mv2.png": {
+    "bytes": 169098,
+    "lossless": true,
+    "originalBytes": 291996,
+    "originalSha256": "4caf2a38194a5d17b3ad99b23c4a987a57bceffc38c45562258634dea26040bd",
+    "path": "assets/localized/2ea00a21296953769ee9fa31.webp",
+    "sha256": "2ea00a21296953769ee9fa31d31cd667639edd9765ea1712447d47f944c43eb9",
+    "type": "image/webp"
+  },
+  "https://static.wixstatic.com/media/00e65c_29cfd6244fb540fa98b613d808b38c9d~mv2.png/v1/fit/w_960,h_722,q_90,enc_avif,quality_auto/00e65c_29cfd6244fb540fa98b613d808b38c9d~mv2.png": {
+    "bytes": 169098,
+    "lossless": true,
+    "originalBytes": 291996,
+    "originalSha256": "4caf2a38194a5d17b3ad99b23c4a987a57bceffc38c45562258634dea26040bd",
+    "path": "assets/localized/2ea00a21296953769ee9fa31.webp",
+    "sha256": "2ea00a21296953769ee9fa31d31cd667639edd9765ea1712447d47f944c43eb9",
+    "type": "image/webp"
+  },
+  "https://static.wixstatic.com/media/00e65c_30466c949f324a4fa1299fd88f8817a1~mv2.png/v1/fill/w_1090,h_1046,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/Screenshot%202026-08-27%20at%206_51_32%E2%80%AFPM.png": {
+    "bytes": 104396,
+    "path": "assets/localized/3e9551cbbb734830de49f399.png",
+    "sha256": "3e9551cbbb734830de49f399f9ec6795ec1b655b6a05e7c96396cc200a7985ed",
+    "type": "image/png"
+  },
+  "https://static.wixstatic.com/media/00e65c_30466c949f324a4fa1299fd88f8817a1~mv2.png/v1/fill/w_280,h_269,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Screenshot%202026-08-27%20at%206_51_32%E2%80%AFPM.png": {
+    "bytes": 19437,
+    "path": "assets/localized/59960138b9a72cb5f1c5a636.png",
+    "sha256": "59960138b9a72cb5f1c5a6363247898dc7c08601e9a1d72d81bbb72843696fab",
+    "type": "image/png"
+  },
+  "https://static.wixstatic.com/media/00e65c_30466c949f324a4fa1299fd88f8817a1~mv2.png/v1/fill/w_545,h_523,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Screenshot%202026-08-27%20at%206_51_32%E2%80%AFPM.png": {
+    "bytes": 43644,
+    "path": "assets/localized/f627b42a061caf1d96fa002f.png",
+    "sha256": "f627b42a061caf1d96fa002f1f2a10af0fe3f0e19c82c41fc34d7c0866d38a40",
+    "type": "image/png"
+  },
+  "https://static.wixstatic.com/media/00e65c_30466c949f324a4fa1299fd88f8817a1~mv2.png/v1/fill/w_560,h_538,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Screenshot%202026-08-27%20at%206_51_32%E2%80%AFPM.png": {
+    "bytes": 44762,
+    "path": "assets/localized/86ad2c9efca815293e5e8fda.png",
+    "sha256": "86ad2c9efca815293e5e8fda4ed9376ac4cd7db1c209f7b49c0d4d68d7c84568",
+    "type": "image/png"
+  },
+  "https://static.wixstatic.com/media/00e65c_381b19ca7ea0452c9cba28b875463ad1~mv2.png/v1/crop/x_114,y_0,w_3276,h_1888/fill/w_1492,h_860,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/Screenshot%202026-10-27%20at%2012_03_49%E2%80%AFPM.png": {
+    "bytes": 281492,
+    "lossless": true,
+    "originalBytes": 439205,
+    "originalSha256": "b9793be20feb89f14b74d46bf8bccb7c2dd44619aac8ccc589097034c9de7058",
+    "path": "assets/localized/4dc32249203ec42068c5874e.webp",
+    "sha256": "4dc32249203ec42068c5874e61fdf25537c8b4c77902f26d5fe7bf097557b4ed",
+    "type": "image/webp"
+  },
+  "https://static.wixstatic.com/media/00e65c_381b19ca7ea0452c9cba28b875463ad1~mv2.png/v1/crop/x_114,y_0,w_3276,h_1888/fill/w_280,h_161,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Screenshot%202026-10-27%20at%2012_03_49%E2%80%AFPM.png": {
+    "bytes": 34025,
+    "path": "assets/localized/987833509bf4bd97cbc1bbf4.png",
+    "sha256": "987833509bf4bd97cbc1bbf49477958a6592a5e35b51f732f2c74577b58542a9",
+    "type": "image/png"
+  },
+  "https://static.wixstatic.com/media/00e65c_381b19ca7ea0452c9cba28b875463ad1~mv2.png/v1/crop/x_114,y_0,w_3276,h_1888/fill/w_560,h_322,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Screenshot%202026-10-27%20at%2012_03_49%E2%80%AFPM.png": {
+    "bytes": 106526,
+    "path": "assets/localized/c9bad5caa8c53af11cdaed96.png",
+    "sha256": "c9bad5caa8c53af11cdaed9684e426e7bc3c85107fb52fd982d7cfd6c5c1b755",
+    "type": "image/png"
+  },
+  "https://static.wixstatic.com/media/00e65c_381b19ca7ea0452c9cba28b875463ad1~mv2.png/v1/crop/x_114,y_0,w_3276,h_1888/fill/w_746,h_430,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Screenshot%202026-10-27%20at%2012_03_49%E2%80%AFPM.png": {
+    "bytes": 167601,
+    "path": "assets/localized/23e3361d9c92d24d93e3012a.png",
+    "sha256": "23e3361d9c92d24d93e3012a8b2cd5a1b5822348f822aabbba75b7e1e44a5b82",
+    "type": "image/png"
+  },
+  "https://static.wixstatic.com/media/00e65c_3b20c0fc3c8840e1977e2b8be251689a~mv2.png/v1/fill/w_1402,h_782,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/Screenshot%202026-08-27%20at%206_48_07%E2%80%AFPM.png": {
+    "bytes": 670234,
+    "lossless": true,
+    "originalBytes": 932778,
+    "originalSha256": "7bda8471691e729d59a54f113e20b4f0776e13ac5e2a023c95ded12d5d1fa311",
+    "path": "assets/localized/5d551e3dd8f3e4245187fd05.webp",
+    "sha256": "5d551e3dd8f3e4245187fd05fba824f6c5c3a7e6ca426924f97f78406dc59d34",
+    "type": "image/webp"
+  },
+  "https://static.wixstatic.com/media/00e65c_3b20c0fc3c8840e1977e2b8be251689a~mv2.png/v1/fill/w_280,h_156,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Screenshot%202026-08-27%20at%206_48_07%E2%80%AFPM.png": {
+    "bytes": 68019,
+    "path": "assets/localized/1ce8762a8b080ed88f29c96d.png",
+    "sha256": "1ce8762a8b080ed88f29c96dc92234027030d349a3a7957b523691cae07a4fab",
+    "type": "image/png"
+  },
+  "https://static.wixstatic.com/media/00e65c_3b20c0fc3c8840e1977e2b8be251689a~mv2.png/v1/fill/w_560,h_312,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Screenshot%202026-08-27%20at%206_48_07%E2%80%AFPM.png": {
+    "bytes": 205210,
+    "path": "assets/localized/82dad5680782175777696e2e.png",
+    "sha256": "82dad5680782175777696e2e0a6ec8a259adaa57cf1d71cc570ed69ea6e6e14d",
+    "type": "image/png"
+  },
+  "https://static.wixstatic.com/media/00e65c_3b20c0fc3c8840e1977e2b8be251689a~mv2.png/v1/fill/w_701,h_391,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Screenshot%202026-08-27%20at%206_48_07%E2%80%AFPM.png": {
+    "bytes": 209554,
+    "lossless": true,
+    "originalBytes": 288580,
+    "originalSha256": "cd566f848f377b315824f6c202a6d69d702e719765c7874e18f1e2536167338e",
+    "path": "assets/localized/67c99c8aed26727dd8826b77.webp",
+    "sha256": "67c99c8aed26727dd8826b778f59736c29e9b511dd526e6b7394db1e80ef5470",
+    "type": "image/webp"
+  },
+  "https://static.wixstatic.com/media/00e65c_3d24d266af4940189f11d5d4053d09ce~mv2.png/v1/crop/x_124,y_0,w_3118,h_1780/fill/w_1290,h_736,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/Screenshot%202026-08-27%20at%207_07_10%E2%80%AFPM.png": {
+    "bytes": 1196226,
+    "lossless": true,
+    "originalBytes": 1845646,
+    "originalSha256": "dfde9c36bcd574009d0f0c9e56b7eebfcf17401ab14f67f1439e978f0329ab2a",
+    "path": "assets/localized/8f7a9c6740ddbb938eff3701.webp",
+    "sha256": "8f7a9c6740ddbb938eff3701c5c273c1f549e3c73a61afbbbfd4d02447a4450b",
+    "type": "image/webp"
+  },
+  "https://static.wixstatic.com/media/00e65c_3d24d266af4940189f11d5d4053d09ce~mv2.png/v1/crop/x_124,y_0,w_3118,h_1780/fill/w_280,h_160,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Screenshot%202026-08-27%20at%207_07_10%E2%80%AFPM.png": {
+    "bytes": 71381,
+    "path": "assets/localized/5cbc06c23a2a930f32084f04.png",
+    "sha256": "5cbc06c23a2a930f32084f04bf0d784b3705221f702574faccd9f28af04d5839",
+    "type": "image/png"
+  },
+  "https://static.wixstatic.com/media/00e65c_3d24d266af4940189f11d5d4053d09ce~mv2.png/v1/crop/x_124,y_0,w_3118,h_1780/fill/w_560,h_320,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Screenshot%202026-08-27%20at%207_07_10%E2%80%AFPM.png": {
+    "bytes": 253076,
+    "lossless": true,
+    "originalBytes": 336454,
+    "originalSha256": "28fcef5b14941351fcd16cc111aa801f28a5ea42874aa41b41db26767bd714d5",
+    "path": "assets/localized/cacf0ea6c2e95983ee74f106.webp",
+    "sha256": "cacf0ea6c2e95983ee74f10675132c0d78405a9687bc0e32d629574b7e65cafd",
+    "type": "image/webp"
+  },
+  "https://static.wixstatic.com/media/00e65c_3d24d266af4940189f11d5d4053d09ce~mv2.png/v1/crop/x_124,y_0,w_3118,h_1780/fill/w_645,h_368,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Screenshot%202026-08-27%20at%207_07_10%E2%80%AFPM.png": {
+    "bytes": 329478,
+    "lossless": true,
+    "originalBytes": 470934,
+    "originalSha256": "9ea8a0e86a29be98f85966ce49a3e630788299a82ca0090d7217beb9b747718e",
+    "path": "assets/localized/4e9cf88c162ebf2efaae32d9.webp",
+    "sha256": "4e9cf88c162ebf2efaae32d9a5c140fd826ba78b3d1dff2b144d69f5e9c0c3df",
+    "type": "image/webp"
+  },
+  "https://static.wixstatic.com/media/00e65c_459197ecff7d4612ae1ed9bd0c453134~mv2.jpg/v1/fill/w_1,h_1,fp_0.71_0.57,q_90/00e65c_459197ecff7d4612ae1ed9bd0c453134~mv2.jpg": {
+    "bytes": 692,
+    "path": "assets/localized/7109c6c572c6e01536ca2782.jpg",
+    "sha256": "7109c6c572c6e01536ca2782cf08d5e88ca4e31cded77a1d2ffa5a06e19a801a",
+    "type": "image/jpeg"
+  },
+  "https://static.wixstatic.com/media/00e65c_459197ecff7d4612ae1ed9bd0c453134~mv2.jpg/v1/fill/w_1,h_1,fp_0.71_0.57,q_90/00e65c_459197ecff7d4612ae1ed9bd0c453134~mv2.webp": {
+    "bytes": 276,
+    "path": "assets/localized/98e7a77ee422812fd9843d15.webp",
+    "sha256": "98e7a77ee422812fd9843d15358b7452afd72573785f1bd0f83bcaea654a3885",
+    "type": "image/webp"
+  },
+  "https://static.wixstatic.com/media/00e65c_459197ecff7d4612ae1ed9bd0c453134~mv2.jpg/v1/fill/w_1090,h_818,fp_0.71_0.57,q_90,enc_avif,quality_auto/00e65c_459197ecff7d4612ae1ed9bd0c453134~mv2.jpg": {
+    "bytes": 106609,
+    "path": "assets/localized/69ad31448a31dc6fbc0b1bab.jpg",
+    "sha256": "69ad31448a31dc6fbc0b1bab842755507e2897af6f4f7bc6d293b0f68a3833e2",
+    "type": "image/jpeg"
+  },
+  "https://static.wixstatic.com/media/00e65c_459197ecff7d4612ae1ed9bd0c453134~mv2.jpg/v1/fill/w_1418,h_1893,fp_0.71_0.57,q_90,enc_avif,quality_auto/00e65c_459197ecff7d4612ae1ed9bd0c453134~mv2.jpg": {
+    "bytes": 224891,
+    "path": "assets/localized/2ed19312980b63c232afcc6d.jpg",
+    "sha256": "2ed19312980b63c232afcc6da6447a90ce124d8a3450ab80d14fdb1182f57ac2",
+    "type": "image/jpeg"
+  },
+  "https://static.wixstatic.com/media/00e65c_459197ecff7d4612ae1ed9bd0c453134~mv2.jpg/v1/fill/w_1440,h_1083,fp_0.71_0.57,q_90,enc_avif,quality_auto/00e65c_459197ecff7d4612ae1ed9bd0c453134~mv2.jpg": {
+    "bytes": 156212,
+    "path": "assets/localized/44834fb0d2675c96bcae3086.jpg",
+    "sha256": "44834fb0d2675c96bcae3086140000c8f64759fc331d7bde0cb88cc6305d61d1",
+    "type": "image/jpeg"
+  },
+  "https://static.wixstatic.com/media/00e65c_459197ecff7d4612ae1ed9bd0c453134~mv2.jpg/v1/fill/w_1635,h_1227,fp_0.71_0.57,q_90,enc_avif,quality_auto/00e65c_459197ecff7d4612ae1ed9bd0c453134~mv2.jpg": {
+    "bytes": 186215,
+    "path": "assets/localized/83769fc48314543818832336.jpg",
+    "sha256": "83769fc4831454381883233679ea5124cada626e1fa34aa7f8a07da223c84a8f",
+    "type": "image/jpeg"
+  },
+  "https://static.wixstatic.com/media/00e65c_459197ecff7d4612ae1ed9bd0c453134~mv2.jpg/v1/fill/w_1890,h_1421,fp_0.71_0.57,q_90,enc_avif,quality_auto/00e65c_459197ecff7d4612ae1ed9bd0c453134~mv2.jpg": {
+    "bytes": 229441,
+    "path": "assets/localized/fca2cbb749d3b4552162407d.jpg",
+    "sha256": "fca2cbb749d3b4552162407d0761716932ca7695bd1bae382e8907b840930390",
+    "type": "image/jpeg"
+  },
+  "https://static.wixstatic.com/media/00e65c_459197ecff7d4612ae1ed9bd0c453134~mv2.jpg/v1/fill/w_1892,h_1419,fp_0.71_0.57,q_90,enc_avif,quality_auto/00e65c_459197ecff7d4612ae1ed9bd0c453134~mv2.jpg": {
+    "bytes": 229871,
+    "path": "assets/localized/d13b866912245c9dea0d71b3.jpg",
+    "sha256": "d13b866912245c9dea0d71b3f64f7193ed72c51a70ad975890903da590ac83fa",
+    "type": "image/jpeg"
+  },
+  "https://static.wixstatic.com/media/00e65c_459197ecff7d4612ae1ed9bd0c453134~mv2.jpg/v1/fill/w_2489,h_1080,al_c/00e65c_459197ecff7d4612ae1ed9bd0c453134~mv2.jpg": {
+    "bytes": 259637,
+    "path": "assets/localized/d1d403e875091c1e8829b9e6.jpg",
+    "sha256": "d1d403e875091c1e8829b9e6cd000d6c6754ab52f8da2ead010debbe750ea694",
+    "type": "image/jpeg"
+  },
+  "https://static.wixstatic.com/media/00e65c_459197ecff7d4612ae1ed9bd0c453134~mv2.jpg/v1/fill/w_480,h_361,fp_0.71_0.57,q_90,enc_avif,quality_auto/00e65c_459197ecff7d4612ae1ed9bd0c453134~mv2.jpg": {
+    "bytes": 32945,
+    "path": "assets/localized/a16f6b53eef0db9132e02ac5.jpg",
+    "sha256": "a16f6b53eef0db9132e02ac52ca4fe061a771ed7db6103a327a62fbbe25b2aba",
+    "type": "image/jpeg"
+  },
+  "https://static.wixstatic.com/media/00e65c_459197ecff7d4612ae1ed9bd0c453134~mv2.jpg/v1/fill/w_480,h_641,fp_0.71_0.57,q_90,enc_avif,quality_auto/00e65c_459197ecff7d4612ae1ed9bd0c453134~mv2.jpg": {
+    "bytes": 50708,
+    "path": "assets/localized/cd974e39d28b84f5550b3224.jpg",
+    "sha256": "cd974e39d28b84f5550b3224e62e970af3248a268a19ff08db01ca1531b822ef",
+    "type": "image/jpeg"
+  },
+  "https://static.wixstatic.com/media/00e65c_459197ecff7d4612ae1ed9bd0c453134~mv2.jpg/v1/fill/w_545,h_409,fp_0.71_0.57,q_90,enc_avif,quality_auto/00e65c_459197ecff7d4612ae1ed9bd0c453134~mv2.jpg": {
+    "bytes": 40009,
+    "path": "assets/localized/22e42cdebecac2026fbd4fdd.jpg",
+    "sha256": "22e42cdebecac2026fbd4fdde8a9ce80022f2b2056afea3e3622482e0ef58330",
+    "type": "image/jpeg"
+  },
+  "https://static.wixstatic.com/media/00e65c_459197ecff7d4612ae1ed9bd0c453134~mv2.jpg/v1/fill/w_960,h_1282,fp_0.71_0.57,q_90,enc_avif,quality_auto/00e65c_459197ecff7d4612ae1ed9bd0c453134~mv2.jpg": {
+    "bytes": 130347,
+    "path": "assets/localized/d5251c5ecf3ae1b29429ac85.jpg",
+    "sha256": "d5251c5ecf3ae1b29429ac857e2dfcfc5fd8b60f10a5d1496465972306b652fb",
+    "type": "image/jpeg"
+  },
+  "https://static.wixstatic.com/media/00e65c_459197ecff7d4612ae1ed9bd0c453134~mv2.jpg/v1/fill/w_960,h_722,fp_0.71_0.57,q_90,enc_avif,quality_auto/00e65c_459197ecff7d4612ae1ed9bd0c453134~mv2.jpg": {
+    "bytes": 89403,
+    "path": "assets/localized/34a757c5ad8a99be01d0b022.jpg",
+    "sha256": "34a757c5ad8a99be01d0b022506f88e94eef176cdea9e3bedd292307edffbe6b",
+    "type": "image/jpeg"
+  },
+  "https://static.wixstatic.com/media/00e65c_4740fda26c544ea1a3a13628646a0739~mv2.png/v1/fill/w_280,h_158,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/00e65c_4740fda26c544ea1a3a13628646a0739~mv2.png": {
+    "bytes": 17877,
+    "path": "assets/localized/f259db5d9f8c3453a96bef7d.png",
+    "sha256": "f259db5d9f8c3453a96bef7df3f6565bdc14f2576ca4c298f4e683b613fd22ac",
+    "type": "image/png"
+  },
+  "https://static.wixstatic.com/media/00e65c_4740fda26c544ea1a3a13628646a0739~mv2.png/v1/fill/w_416,h_234,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/00e65c_4740fda26c544ea1a3a13628646a0739~mv2.png": {
+    "bytes": 33651,
+    "path": "assets/localized/e364682e147338595b16ebb5.png",
+    "sha256": "e364682e147338595b16ebb5e7c0f41926a741a28c8ffeb5a4fb8ad4b4e1c7c7",
+    "type": "image/png"
+  },
+  "https://static.wixstatic.com/media/00e65c_4740fda26c544ea1a3a13628646a0739~mv2.png/v1/fill/w_560,h_316,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/00e65c_4740fda26c544ea1a3a13628646a0739~mv2.png": {
+    "bytes": 53501,
+    "path": "assets/localized/1203d8338f13eb35553f4088.png",
+    "sha256": "1203d8338f13eb35553f408801d61ff325722c32ad453df673d28967ddf25d83",
+    "type": "image/png"
+  },
+  "https://static.wixstatic.com/media/00e65c_4740fda26c544ea1a3a13628646a0739~mv2.png/v1/fill/w_832,h_468,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/00e65c_4740fda26c544ea1a3a13628646a0739~mv2.png": {
+    "bytes": 97646,
+    "path": "assets/localized/9d9ccd32bf388046f68b9956.png",
+    "sha256": "9d9ccd32bf388046f68b9956c18c8a51658682e63b6aaab93322a2b5a0561485",
+    "type": "image/png"
+  },
+  "https://static.wixstatic.com/media/00e65c_58ac5fb2f91544ac9b8ac613d0c6a265~mv2.jpg/v1/fill/w_1,h_1,q_90/00e65c_58ac5fb2f91544ac9b8ac613d0c6a265~mv2.jpg": {
+    "bytes": 1166,
+    "path": "assets/localized/2fb088ee70766b6c29b6a107.jpg",
+    "sha256": "2fb088ee70766b6c29b6a107620faa372e31deaf26ecab0d7b5ceb06f9e9aa17",
+    "type": "image/jpeg"
+  },
+  "https://static.wixstatic.com/media/00e65c_58ac5fb2f91544ac9b8ac613d0c6a265~mv2.jpg/v1/fill/w_1,h_1,q_90/00e65c_58ac5fb2f91544ac9b8ac613d0c6a265~mv2.webp": {
+    "bytes": 736,
+    "path": "assets/localized/e771d62ff9a76cc232639e2e.webp",
+    "sha256": "e771d62ff9a76cc232639e2ea64c68860299c6da4de55e26f477c18d47803e21",
+    "type": "image/webp"
+  },
+  "https://static.wixstatic.com/media/00e65c_58ac5fb2f91544ac9b8ac613d0c6a265~mv2.jpg/v1/fill/w_1206,h_1206,al_c/00e65c_58ac5fb2f91544ac9b8ac613d0c6a265~mv2.jpg": {
+    "bytes": 521273,
+    "path": "assets/localized/fdc890b2a3a4d97b7ac109f6.jpg",
+    "sha256": "fdc890b2a3a4d97b7ac109f6bad8212f03c11a1a2691eab987fa8453c0f1fb02",
+    "type": "image/jpeg"
+  },
+  "https://static.wixstatic.com/media/00e65c_58ac5fb2f91544ac9b8ac613d0c6a265~mv2.jpg/v1/fit/w_1043,h_1392,q_90,enc_avif,quality_auto/00e65c_58ac5fb2f91544ac9b8ac613d0c6a265~mv2.jpg": {
+    "bytes": 272842,
+    "path": "assets/localized/267810415f46c6e6c9bde692.jpg",
+    "sha256": "267810415f46c6e6c9bde692548f9f79315df4d1a8ae35ebd67195415bb31773",
+    "type": "image/jpeg"
+  },
+  "https://static.wixstatic.com/media/00e65c_58ac5fb2f91544ac9b8ac613d0c6a265~mv2.jpg/v1/fit/w_1390,h_1045,q_90,enc_avif,quality_auto/00e65c_58ac5fb2f91544ac9b8ac613d0c6a265~mv2.jpg": {
+    "bytes": 272288,
+    "path": "assets/localized/b34cb3d181a379ad4c2d7606.jpg",
+    "sha256": "b34cb3d181a379ad4c2d760658238efdec4dfd66981f7a321cded90293cea822",
+    "type": "image/jpeg"
+  },
+  "https://static.wixstatic.com/media/00e65c_58ac5fb2f91544ac9b8ac613d0c6a265~mv2.jpg/v1/fit/w_480,h_361,q_90,enc_avif,quality_auto/00e65c_58ac5fb2f91544ac9b8ac613d0c6a265~mv2.jpg": {
+    "bytes": 38505,
+    "path": "assets/localized/478d4ede55b8be03225670c9.jpg",
+    "sha256": "478d4ede55b8be03225670c92bf0e11e0718d399544bb7e8a81b84b65d7821ba",
+    "type": "image/jpeg"
+  },
+  "https://static.wixstatic.com/media/00e65c_58ac5fb2f91544ac9b8ac613d0c6a265~mv2.jpg/v1/fit/w_480,h_641,q_90,enc_avif,quality_auto/00e65c_58ac5fb2f91544ac9b8ac613d0c6a265~mv2.jpg": {
+    "bytes": 66201,
+    "path": "assets/localized/cdba339e639a1ca429578011.jpg",
+    "sha256": "cdba339e639a1ca42957801100ed3dd88789640cf3b2a5dc57c6c4709a0aa5b0",
+    "type": "image/jpeg"
+  },
+  "https://static.wixstatic.com/media/00e65c_58ac5fb2f91544ac9b8ac613d0c6a265~mv2.jpg/v1/fit/w_960,h_1282,q_90,enc_avif,quality_auto/00e65c_58ac5fb2f91544ac9b8ac613d0c6a265~mv2.jpg": {
+    "bytes": 234864,
+    "path": "assets/localized/13dd965fadedd02aec008bb8.jpg",
+    "sha256": "13dd965fadedd02aec008bb8fe91ec6067805f8e8b25a33683bfb013bd2b2949",
+    "type": "image/jpeg"
+  },
+  "https://static.wixstatic.com/media/00e65c_58ac5fb2f91544ac9b8ac613d0c6a265~mv2.jpg/v1/fit/w_960,h_722,q_90,enc_avif,quality_auto/00e65c_58ac5fb2f91544ac9b8ac613d0c6a265~mv2.jpg": {
+    "bytes": 145316,
+    "path": "assets/localized/5a0f3c34c484c37d44e3506b.jpg",
+    "sha256": "5a0f3c34c484c37d44e3506bd313a930ae4f25ea322bcdede7d911db7987b9c6",
+    "type": "image/jpeg"
+  },
+  "https://static.wixstatic.com/media/00e65c_5f8ae9763a144dff9a81dbd1cf1f3edb~mv2.png/v1/fill/w_1,h_1,q_90/00e65c_5f8ae9763a144dff9a81dbd1cf1f3edb~mv2.png": {
+    "bytes": 474,
+    "path": "assets/localized/9959abdc7dcd1d94a8ee9e60.png",
+    "sha256": "9959abdc7dcd1d94a8ee9e60a7a52c8ecdbcffee62f6f0ef8a653a942f56a151",
+    "type": "image/png"
+  },
+  "https://static.wixstatic.com/media/00e65c_5f8ae9763a144dff9a81dbd1cf1f3edb~mv2.png/v1/fill/w_1,h_1,q_90/00e65c_5f8ae9763a144dff9a81dbd1cf1f3edb~mv2.webp": {
+    "bytes": 250,
+    "path": "assets/localized/b05decde074a4287d1d39de8.webp",
+    "sha256": "b05decde074a4287d1d39de8c1d2effbde9a9be45e7cdbf2627290b4f8fee192",
+    "type": "image/webp"
+  },
+  "https://static.wixstatic.com/media/00e65c_5f8ae9763a144dff9a81dbd1cf1f3edb~mv2.png/v1/fill/w_1920,h_1080,al_c/00e65c_5f8ae9763a144dff9a81dbd1cf1f3edb~mv2.png": {
+    "bytes": 123192,
+    "lossless": true,
+    "originalBytes": 257581,
+    "originalSha256": "de4b2b3fce71bf565625bbe1608db175057ee4e6480f18cfd634a041ba51929d",
+    "path": "assets/localized/8798ca004c6396a8290accf3.webp",
+    "sha256": "8798ca004c6396a8290accf3058ab8ec8c8064288388804681d98e407496f3e7",
+    "type": "image/webp"
+  },
+  "https://static.wixstatic.com/media/00e65c_5f8ae9763a144dff9a81dbd1cf1f3edb~mv2.png/v1/fit/w_1246,h_1663,q_90,enc_avif,quality_auto/00e65c_5f8ae9763a144dff9a81dbd1cf1f3edb~mv2.png": {
+    "bytes": 119391,
+    "path": "assets/localized/20374ccd6803099b5272bc9e.png",
+    "sha256": "20374ccd6803099b5272bc9e8a5a478ae313e3f7ed63bd1d915212f09ca78192",
+    "type": "image/png"
+  },
+  "https://static.wixstatic.com/media/00e65c_5f8ae9763a144dff9a81dbd1cf1f3edb~mv2.png/v1/fit/w_1440,h_1083,q_90,enc_avif,quality_auto/00e65c_5f8ae9763a144dff9a81dbd1cf1f3edb~mv2.png": {
+    "bytes": 156422,
+    "path": "assets/localized/18d5f54408c43e7d0e7ed1a3.png",
+    "sha256": "18d5f54408c43e7d0e7ed1a3d6fc0ddc3eff59d25f23455150a12562e8671deb",
+    "type": "image/png"
+  },
+  "https://static.wixstatic.com/media/00e65c_5f8ae9763a144dff9a81dbd1cf1f3edb~mv2.png/v1/fit/w_1660,h_1248,q_90,enc_avif,quality_auto/00e65c_5f8ae9763a144dff9a81dbd1cf1f3edb~mv2.png": {
+    "bytes": 200383,
+    "path": "assets/localized/e63bf98fa46e325b1c16ecb3.png",
+    "sha256": "e63bf98fa46e325b1c16ecb3ddd820a18c93bd57ccddd059d0beb581b10cd070",
+    "type": "image/png"
+  },
+  "https://static.wixstatic.com/media/00e65c_5f8ae9763a144dff9a81dbd1cf1f3edb~mv2.png/v1/fit/w_480,h_361,q_90,enc_avif,quality_auto/00e65c_5f8ae9763a144dff9a81dbd1cf1f3edb~mv2.png": {
+    "bytes": 21556,
+    "path": "assets/localized/21212ef3c8b76cf5a6e2bede.png",
+    "sha256": "21212ef3c8b76cf5a6e2bede96a68be6480ae3f4a4c2b71b35fd0058087dd52a",
+    "type": "image/png"
+  },
+  "https://static.wixstatic.com/media/00e65c_5f8ae9763a144dff9a81dbd1cf1f3edb~mv2.png/v1/fit/w_480,h_641,q_90,enc_avif,quality_auto/00e65c_5f8ae9763a144dff9a81dbd1cf1f3edb~mv2.png": {
+    "bytes": 21556,
+    "path": "assets/localized/21212ef3c8b76cf5a6e2bede.png",
+    "sha256": "21212ef3c8b76cf5a6e2bede96a68be6480ae3f4a4c2b71b35fd0058087dd52a",
+    "type": "image/png"
+  },
+  "https://static.wixstatic.com/media/00e65c_5f8ae9763a144dff9a81dbd1cf1f3edb~mv2.png/v1/fit/w_960,h_1282,q_90,enc_avif,quality_auto/00e65c_5f8ae9763a144dff9a81dbd1cf1f3edb~mv2.png": {
+    "bytes": 75445,
+    "path": "assets/localized/8e3d5710c06a7c6f4d86c511.png",
+    "sha256": "8e3d5710c06a7c6f4d86c511d79097b976b6384d50eeb13463ece9a020a635e9",
+    "type": "image/png"
+  },
+  "https://static.wixstatic.com/media/00e65c_5f8ae9763a144dff9a81dbd1cf1f3edb~mv2.png/v1/fit/w_960,h_722,q_90,enc_avif,quality_auto/00e65c_5f8ae9763a144dff9a81dbd1cf1f3edb~mv2.png": {
+    "bytes": 74284,
+    "path": "assets/localized/fc6ee459ca85bcffc4d15c9c.png",
+    "sha256": "fc6ee459ca85bcffc4d15c9cf2818e173d91898258993598455428d251d7aca1",
+    "type": "image/png"
+  },
+  "https://static.wixstatic.com/media/00e65c_632f73103a1943848c3f8506dc7aef4e~mv2.png/v1/fill/w_280,h_157,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/4.png": {
+    "bytes": 33421,
+    "path": "assets/localized/1d6e7b299b05f947319a6711.png",
+    "sha256": "1d6e7b299b05f947319a67113f548af65fcd0b2b5ba64960eafd49b4596b7e9d",
+    "type": "image/png"
+  },
+  "https://static.wixstatic.com/media/00e65c_632f73103a1943848c3f8506dc7aef4e~mv2.png/v1/fill/w_416,h_234,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/4.png": {
+    "bytes": 68189,
+    "path": "assets/localized/2c77c0717ed7834290cc0e1f.png",
+    "sha256": "2c77c0717ed7834290cc0e1fc492c39ba8cc26d52774c4713a923a17db878d51",
+    "type": "image/png"
+  },
+  "https://static.wixstatic.com/media/00e65c_632f73103a1943848c3f8506dc7aef4e~mv2.png/v1/fill/w_560,h_314,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/4.png": {
+    "bytes": 115683,
+    "path": "assets/localized/254b8a23411ab591f44ddcdd.png",
+    "sha256": "254b8a23411ab591f44ddcdd33b78c359da6a4300a7f7048c45e094faad5d8d0",
+    "type": "image/png"
+  },
+  "https://static.wixstatic.com/media/00e65c_632f73103a1943848c3f8506dc7aef4e~mv2.png/v1/fill/w_832,h_468,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/4.png": {
+    "bytes": 235171,
+    "path": "assets/localized/1d0d5b1ff40db5edc72da570.png",
+    "sha256": "1d0d5b1ff40db5edc72da570deb2e1d7b09104d163ec2b3bbf051b5e926ebf9d",
+    "type": "image/png"
+  },
+  "https://static.wixstatic.com/media/00e65c_69336f81c57a44cbb6422d978d6ea308~mv2.png/v1/fill/w_280,h_158,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/5.png": {
+    "bytes": 33095,
+    "path": "assets/localized/2b5c0a6767803818c8226c2b.png",
+    "sha256": "2b5c0a6767803818c8226c2b54859f1ede55d10a8abc16be9257e27f021843df",
+    "type": "image/png"
+  },
+  "https://static.wixstatic.com/media/00e65c_69336f81c57a44cbb6422d978d6ea308~mv2.png/v1/fill/w_416,h_234,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/5.png": {
+    "bytes": 64974,
+    "path": "assets/localized/53da7dd314d175ad117385c4.png",
+    "sha256": "53da7dd314d175ad117385c45da88c391197f566eb5178691c97a4f387cafdcc",
+    "type": "image/png"
+  },
+  "https://static.wixstatic.com/media/00e65c_69336f81c57a44cbb6422d978d6ea308~mv2.png/v1/fill/w_560,h_316,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/5.png": {
+    "bytes": 105568,
+    "path": "assets/localized/0b973297b99786b0619f7333.png",
+    "sha256": "0b973297b99786b0619f73334b51904402d92a669616d47b946726d9c2ac58f0",
+    "type": "image/png"
+  },
+  "https://static.wixstatic.com/media/00e65c_69336f81c57a44cbb6422d978d6ea308~mv2.png/v1/fill/w_832,h_468,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/5.png": {
+    "bytes": 197738,
+    "path": "assets/localized/b81be3844d5d4896170a9724.png",
+    "sha256": "b81be3844d5d4896170a9724c036748c67c4fdba5d38b9f14e2c7d4552164d81",
+    "type": "image/png"
+  },
+  "https://static.wixstatic.com/media/00e65c_6b3e4340dd5b4a95af193719f57fa5fe~mv2.png/v1/fill/w_49,h_24,al_c,q_85,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/00e65c_6b3e4340dd5b4a95af193719f57fa5fe~mv2.png": {
+    "bytes": 989,
+    "path": "assets/localized/45a65c3274f471c252b8c777.png",
+    "sha256": "45a65c3274f471c252b8c7778178d2c86619fd84f777c7b0367530a5a7afcf2a",
+    "type": "image/png"
+  },
+  "https://static.wixstatic.com/media/00e65c_6b3e4340dd5b4a95af193719f57fa5fe~mv2.png/v1/fill/w_80,h_39,al_c,q_85,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/00e65c_6b3e4340dd5b4a95af193719f57fa5fe~mv2.png": {
+    "bytes": 1890,
+    "path": "assets/localized/d965badf151bfe7ca9dad95c.png",
+    "sha256": "d965badf151bfe7ca9dad95c9e7030b04aa11acd41c6aabba27c88bed07c2ea2",
+    "type": "image/png"
+  },
+  "https://static.wixstatic.com/media/00e65c_7ffc22fefd6241febdb7e4b0aaa00768~mv2.jpg/v1/fill/w_1360,h_766,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/A1_01.jpg": {
+    "bytes": 121138,
+    "path": "assets/localized/bbb973bb4f9e85c81e792a74.jpg",
+    "sha256": "bbb973bb4f9e85c81e792a741e317dfad6241ba14ff273500519d6d32dcc26b0",
+    "type": "image/jpeg"
+  },
+  "https://static.wixstatic.com/media/00e65c_7ffc22fefd6241febdb7e4b0aaa00768~mv2.jpg/v1/fill/w_280,h_156,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/A1_01.jpg": {
+    "bytes": 9144,
+    "path": "assets/localized/175d6c52ecad9a67fa51980e.jpg",
+    "sha256": "175d6c52ecad9a67fa51980e943e003bce5cfa1783aff0d5322f3d0a52f2926f",
+    "type": "image/jpeg"
+  },
+  "https://static.wixstatic.com/media/00e65c_7ffc22fefd6241febdb7e4b0aaa00768~mv2.jpg/v1/fill/w_560,h_312,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/A1_01.jpg": {
+    "bytes": 26932,
+    "path": "assets/localized/cc1880a6b5b8d970f0c052f6.jpg",
+    "sha256": "cc1880a6b5b8d970f0c052f637acc475c43c88e42e3c757e3d75b72cca2dfd43",
+    "type": "image/jpeg"
+  },
+  "https://static.wixstatic.com/media/00e65c_7ffc22fefd6241febdb7e4b0aaa00768~mv2.jpg/v1/fill/w_680,h_383,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/A1_01.jpg": {
+    "bytes": 37342,
+    "path": "assets/localized/7ab99514196159680d23c39b.jpg",
+    "sha256": "7ab99514196159680d23c39b058d24b7c4ac1d21cefb07937311ad6b8df3b93c",
+    "type": "image/jpeg"
+  },
+  "https://static.wixstatic.com/media/00e65c_8497c9bb2a91499481e738a1cccde530~mv2.avif/v1/fill/w_240,h_240,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/kinnahult-floor-lamp-ash-white__1170759_pe892939_s5.avif": {
+    "bytes": 848,
+    "path": "assets/localized/9d0d05d6e67b72aa4ef25bbc.avif",
+    "sha256": "9d0d05d6e67b72aa4ef25bbc56d2290d11da85a63aba9a084b5925cbf3e7437e",
+    "type": "image/avif"
+  },
+  "https://static.wixstatic.com/media/00e65c_8497c9bb2a91499481e738a1cccde530~mv2.avif/v1/fill/w_337,h_337,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/kinnahult-floor-lamp-ash-white__1170759_pe892939_s5.avif": {
+    "bytes": 1035,
+    "path": "assets/localized/e6f2c647ba0f5a1cba51cfce.avif",
+    "sha256": "e6f2c647ba0f5a1cba51cfce1258c4f0d6dc9171cf8e7ad2cea2857dc167dd3c",
+    "type": "image/avif"
+  },
+  "https://static.wixstatic.com/media/00e65c_8497c9bb2a91499481e738a1cccde530~mv2.avif/v1/fill/w_480,h_480,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/kinnahult-floor-lamp-ash-white__1170759_pe892939_s5.avif": {
+    "bytes": 1183,
+    "path": "assets/localized/9a2ddc19cf7a3d54e67b05ba.avif",
+    "sha256": "9a2ddc19cf7a3d54e67b05baaa3b1592aee4e5e63dee5d45d0470185c0bd3b83",
+    "type": "image/avif"
+  },
+  "https://static.wixstatic.com/media/00e65c_8497c9bb2a91499481e738a1cccde530~mv2.avif/v1/fill/w_674,h_674,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/kinnahult-floor-lamp-ash-white__1170759_pe892939_s5.avif": {
+    "bytes": 1588,
+    "path": "assets/localized/059ceea3be6b363dae650eff.avif",
+    "sha256": "059ceea3be6b363dae650efff7b7fd0bcd3be0377afab0a60d3f69d45d76e933",
+    "type": "image/avif"
+  },
+  "https://static.wixstatic.com/media/00e65c_8a0a3275ef9d4ecebadf1fe0d03ff67b~mv2.png/v1/fill/w_1,h_1,q_90/00e65c_8a0a3275ef9d4ecebadf1fe0d03ff67b~mv2.png": {
+    "bytes": 475,
+    "path": "assets/localized/cf2bb72d01d7580fb957e7f3.png",
+    "sha256": "cf2bb72d01d7580fb957e7f30be74b786f66d0cd6143d2d1d4d44fc89814a557",
+    "type": "image/png"
+  },
+  "https://static.wixstatic.com/media/00e65c_8a0a3275ef9d4ecebadf1fe0d03ff67b~mv2.png/v1/fill/w_1,h_1,q_90/00e65c_8a0a3275ef9d4ecebadf1fe0d03ff67b~mv2.webp": {
+    "bytes": 250,
+    "path": "assets/localized/8cc802122ad0f1b18606b1bd.webp",
+    "sha256": "8cc802122ad0f1b18606b1bd9517e2b694811eb7f9d79f1fedeee009be917d9e",
+    "type": "image/webp"
+  },
+  "https://static.wixstatic.com/media/00e65c_8a0a3275ef9d4ecebadf1fe0d03ff67b~mv2.png/v1/fill/w_545,h_409,q_90,enc_avif,quality_auto/00e65c_8a0a3275ef9d4ecebadf1fe0d03ff67b~mv2.png": {
+    "bytes": 210826,
+    "lossless": true,
+    "originalBytes": 425144,
+    "originalSha256": "acbfa87522e7493316e8a13eefda207f5956ccccf533b77c90dd12f3a2b49456",
+    "path": "assets/localized/e522962b880d5de85687cb3a.webp",
+    "sha256": "e522962b880d5de85687cb3a77669a69d1ebb3612076085ae6e523d7e82ffe9b",
+    "type": "image/webp"
+  },
+  "https://static.wixstatic.com/media/00e65c_8a0a3275ef9d4ecebadf1fe0d03ff67b~mv2.png/v1/fill/w_708,h_710,al_c/00e65c_8a0a3275ef9d4ecebadf1fe0d03ff67b~mv2.png": {
+    "bytes": 366576,
+    "lossless": true,
+    "originalBytes": 761041,
+    "originalSha256": "75cb72dc1f1d995d43b96e3decb356eaf811e64a9ee75324a900a643034383d6",
+    "path": "assets/localized/69f28a5bbef8f00f54e8e5ca.webp",
+    "sha256": "69f28a5bbef8f00f54e8e5ca41732947d01c798809021802c7b74cbe22e50df2",
+    "type": "image/webp"
+  },
+  "https://static.wixstatic.com/media/00e65c_8a0a3275ef9d4ecebadf1fe0d03ff67b~mv2.png/v1/fill/w_818,h_613,q_90,enc_avif,quality_auto/00e65c_8a0a3275ef9d4ecebadf1fe0d03ff67b~mv2.png": {
+    "bytes": 394500,
+    "lossless": true,
+    "originalBytes": 898132,
+    "originalSha256": "5640b3454ca779395b0aee6da874676b510af9d9c33c0765131d4dd431689d21",
+    "path": "assets/localized/1e3ab5373f732c032cfb085b.webp",
+    "sha256": "1e3ab5373f732c032cfb085b358b8e7681cd5745ff2d24936b2d183abf385437",
+    "type": "image/webp"
+  },
+  "https://static.wixstatic.com/media/00e65c_8a0a3275ef9d4ecebadf1fe0d03ff67b~mv2.png/v1/fit/w_480,h_361,q_90,enc_avif,quality_auto/00e65c_8a0a3275ef9d4ecebadf1fe0d03ff67b~mv2.png": {
+    "bytes": 224776,
+    "path": "assets/localized/9a40ab399a4d2f2dba98feac.png",
+    "sha256": "9a40ab399a4d2f2dba98feac4c59cef11fbd1048da1aa63d4517d1804e378b8b",
+    "type": "image/png"
+  },
+  "https://static.wixstatic.com/media/00e65c_8a0a3275ef9d4ecebadf1fe0d03ff67b~mv2.png/v1/fit/w_480,h_641,q_90,enc_avif,quality_auto/00e65c_8a0a3275ef9d4ecebadf1fe0d03ff67b~mv2.png": {
+    "bytes": 201278,
+    "lossless": true,
+    "originalBytes": 391296,
+    "originalSha256": "2a57e3b9cb4bcde8479feb6c0d56dd87d325f50b14fe32aecc8e9449c60a4d3a",
+    "path": "assets/localized/cfcedd745769dd383ec047fc.webp",
+    "sha256": "cfcedd745769dd383ec047fc294a1f10a73824ccaa423d11ce2bc3f5dc981d52",
+    "type": "image/webp"
+  },
+  "https://static.wixstatic.com/media/00e65c_8a0a3275ef9d4ecebadf1fe0d03ff67b~mv2.png/v1/fit/w_613,h_818,q_90,enc_avif,quality_auto/00e65c_8a0a3275ef9d4ecebadf1fe0d03ff67b~mv2.png": {
+    "bytes": 300564,
+    "lossless": true,
+    "originalBytes": 624193,
+    "originalSha256": "010658555825236e71d8a3fed48125eb8e2648d16577bdf02697ec2fa84c798f",
+    "path": "assets/localized/8f822a91c5c0eade43c971a5.webp",
+    "sha256": "8f822a91c5c0eade43c971a522f136a0a974c0fcba96ec1791a13620ae59753f",
+    "type": "image/webp"
+  },
+  "https://static.wixstatic.com/media/00e65c_8a0a3275ef9d4ecebadf1fe0d03ff67b~mv2.png/v1/fit/w_817,h_614,q_90,enc_avif,quality_auto/00e65c_8a0a3275ef9d4ecebadf1fe0d03ff67b~mv2.png": {
+    "bytes": 299604,
+    "lossless": true,
+    "originalBytes": 621766,
+    "originalSha256": "d401c4f80e849257619a0c4baf28dea03af6c2f758ed872876e76eb66390fa5f",
+    "path": "assets/localized/de54f45ee62c2165d2ab8971.webp",
+    "sha256": "de54f45ee62c2165d2ab897191751fc9051c36a75156c30c748744e3ab265246",
+    "type": "image/webp"
+  },
+  "https://static.wixstatic.com/media/00e65c_8d7e62976580449e8851f97148d231f0~mv2.png/v1/fill/w_1304,h_728,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/Screenshot%202026-08-27%20at%206_57_51%E2%80%AFPM.png": {
+    "bytes": 1229570,
+    "lossless": true,
+    "originalBytes": 2069879,
+    "originalSha256": "4bde7a89e9e4a85d57ec15c6550b21d799d2ac4541796eaed2aaada11910ea67",
+    "path": "assets/localized/52f5ce4254ba7af5fb80420d.webp",
+    "sha256": "52f5ce4254ba7af5fb80420dd0c536be2b6299ba78622437793357675a92b7e8",
+    "type": "image/webp"
+  },
+  "https://static.wixstatic.com/media/00e65c_8d7e62976580449e8851f97148d231f0~mv2.png/v1/fill/w_280,h_156,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Screenshot%202026-08-27%20at%206_57_51%E2%80%AFPM.png": {
+    "bytes": 101904,
+    "path": "assets/localized/7b4eb575837197ad65c28cae.png",
+    "sha256": "7b4eb575837197ad65c28cae5188667049039b7134e363e49c15d11f35b30ed7",
+    "type": "image/png"
+  },
+  "https://static.wixstatic.com/media/00e65c_8d7e62976580449e8851f97148d231f0~mv2.png/v1/fill/w_560,h_312,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Screenshot%202026-08-27%20at%206_57_51%E2%80%AFPM.png": {
+    "bytes": 228070,
+    "lossless": true,
+    "originalBytes": 389115,
+    "originalSha256": "bd413878b57816022b2557189f0cb80a1df641de92dce5a6c13b25d7cee42d1c",
+    "path": "assets/localized/743166705fe296c16340093b.webp",
+    "sha256": "743166705fe296c16340093bff2f957157d97d35e721f43ecfdd8011892f18f5",
+    "type": "image/webp"
+  },
+  "https://static.wixstatic.com/media/00e65c_8d7e62976580449e8851f97148d231f0~mv2.png/v1/fill/w_652,h_364,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Screenshot%202026-08-27%20at%206_57_51%E2%80%AFPM.png": {
+    "bytes": 306298,
+    "lossless": true,
+    "originalBytes": 522798,
+    "originalSha256": "dd63e1694a503de82880ed76bd95a753d1cfc743f9bd40c2b5a897feb302aa44",
+    "path": "assets/localized/0d6a224c94d99076e16ae324.webp",
+    "sha256": "0d6a224c94d99076e16ae32403984f184bdfa6173e43e20315233f14a3d0ca65",
+    "type": "image/webp"
+  },
+  "https://static.wixstatic.com/media/00e65c_9085392d3d4a464297295fcc27c21b2d~mv2.png/v1/fill/w_1340,h_754,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/render_1_i3_0013.png": {
+    "bytes": 1228872,
+    "lossless": true,
+    "originalBytes": 2077909,
+    "originalSha256": "02dc98aa829c641b6b6e28017beea2882fa3fb3905e56cd67af537d964d0cd69",
+    "path": "assets/localized/31715b559d9db6581bf02e2e.webp",
+    "sha256": "31715b559d9db6581bf02e2ed481c41f8c72d356b1666506f33e213f11c7710f",
+    "type": "image/webp"
+  },
+  "https://static.wixstatic.com/media/00e65c_9085392d3d4a464297295fcc27c21b2d~mv2.png/v1/fill/w_280,h_156,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/render_1_i3_0013.png": {
+    "bytes": 100815,
+    "path": "assets/localized/496e0d6344bc6c8c5f893342.png",
+    "sha256": "496e0d6344bc6c8c5f893342ac3aee39434eefad2fe36d05333fb34ac6b73326",
+    "type": "image/png"
+  },
+  "https://static.wixstatic.com/media/00e65c_9085392d3d4a464297295fcc27c21b2d~mv2.png/v1/fill/w_560,h_312,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/render_1_i3_0013.png": {
+    "bytes": 239476,
+    "lossless": true,
+    "originalBytes": 377511,
+    "originalSha256": "f4d6bed2075ce82857bef5b0f5f8362baea67b9173b19fd0eac5317c60d3befe",
+    "path": "assets/localized/d816f1882c303a5a77335787.webp",
+    "sha256": "d816f1882c303a5a7733578793e86c13c7957ab383bd91af945eb2342a046910",
+    "type": "image/webp"
+  },
+  "https://static.wixstatic.com/media/00e65c_9085392d3d4a464297295fcc27c21b2d~mv2.png/v1/fill/w_670,h_377,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/render_1_i3_0013.png": {
+    "bytes": 333370,
+    "lossless": true,
+    "originalBytes": 534683,
+    "originalSha256": "35624012033f1eec5f725f0fbff5df6d429c06ab54ac21e671506a3d883632b9",
+    "path": "assets/localized/ecb04dc62a998bd204c86183.webp",
+    "sha256": "ecb04dc62a998bd204c86183a267a6ead7529d93d4c17b161c537e8ffab1aba8",
+    "type": "image/webp"
+  },
+  "https://static.wixstatic.com/media/00e65c_9d14c8e00cc54d459bcca30506e75b8b~mv2.png/v1/fill/w_1,h_1,q_90/00e65c_9d14c8e00cc54d459bcca30506e75b8b~mv2.png": {
+    "bytes": 474,
+    "path": "assets/localized/da97c5e9e4a1ed146e73dce7.png",
+    "sha256": "da97c5e9e4a1ed146e73dce769a7bb915bdedcf5f72aab44c427a0e6719203b5",
+    "type": "image/png"
+  },
+  "https://static.wixstatic.com/media/00e65c_9d14c8e00cc54d459bcca30506e75b8b~mv2.png/v1/fill/w_1,h_1,q_90/00e65c_9d14c8e00cc54d459bcca30506e75b8b~mv2.webp": {
+    "bytes": 250,
+    "path": "assets/localized/332feb6913e6bb54c9b109f2.webp",
+    "sha256": "332feb6913e6bb54c9b109f2385d9c10ae06bf97bf6519e7d4eae65cb6238bee",
+    "type": "image/webp"
+  },
+  "https://static.wixstatic.com/media/00e65c_9d14c8e00cc54d459bcca30506e75b8b~mv2.png/v1/fill/w_4685,h_2087,al_c/00e65c_9d14c8e00cc54d459bcca30506e75b8b~mv2.png": {
+    "bytes": 6500792,
+    "lossless": true,
+    "originalBytes": 18250418,
+    "originalSha256": "9d8314c180dd1412f7552dc492fe60fb660dcd79bc57ceddb197e4c725f5038c",
+    "path": "assets/localized/27a7702f4a156ee219ca0e54.webp",
+    "sha256": "27a7702f4a156ee219ca0e54b3de09df9eb2567bc0840a7337c07caeddc89ba2",
+    "type": "image/webp"
+  },
+  "https://static.wixstatic.com/media/00e65c_9d14c8e00cc54d459bcca30506e75b8b~mv2.png/v1/fit/w_1440,h_1440,q_90,enc_avif,quality_auto/00e65c_9d14c8e00cc54d459bcca30506e75b8b~mv2.png": {
+    "bytes": 1236208,
+    "lossless": true,
+    "originalBytes": 2209664,
+    "originalSha256": "2d8f377462f96444ec1833085c4d1d050d093f22c51595cc87f1026268b7ca9f",
+    "path": "assets/localized/500349c6d0e47d4c6cd521d6.webp",
+    "sha256": "500349c6d0e47d4c6cd521d62c1cc4324d1426c559c177824974579d9d3481bb",
+    "type": "image/webp"
+  },
+  "https://static.wixstatic.com/media/00e65c_9d14c8e00cc54d459bcca30506e75b8b~mv2.png/v1/fit/w_1920,h_1920,q_90,enc_avif,quality_auto/00e65c_9d14c8e00cc54d459bcca30506e75b8b~mv2.png": {
+    "bytes": 2069834,
+    "lossless": true,
+    "originalBytes": 3839962,
+    "originalSha256": "14988cdac5250c3889cc34a84b09ea5d035ae1fe2ec96b596323f46592c67c88",
+    "path": "assets/localized/10cbc1caba0980fe7459481d.webp",
+    "sha256": "10cbc1caba0980fe7459481df7010be876473fdc19ee2c7ea23d8bb28a80741a",
+    "type": "image/webp"
+  },
+  "https://static.wixstatic.com/media/00e65c_9d14c8e00cc54d459bcca30506e75b8b~mv2.png/v1/fit/w_2400,h_2400,q_90,enc_avif,quality_auto/00e65c_9d14c8e00cc54d459bcca30506e75b8b~mv2.png": {
+    "bytes": 2829406,
+    "lossless": true,
+    "originalBytes": 5750845,
+    "originalSha256": "79203b999b38a317262924b0f95a5ccc48e6b9430db36358daaa3c26520ab5e2",
+    "path": "assets/localized/7c9c52f10311f1061c5b076e.webp",
+    "sha256": "7c9c52f10311f1061c5b076e197b6a3b4168dee7e1d39e45658df787c4ca38db",
+    "type": "image/webp"
+  },
+  "https://static.wixstatic.com/media/00e65c_9d14c8e00cc54d459bcca30506e75b8b~mv2.png/v1/fit/w_480,h_480,q_90,enc_avif,quality_auto/00e65c_9d14c8e00cc54d459bcca30506e75b8b~mv2.png": {
+    "bytes": 157210,
+    "lossless": true,
+    "originalBytes": 265489,
+    "originalSha256": "7f07df909051e231987133ae65672f4f5daf1ebe1f221e50233fe1a7360c634a",
+    "path": "assets/localized/6ec4c5c9608e05332bf6f1bf.webp",
+    "sha256": "6ec4c5c9608e05332bf6f1bfc5ee1b856a8998fe5519d183a9714ddeec9ad2a6",
+    "type": "image/webp"
+  },
+  "https://static.wixstatic.com/media/00e65c_9d14c8e00cc54d459bcca30506e75b8b~mv2.png/v1/fit/w_960,h_960,q_90,enc_avif,quality_auto/00e65c_9d14c8e00cc54d459bcca30506e75b8b~mv2.png": {
+    "bytes": 565046,
+    "lossless": true,
+    "originalBytes": 1047215,
+    "originalSha256": "f6c3c8b11db4edde49fcf312a3f2d179bd91f1edbcaeaa28da3a682d9fcb5e97",
+    "path": "assets/localized/478bb7f2ce63c04c0dfd1d66.webp",
+    "sha256": "478bb7f2ce63c04c0dfd1d6678da48929c66605572cc69beb5ff0675056fc4fc",
+    "type": "image/webp"
+  },
+  "https://static.wixstatic.com/media/00e65c_9d9c6002ace443a0886415e2be1d3663~mv2.png/v1/fill/w_1244,h_688,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/cover_stamp.png": {
+    "bytes": 516238,
+    "lossless": true,
+    "originalBytes": 764430,
+    "originalSha256": "6b13ea25383ded70bce76d944278e17c46e8b6491d7b1de05100d4dc1bd42572",
+    "path": "assets/localized/fbe132c419e2f735a7aeac67.webp",
+    "sha256": "fbe132c419e2f735a7aeac676ccdd4128736fb3ee53ed9788118db7de6f070d6",
+    "type": "image/webp"
+  },
+  "https://static.wixstatic.com/media/00e65c_9d9c6002ace443a0886415e2be1d3663~mv2.png/v1/fill/w_280,h_155,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/cover_stamp.png": {
+    "bytes": 48956,
+    "path": "assets/localized/cdf8c99a74e7113237a4966c.png",
+    "sha256": "cdf8c99a74e7113237a4966c4e99f070e3f10a6d3d3e30cd8f6fd008dfbdcb02",
+    "type": "image/png"
+  },
+  "https://static.wixstatic.com/media/00e65c_9d9c6002ace443a0886415e2be1d3663~mv2.png/v1/fill/w_560,h_310,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/cover_stamp.png": {
+    "bytes": 176060,
+    "path": "assets/localized/403c55bd262fb3f1c93216ba.png",
+    "sha256": "403c55bd262fb3f1c93216bab6d7edffc28e6d8377320567a0f25db4ec42525a",
+    "type": "image/png"
+  },
+  "https://static.wixstatic.com/media/00e65c_9d9c6002ace443a0886415e2be1d3663~mv2.png/v1/fill/w_622,h_344,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/cover_stamp.png": {
+    "bytes": 213163,
+    "path": "assets/localized/7624d29de6dff97fea11344d.png",
+    "sha256": "7624d29de6dff97fea11344d5055ed8566857f8b498e3057358e0a6c90da9465",
+    "type": "image/png"
+  },
+  "https://static.wixstatic.com/media/00e65c_c2a1a3d66ee24c80a1f09cd00b9f2bad~mv2.png/v1/fill/w_1,h_1,fp_0.75_0.53,q_90/00e65c_c2a1a3d66ee24c80a1f09cd00b9f2bad~mv2.png": {
+    "bytes": 474,
+    "path": "assets/localized/91eedcdd2515f113f4d862a5.png",
+    "sha256": "91eedcdd2515f113f4d862a52c1348b4434ced62d78b031e5764872876f835b1",
+    "type": "image/png"
+  },
+  "https://static.wixstatic.com/media/00e65c_c2a1a3d66ee24c80a1f09cd00b9f2bad~mv2.png/v1/fill/w_1,h_1,fp_0.75_0.53,q_90/00e65c_c2a1a3d66ee24c80a1f09cd00b9f2bad~mv2.webp": {
+    "bytes": 250,
+    "path": "assets/localized/4f96b6cf57e7c3d77c1d555e.webp",
+    "sha256": "4f96b6cf57e7c3d77c1d555eeb8d6d2be25c9ca5b2503b769649788e6e601ceb",
+    "type": "image/webp"
+  },
+  "https://static.wixstatic.com/media/00e65c_c2a1a3d66ee24c80a1f09cd00b9f2bad~mv2.png/v1/fill/w_1090,h_818,fp_0.75_0.53,q_90,enc_avif,quality_auto/00e65c_c2a1a3d66ee24c80a1f09cd00b9f2bad~mv2.png": {
+    "bytes": 1129952,
+    "lossless": true,
+    "originalBytes": 1794122,
+    "originalSha256": "32b1938b7e914f036ef4a54f23ff288a6e13686c6dcb30c0cd7c2a4dafad8bfc",
+    "path": "assets/localized/bf816627f20d55ec09983178.webp",
+    "sha256": "bf816627f20d55ec0998317851b2c4a06472569df6e47f9763364edb5869e5a1",
+    "type": "image/webp"
+  },
+  "https://static.wixstatic.com/media/00e65c_c2a1a3d66ee24c80a1f09cd00b9f2bad~mv2.png/v1/fill/w_1440,h_1083,fp_0.75_0.53,q_90,enc_avif,quality_auto/00e65c_c2a1a3d66ee24c80a1f09cd00b9f2bad~mv2.png": {
+    "bytes": 1778910,
+    "lossless": true,
+    "originalBytes": 2991085,
+    "originalSha256": "ba94117cfa5b768fbb8d0d0f68a1fe93fd1ff7e860cc1e8ba4d8c112e19b3722",
+    "path": "assets/localized/7d59df9fc1b47fbe80d4aea8.webp",
+    "sha256": "7d59df9fc1b47fbe80d4aea8d6f05fbc8a979bc354d95edf706648db3cb227ed",
+    "type": "image/webp"
+  },
+  "https://static.wixstatic.com/media/00e65c_c2a1a3d66ee24c80a1f09cd00b9f2bad~mv2.png/v1/fill/w_1440,h_1923,fp_0.75_0.53,q_90,enc_avif,quality_auto/00e65c_c2a1a3d66ee24c80a1f09cd00b9f2bad~mv2.png": {
+    "bytes": 2325960,
+    "lossless": true,
+    "originalBytes": 4581652,
+    "originalSha256": "dad5088ce8c581f59d60cd3e4304545fbffe89f3d2011735730d7da988c06fe4",
+    "path": "assets/localized/ae6fa7700f9b128d3a85e652.webp",
+    "sha256": "ae6fa7700f9b128d3a85e65207044d99687dfb23f179f222b8ce494957b25af3",
+    "type": "image/webp"
+  },
+  "https://static.wixstatic.com/media/00e65c_c2a1a3d66ee24c80a1f09cd00b9f2bad~mv2.png/v1/fill/w_1635,h_1227,fp_0.75_0.53,q_90,enc_avif,quality_auto/00e65c_c2a1a3d66ee24c80a1f09cd00b9f2bad~mv2.png": {
+    "bytes": 2173036,
+    "lossless": true,
+    "originalBytes": 3771947,
+    "originalSha256": "b11afa92f742c49e22b8fdcfadc61b3907e427395fe4f2cc7cb33bf8d7e1874d",
+    "path": "assets/localized/51b5fb4d97a6e7f89891072c.webp",
+    "sha256": "51b5fb4d97a6e7f89891072c876646850f944a26ea69b449b905cb2fb38e6783",
+    "type": "image/webp"
+  },
+  "https://static.wixstatic.com/media/00e65c_c2a1a3d66ee24c80a1f09cd00b9f2bad~mv2.png/v1/fill/w_1920,h_1444,fp_0.75_0.53,q_90,enc_avif,quality_auto/00e65c_c2a1a3d66ee24c80a1f09cd00b9f2bad~mv2.png": {
+    "bytes": 2786596,
+    "lossless": true,
+    "originalBytes": 5042171,
+    "originalSha256": "99409a9b486b42ed6100f78ce4be2f6e321ea3b4795ebfe238ee0975160cca4a",
+    "path": "assets/localized/5d47d0b7875e8ab9d04c5f44.webp",
+    "sha256": "5d47d0b7875e8ab9d04c5f44205dd3918fc243db0097dec1bcfabd03631e8a8a",
+    "type": "image/webp"
+  },
+  "https://static.wixstatic.com/media/00e65c_c2a1a3d66ee24c80a1f09cd00b9f2bad~mv2.png/v1/fill/w_1920,h_2564,fp_0.75_0.53,q_90,enc_avif,quality_auto/00e65c_c2a1a3d66ee24c80a1f09cd00b9f2bad~mv2.png": {
+    "bytes": 3307540,
+    "lossless": true,
+    "originalBytes": 7441507,
+    "originalSha256": "757f8c0446e921a9e40591dd387123c0c7dcae206f5b9929663f48af5efc6694",
+    "path": "assets/localized/1d39fba23dc3ef51c0c32a32.webp",
+    "sha256": "1d39fba23dc3ef51c0c32a3259c8a8bd6a9e2270120443f16b24231019d38e74",
+    "type": "image/webp"
+  },
+  "https://static.wixstatic.com/media/00e65c_c2a1a3d66ee24c80a1f09cd00b9f2bad~mv2.png/v1/fill/w_2180,h_1636,fp_0.75_0.53,q_90,enc_avif,quality_auto/00e65c_c2a1a3d66ee24c80a1f09cd00b9f2bad~mv2.png": {
+    "bytes": 3322728,
+    "lossless": true,
+    "originalBytes": 6315848,
+    "originalSha256": "a773c0cbd645e4f45c425b488bfa5876439e0ccfd388c5ba3101d5fddf57613a",
+    "path": "assets/localized/a494a831fb390a7c65469de5.webp",
+    "sha256": "a494a831fb390a7c65469de537ffa48cf8c2de72fd6081581fe48b685d292d3f",
+    "type": "image/webp"
+  },
+  "https://static.wixstatic.com/media/00e65c_c2a1a3d66ee24c80a1f09cd00b9f2bad~mv2.png/v1/fill/w_2400,h_1805,fp_0.75_0.53,q_90,enc_avif,quality_auto/00e65c_c2a1a3d66ee24c80a1f09cd00b9f2bad~mv2.png": {
+    "bytes": 3779390,
+    "lossless": true,
+    "originalBytes": 7453028,
+    "originalSha256": "a7650783ffebef3b74d7d71ac2e3c279d56d2d0efb91be78a0b0c2047e64ceef",
+    "path": "assets/localized/3eb40c3174774130d26ca0d3.webp",
+    "sha256": "3eb40c3174774130d26ca0d31c39fbe841ef1f0c5fce4496978a8d609bca607c",
+    "type": "image/webp"
+  },
+  "https://static.wixstatic.com/media/00e65c_c2a1a3d66ee24c80a1f09cd00b9f2bad~mv2.png/v1/fill/w_2400,h_3205,fp_0.75_0.53,q_90,enc_avif,quality_auto/00e65c_c2a1a3d66ee24c80a1f09cd00b9f2bad~mv2.png": {
+    "bytes": 4398238,
+    "lossless": true,
+    "originalBytes": 10717062,
+    "originalSha256": "94bd41673d0a51d01521286a563eca49e52edce73b3fcb768c761d6c2c70dcdd",
+    "path": "assets/localized/90b78158c503601dcd919057.webp",
+    "sha256": "90b78158c503601dcd919057202deb14dd1e535e0b9db728e2262be93b962fbb",
+    "type": "image/webp"
+  },
+  "https://static.wixstatic.com/media/00e65c_c2a1a3d66ee24c80a1f09cd00b9f2bad~mv2.png/v1/fill/w_2725,h_2045,fp_0.75_0.53,q_90,enc_avif,quality_auto/00e65c_c2a1a3d66ee24c80a1f09cd00b9f2bad~mv2.png": {
+    "bytes": 4437912,
+    "lossless": true,
+    "originalBytes": 9299918,
+    "originalSha256": "2abc6d1b6261ee68f1055e3b7a7b1f727057dd6cc7d57f577af3a07038253a29",
+    "path": "assets/localized/65bd5fa169aebf862d10cc00.webp",
+    "sha256": "65bd5fa169aebf862d10cc00d6d41754e054516ce0230703b390ab2a6505d00c",
+    "type": "image/webp"
+  },
+  "https://static.wixstatic.com/media/00e65c_c2a1a3d66ee24c80a1f09cd00b9f2bad~mv2.png/v1/fill/w_480,h_361,fp_0.75_0.53,q_90,enc_avif,quality_auto/00e65c_c2a1a3d66ee24c80a1f09cd00b9f2bad~mv2.png": {
+    "bytes": 236560,
+    "lossless": true,
+    "originalBytes": 375941,
+    "originalSha256": "83e8fdb18f6163e44c1a64608fda309b0f6a00e4ea94c83c431b7dd77ed9fa1d",
+    "path": "assets/localized/e0b0a7e59251d463ad8f4f28.webp",
+    "sha256": "e0b0a7e59251d463ad8f4f28711328b270f4028c73bcb4954354a341aa4b8bde",
+    "type": "image/webp"
+  },
+  "https://static.wixstatic.com/media/00e65c_c2a1a3d66ee24c80a1f09cd00b9f2bad~mv2.png/v1/fill/w_480,h_641,fp_0.75_0.53,q_90,enc_avif,quality_auto/00e65c_c2a1a3d66ee24c80a1f09cd00b9f2bad~mv2.png": {
+    "bytes": 393728,
+    "lossless": true,
+    "originalBytes": 624565,
+    "originalSha256": "6cd4d8641b1b184175fa18d217a4de45e061381319320af2ee8819c1b6825972",
+    "path": "assets/localized/93b434ed267d94fb38197cd1.webp",
+    "sha256": "93b434ed267d94fb38197cd12bec4fbdc6eeffab2fdfdc3373be914b7f9c0108",
+    "type": "image/webp"
+  },
+  "https://static.wixstatic.com/media/00e65c_c2a1a3d66ee24c80a1f09cd00b9f2bad~mv2.png/v1/fill/w_5000,h_2412,al_c/00e65c_c2a1a3d66ee24c80a1f09cd00b9f2bad~mv2.png": {
+    "bytes": 8535780,
+    "lossless": true,
+    "originalBytes": 19061934,
+    "originalSha256": "e25ad2dde0671889386b92bcc45a5f317eb881f02afa811c81709fe80c916759",
+    "path": "assets/localized/bd3b052a1f5a5d9d10626e42.webp",
+    "sha256": "bd3b052a1f5a5d9d10626e42fb329a0d195e47f203fb990b049faafd806ac76d",
+    "type": "image/webp"
+  },
+  "https://static.wixstatic.com/media/00e65c_c2a1a3d66ee24c80a1f09cd00b9f2bad~mv2.png/v1/fill/w_545,h_409,fp_0.75_0.53,q_90,enc_avif,quality_auto/00e65c_c2a1a3d66ee24c80a1f09cd00b9f2bad~mv2.png": {
+    "bytes": 293252,
+    "lossless": true,
+    "originalBytes": 486864,
+    "originalSha256": "80336f196365d1463de0127ff0e3f66092c9dcee42f300d3d3f3a52f41d9b558",
+    "path": "assets/localized/114a9d6c05a48380d9d34629.webp",
+    "sha256": "114a9d6c05a48380d9d346294a9e3018af4750b7dd1a57c6f2352a3f9f7c397b",
+    "type": "image/webp"
+  },
+  "https://static.wixstatic.com/media/00e65c_c2a1a3d66ee24c80a1f09cd00b9f2bad~mv2.png/v1/fill/w_960,h_1282,fp_0.75_0.53,q_90,enc_avif,quality_auto/00e65c_c2a1a3d66ee24c80a1f09cd00b9f2bad~mv2.png": {
+    "bytes": 1315864,
+    "lossless": true,
+    "originalBytes": 2226593,
+    "originalSha256": "d49271519bbea7825e711f4a014512be4000ce94d1828970f1cfed6612e477f0",
+    "path": "assets/localized/acbb5de652045e95923834be.webp",
+    "sha256": "acbb5de652045e95923834bebe8481c78f1d383bbc6490ba11f4483dd1621043",
+    "type": "image/webp"
+  },
+  "https://static.wixstatic.com/media/00e65c_c2a1a3d66ee24c80a1f09cd00b9f2bad~mv2.png/v1/fill/w_960,h_722,fp_0.75_0.53,q_90,enc_avif,quality_auto/00e65c_c2a1a3d66ee24c80a1f09cd00b9f2bad~mv2.png": {
+    "bytes": 867832,
+    "lossless": true,
+    "originalBytes": 1421238,
+    "originalSha256": "26e06193843386d8bf2b10c2301432db6cf883148978ea784b97483ce94f77e6",
+    "path": "assets/localized/45c191a3db6f473bffa12285.webp",
+    "sha256": "45c191a3db6f473bffa12285e9c8905adaee4a50e8e8a54b5381b82525c54251",
+    "type": "image/webp"
+  },
+  "https://static.wixstatic.com/media/00e65c_c5ff6b0c23b746efb342312abf2ade95~mv2.png/v1/fill/w_1,h_1,q_90/00e65c_c5ff6b0c23b746efb342312abf2ade95~mv2.png": {
+    "bytes": 810,
+    "path": "assets/localized/b8cc9f3961a3cda852c7da9d.png",
+    "sha256": "b8cc9f3961a3cda852c7da9de07166c6c609d46745f6b61300f8317f3135cc03",
+    "type": "image/png"
+  },
+  "https://static.wixstatic.com/media/00e65c_c5ff6b0c23b746efb342312abf2ade95~mv2.png/v1/fill/w_1,h_1,q_90/00e65c_c5ff6b0c23b746efb342312abf2ade95~mv2.webp": {
+    "bytes": 714,
+    "path": "assets/localized/ebe32342ae99e966bb294ea3.webp",
+    "sha256": "ebe32342ae99e966bb294ea3a1a348dcddda4e456b862d13cec896868bf038d3",
+    "type": "image/webp"
+  },
+  "https://static.wixstatic.com/media/00e65c_c5ff6b0c23b746efb342312abf2ade95~mv2.png/v1/fill/w_2512,h_3649,al_c/00e65c_c5ff6b0c23b746efb342312abf2ade95~mv2.png": {
+    "bytes": 7999056,
+    "lossless": true,
+    "originalBytes": 19366648,
+    "originalSha256": "672dda39ace82420874721e51d8ca050a79b3c7b713d3f346512ab90edc3dfb9",
+    "path": "assets/localized/4d652e2a243c45bb22f0fec3.webp",
+    "sha256": "4d652e2a243c45bb22f0fec3e7f6a53e267a0de6776a55f3e8389b467698f2d7",
+    "type": "image/webp"
+  },
+  "https://static.wixstatic.com/media/00e65c_c5ff6b0c23b746efb342312abf2ade95~mv2.png/v1/fit/w_1440,h_1083,q_90,enc_avif,quality_auto/00e65c_c5ff6b0c23b746efb342312abf2ade95~mv2.png": {
+    "bytes": 1011080,
+    "lossless": true,
+    "originalBytes": 2038846,
+    "originalSha256": "90ffde75106ebe9c3f0c601355bd9b344494074f10411e03fc8848873afefe43",
+    "path": "assets/localized/ceb2edf30a1c087791e90f2b.webp",
+    "sha256": "ceb2edf30a1c087791e90f2bea69eb9a6048adecefff4b0d43d4fd10b4290d62",
+    "type": "image/webp"
+  },
+  "https://static.wixstatic.com/media/00e65c_c5ff6b0c23b746efb342312abf2ade95~mv2.png/v1/fit/w_1440,h_1923,q_90,enc_avif,quality_auto/00e65c_c5ff6b0c23b746efb342312abf2ade95~mv2.png": {
+    "bytes": 2850062,
+    "lossless": true,
+    "originalBytes": 6242144,
+    "originalSha256": "5637170cf053070399d1dc5d6173839a5e7f2694d009f6133b592580c3edd0bb",
+    "path": "assets/localized/c161a1f17913ed535a7b997b.webp",
+    "sha256": "c161a1f17913ed535a7b997be6d3fd27408647f0c00143bde6d7a5ebb9cf1cb7",
+    "type": "image/webp"
+  },
+  "https://static.wixstatic.com/media/00e65c_c5ff6b0c23b746efb342312abf2ade95~mv2.png/v1/fit/w_1920,h_1444,q_90,enc_avif,quality_auto/00e65c_c5ff6b0c23b746efb342312abf2ade95~mv2.png": {
+    "bytes": 1713630,
+    "lossless": true,
+    "originalBytes": 3549549,
+    "originalSha256": "dd0f3a67d12819e62e2c45880f6eea3892ee85521a4debf6c785e9edb4f21182",
+    "path": "assets/localized/643d606ebb4359895bba95ad.webp",
+    "sha256": "643d606ebb4359895bba95ad1163e5ada551d2dcac638c1d4eb96d65bf8600e2",
+    "type": "image/webp"
+  },
+  "https://static.wixstatic.com/media/00e65c_c5ff6b0c23b746efb342312abf2ade95~mv2.png/v1/fit/w_1920,h_2564,q_90,enc_avif,quality_auto/00e65c_c5ff6b0c23b746efb342312abf2ade95~mv2.png": {
+    "bytes": 4714490,
+    "lossless": true,
+    "originalBytes": 10872436,
+    "originalSha256": "cf0501b00c28889809b470ddac27b2a951ae4c7c629084c86aeacf8650c73bb0",
+    "path": "assets/localized/8311594d0c6cd592a32f72cb.webp",
+    "sha256": "8311594d0c6cd592a32f72cbf40d04298e9ba0d77d8c9844c7f2bea86084f433",
+    "type": "image/webp"
+  },
+  "https://static.wixstatic.com/media/00e65c_c5ff6b0c23b746efb342312abf2ade95~mv2.png/v1/fit/w_2400,h_1805,q_90,enc_avif,quality_auto/00e65c_c5ff6b0c23b746efb342312abf2ade95~mv2.png": {
+    "bytes": 2549572,
+    "lossless": true,
+    "originalBytes": 5542033,
+    "originalSha256": "2459a3f39535b6ed0e01c80525855e17c4446e5dbed3518c4f1a31c1463258da",
+    "path": "assets/localized/3c3f0fbd5cf3f1c36ff7fe48.webp",
+    "sha256": "3c3f0fbd5cf3f1c36ff7fe4848855a416147623971af8b1d62f42b94f639ba1b",
+    "type": "image/webp"
+  },
+  "https://static.wixstatic.com/media/00e65c_c5ff6b0c23b746efb342312abf2ade95~mv2.png/v1/fit/w_2400,h_3205,q_90,enc_avif,quality_auto/00e65c_c5ff6b0c23b746efb342312abf2ade95~mv2.png": {
+    "bytes": 6847622,
+    "lossless": true,
+    "originalBytes": 16723578,
+    "originalSha256": "3d694c35682200c53dc364f18b442dd24a94f29782c5453f64734c12899b3adf",
+    "path": "assets/localized/62e64dea2ac0b4fb40a0a5e7.webp",
+    "sha256": "62e64dea2ac0b4fb40a0a5e7c32039e906b3c8b601a430a0641ffd072ed927a0",
+    "type": "image/webp"
+  },
+  "https://static.wixstatic.com/media/00e65c_c5ff6b0c23b746efb342312abf2ade95~mv2.png/v1/fit/w_480,h_361,q_90,enc_avif,quality_auto/00e65c_c5ff6b0c23b746efb342312abf2ade95~mv2.png": {
+    "bytes": 231287,
+    "path": "assets/localized/2df4d0ec0fced8fbf29ad472.png",
+    "sha256": "2df4d0ec0fced8fbf29ad472154202071cf7700e422e709cae98a4511675308d",
+    "type": "image/png"
+  },
+  "https://static.wixstatic.com/media/00e65c_c5ff6b0c23b746efb342312abf2ade95~mv2.png/v1/fit/w_480,h_641,q_90,enc_avif,quality_auto/00e65c_c5ff6b0c23b746efb342312abf2ade95~mv2.png": {
+    "bytes": 367788,
+    "lossless": true,
+    "originalBytes": 739595,
+    "originalSha256": "25bb5c53745d465e7de372fed6d18022635f61444173c545f92004b056f9d337",
+    "path": "assets/localized/474111cac7a6c1f5f09e723d.webp",
+    "sha256": "474111cac7a6c1f5f09e723d19c95e2b3cd0c33d94e58986626ed1966e96cf99",
+    "type": "image/webp"
+  },
+  "https://static.wixstatic.com/media/00e65c_c5ff6b0c23b746efb342312abf2ade95~mv2.png/v1/fit/w_960,h_1282,q_90,enc_avif,quality_auto/00e65c_c5ff6b0c23b746efb342312abf2ade95~mv2.png": {
+    "bytes": 1379782,
+    "lossless": true,
+    "originalBytes": 2815158,
+    "originalSha256": "dfe2a77cc791ee82f8dc2a084558cc7c9e27b0769e98ab9df2d08984e8803411",
+    "path": "assets/localized/fa1f3acf65718307364d1fb4.webp",
+    "sha256": "fa1f3acf65718307364d1fb4d0b8ceead26b8e4cefc6db9ec38849271a052af0",
+    "type": "image/webp"
+  },
+  "https://static.wixstatic.com/media/00e65c_c5ff6b0c23b746efb342312abf2ade95~mv2.png/v1/fit/w_960,h_722,q_90,enc_avif,quality_auto/00e65c_c5ff6b0c23b746efb342312abf2ade95~mv2.png": {
+    "bytes": 466850,
+    "lossless": true,
+    "originalBytes": 881915,
+    "originalSha256": "37e840c930e7a5502007fe6ef311e5ae98e49463821a7e67cb6c95a89c59308a",
+    "path": "assets/localized/c192e1e3c2f9e4e005227bdc.webp",
+    "sha256": "c192e1e3c2f9e4e005227bdcf2c0f76fb14e2865ee5b4e4b0b03f3b775f87789",
+    "type": "image/webp"
+  },
+  "https://static.wixstatic.com/media/00e65c_caec0ad49392469fb094e2bca8697136~mv2.png/v1/fill/w_1,h_1,fp_0.5_0.47,q_90/00e65c_caec0ad49392469fb094e2bca8697136~mv2.png": {
+    "bytes": 474,
+    "path": "assets/localized/e12402616f59a56948f00e86.png",
+    "sha256": "e12402616f59a56948f00e868d7ac76e72e738f72fa4e1976bcf8b3fcb2d8862",
+    "type": "image/png"
+  },
+  "https://static.wixstatic.com/media/00e65c_caec0ad49392469fb094e2bca8697136~mv2.png/v1/fill/w_1,h_1,fp_0.5_0.47,q_90/00e65c_caec0ad49392469fb094e2bca8697136~mv2.webp": {
+    "bytes": 250,
+    "path": "assets/localized/f60c401d070fd54824cc08c0.webp",
+    "sha256": "f60c401d070fd54824cc08c055d5ad1e00502beff3133ebc11165d47495404bb",
+    "type": "image/webp"
+  },
+  "https://static.wixstatic.com/media/00e65c_caec0ad49392469fb094e2bca8697136~mv2.png/v1/fill/w_1008,h_1346,fp_0.5_0.47,q_90,enc_avif,quality_auto/00e65c_caec0ad49392469fb094e2bca8697136~mv2.png": {
+    "bytes": 572782,
+    "lossless": true,
+    "originalBytes": 1053777,
+    "originalSha256": "feed0746eb8b6499f3d8020383efefc7089317b6d3529df72274e6c52d940c7e",
+    "path": "assets/localized/42a99efb0364d99a36c5d9be.webp",
+    "sha256": "42a99efb0364d99a36c5d9bee7e1c842ca02f4a682c400fd9028514f5a71dcc1",
+    "type": "image/webp"
+  },
+  "https://static.wixstatic.com/media/00e65c_caec0ad49392469fb094e2bca8697136~mv2.png/v1/fill/w_1090,h_818,fp_0.5_0.47,q_90,enc_avif,quality_auto/00e65c_caec0ad49392469fb094e2bca8697136~mv2.png": {
+    "bytes": 563374,
+    "lossless": true,
+    "originalBytes": 868761,
+    "originalSha256": "9b581b5bfe6c3f9cf1603ae6428741ab4d264d3407212390b6500d2e952efc57",
+    "path": "assets/localized/9039fd88db1c3581961227a5.webp",
+    "sha256": "9039fd88db1c3581961227a5a504c9085b4691ab22193d541ea2ade14f62fd38",
+    "type": "image/webp"
+  },
+  "https://static.wixstatic.com/media/00e65c_caec0ad49392469fb094e2bca8697136~mv2.png/v1/fill/w_1344,h_1010,fp_0.5_0.47,q_90,enc_avif,quality_auto/00e65c_caec0ad49392469fb094e2bca8697136~mv2.png": {
+    "bytes": 719492,
+    "lossless": true,
+    "originalBytes": 1214732,
+    "originalSha256": "1102e2d5da241385467f45a37b3a8ed631c224e63278f657c4dc1872e8a6e637",
+    "path": "assets/localized/99a9b437b0f2ce3719f4a545.webp",
+    "sha256": "99a9b437b0f2ce3719f4a545659a3c0216fd67a6e2f03425ca051f38f6904a86",
+    "type": "image/webp"
+  },
+  "https://static.wixstatic.com/media/00e65c_caec0ad49392469fb094e2bca8697136~mv2.png/v1/fill/w_1345,h_1009,fp_0.5_0.47,q_90,enc_avif,quality_auto/00e65c_caec0ad49392469fb094e2bca8697136~mv2.png": {
+    "bytes": 720138,
+    "lossless": true,
+    "originalBytes": 1215150,
+    "originalSha256": "c1b37bddd769d240973364f18ac9f022d544cdcd14cae7e44157b000f03693f1",
+    "path": "assets/localized/ac20944929f6eeb018a84f81.webp",
+    "sha256": "ac20944929f6eeb018a84f81a8ba483e782b2defeac83b3a75304445792814db",
+    "type": "image/webp"
+  },
+  "https://static.wixstatic.com/media/00e65c_caec0ad49392469fb094e2bca8697136~mv2.png/v1/fill/w_2050,h_663,al_c/00e65c_caec0ad49392469fb094e2bca8697136~mv2.png": {
+    "bytes": 1034160,
+    "lossless": true,
+    "originalBytes": 1702875,
+    "originalSha256": "aabc3d5cc481915372e9a5ff08c48ccb9bb8156c04d15e967e90b4d678d35cf9",
+    "path": "assets/localized/6df4cc6b5640ed36f85a85f4.webp",
+    "sha256": "6df4cc6b5640ed36f85a85f4ddb2b5b5082dc61a8c7d50b1be0b3f66359fd39e",
+    "type": "image/webp"
+  },
+  "https://static.wixstatic.com/media/00e65c_caec0ad49392469fb094e2bca8697136~mv2.png/v1/fill/w_480,h_361,fp_0.5_0.47,q_90,enc_avif,quality_auto/00e65c_caec0ad49392469fb094e2bca8697136~mv2.png": {
+    "bytes": 196443,
+    "path": "assets/localized/b08cdb5b7ff4db99c693038f.png",
+    "sha256": "b08cdb5b7ff4db99c693038f497560a73a802c8a84ac0f62c58daf1ff92374ac",
+    "type": "image/png"
+  },
+  "https://static.wixstatic.com/media/00e65c_caec0ad49392469fb094e2bca8697136~mv2.png/v1/fill/w_480,h_641,fp_0.5_0.47,q_90,enc_avif,quality_auto/00e65c_caec0ad49392469fb094e2bca8697136~mv2.png": {
+    "bytes": 220696,
+    "lossless": true,
+    "originalBytes": 325462,
+    "originalSha256": "d43cc199059546ec5117c03b1c9d4a844e7ed7b378daeaffd2308142783e05b7",
+    "path": "assets/localized/e5a4e987b2687527da92b04d.webp",
+    "sha256": "e5a4e987b2687527da92b04de56f55c62ea9ca678d8412f2d50daad171e5472e",
+    "type": "image/webp"
+  },
+  "https://static.wixstatic.com/media/00e65c_caec0ad49392469fb094e2bca8697136~mv2.png/v1/fill/w_545,h_409,fp_0.5_0.47,q_90,enc_avif,quality_auto/00e65c_caec0ad49392469fb094e2bca8697136~mv2.png": {
+    "bytes": 168930,
+    "lossless": true,
+    "originalBytes": 250074,
+    "originalSha256": "444978ff2f22470964fa06f85dd51a1a2aaba29fc2106bd5bf1bda64e1ae89a6",
+    "path": "assets/localized/b85abcf3a2c540c914632d60.webp",
+    "sha256": "b85abcf3a2c540c914632d60ebd2fdfd9ad9e764b0b2e1db7d2f8f144083160b",
+    "type": "image/webp"
+  },
+  "https://static.wixstatic.com/media/00e65c_caec0ad49392469fb094e2bca8697136~mv2.png/v1/fill/w_960,h_1282,fp_0.5_0.47,q_90,enc_avif,quality_auto/00e65c_caec0ad49392469fb094e2bca8697136~mv2.png": {
+    "bytes": 539426,
+    "lossless": true,
+    "originalBytes": 974323,
+    "originalSha256": "f8cf2bbdfd73b2b190dff8e8542be6b8f3080d87983cb411ace9529982b318d3",
+    "path": "assets/localized/d777d3f60f4d3362f99313e5.webp",
+    "sha256": "d777d3f60f4d3362f99313e524ad83051f080046bae6ed52704b3163e16b00ed",
+    "type": "image/webp"
+  },
+  "https://static.wixstatic.com/media/00e65c_caec0ad49392469fb094e2bca8697136~mv2.png/v1/fill/w_960,h_722,fp_0.5_0.47,q_90,enc_avif,quality_auto/00e65c_caec0ad49392469fb094e2bca8697136~mv2.png": {
+    "bytes": 463496,
+    "lossless": true,
+    "originalBytes": 698180,
+    "originalSha256": "29fde112bf7874a9ee74c3c7b0e05c2eb591c05179334a5a698bd5c83a7c1979",
+    "path": "assets/localized/79bb8ddcca90da710400e6ff.webp",
+    "sha256": "79bb8ddcca90da710400e6ff99f9f0a35ab6a0df322820954168283a32998ab8",
+    "type": "image/webp"
+  },
+  "https://static.wixstatic.com/media/00e65c_d39fc1dcb37d499c9d7b4bf36aa22e26~mv2.png/v1/fill/w_1,h_1,q_90/00e65c_d39fc1dcb37d499c9d7b4bf36aa22e26~mv2.png": {
+    "bytes": 474,
+    "path": "assets/localized/c3ebd2e66d9b5a25f6cdea49.png",
+    "sha256": "c3ebd2e66d9b5a25f6cdea49c479c953a41b55eba7bad9faeb667bb89e80f820",
+    "type": "image/png"
+  },
+  "https://static.wixstatic.com/media/00e65c_d39fc1dcb37d499c9d7b4bf36aa22e26~mv2.png/v1/fill/w_1,h_1,q_90/00e65c_d39fc1dcb37d499c9d7b4bf36aa22e26~mv2.webp": {
+    "bytes": 250,
+    "path": "assets/localized/34f5846ba8caaffdf1c0be1e.webp",
+    "sha256": "34f5846ba8caaffdf1c0be1e3fd800a6aa2b86472123ca46e7410941dcb97e8e",
+    "type": "image/webp"
+  },
+  "https://static.wixstatic.com/media/00e65c_d39fc1dcb37d499c9d7b4bf36aa22e26~mv2.png/v1/fill/w_3566,h_2006,al_c/00e65c_d39fc1dcb37d499c9d7b4bf36aa22e26~mv2.png": {
+    "bytes": 5881452,
+    "lossless": true,
+    "originalBytes": 13840740,
+    "originalSha256": "aa1e909243847364f8d224a31a21483328bd35b8bc0f200f209cf62104316ac4",
+    "path": "assets/localized/a852dd61b5025c93db948bfe.webp",
+    "sha256": "a852dd61b5025c93db948bfe48e79072142eec803bf3b716cac45e2ad1e2ac5b",
+    "type": "image/webp"
+  },
+  "https://static.wixstatic.com/media/00e65c_d39fc1dcb37d499c9d7b4bf36aa22e26~mv2.png/v1/fit/w_1440,h_1083,q_90,enc_avif,quality_auto/00e65c_d39fc1dcb37d499c9d7b4bf36aa22e26~mv2.png": {
+    "bytes": 1378288,
+    "lossless": true,
+    "originalBytes": 2678574,
+    "originalSha256": "a5770ad9bdeb292e6040eddf8c0a9a011f75ebb6dbb47c13ec23c1c242036685",
+    "path": "assets/localized/205090d0045867b4bd9a82e2.webp",
+    "sha256": "205090d0045867b4bd9a82e28decf998e3f6a1855dad53b9a6f0787b33d24e24",
+    "type": "image/webp"
+  },
+  "https://static.wixstatic.com/media/00e65c_d39fc1dcb37d499c9d7b4bf36aa22e26~mv2.png/v1/fit/w_1440,h_1923,q_90,enc_avif,quality_auto/00e65c_d39fc1dcb37d499c9d7b4bf36aa22e26~mv2.png": {
+    "bytes": 1378288,
+    "lossless": true,
+    "originalBytes": 2678574,
+    "originalSha256": "a5770ad9bdeb292e6040eddf8c0a9a011f75ebb6dbb47c13ec23c1c242036685",
+    "path": "assets/localized/205090d0045867b4bd9a82e2.webp",
+    "sha256": "205090d0045867b4bd9a82e28decf998e3f6a1855dad53b9a6f0787b33d24e24",
+    "type": "image/webp"
+  },
+  "https://static.wixstatic.com/media/00e65c_d39fc1dcb37d499c9d7b4bf36aa22e26~mv2.png/v1/fit/w_1920,h_1444,q_90,enc_avif,quality_auto/00e65c_d39fc1dcb37d499c9d7b4bf36aa22e26~mv2.png": {
+    "bytes": 2405684,
+    "lossless": true,
+    "originalBytes": 4612384,
+    "originalSha256": "0b8dd3cf1e01d972e350d63ec3110c382b81f7a287ec4d80972c9bdcc1d42492",
+    "path": "assets/localized/4641dd5a91dad6694e00b036.webp",
+    "sha256": "4641dd5a91dad6694e00b03608c8b114c4a6f9c57f95a2116581dd70e5768104",
+    "type": "image/webp"
+  },
+  "https://static.wixstatic.com/media/00e65c_d39fc1dcb37d499c9d7b4bf36aa22e26~mv2.png/v1/fit/w_1920,h_2564,q_90,enc_avif,quality_auto/00e65c_d39fc1dcb37d499c9d7b4bf36aa22e26~mv2.png": {
+    "bytes": 2405684,
+    "lossless": true,
+    "originalBytes": 4612384,
+    "originalSha256": "0b8dd3cf1e01d972e350d63ec3110c382b81f7a287ec4d80972c9bdcc1d42492",
+    "path": "assets/localized/4641dd5a91dad6694e00b036.webp",
+    "sha256": "4641dd5a91dad6694e00b03608c8b114c4a6f9c57f95a2116581dd70e5768104",
+    "type": "image/webp"
+  },
+  "https://static.wixstatic.com/media/00e65c_d39fc1dcb37d499c9d7b4bf36aa22e26~mv2.png/v1/fit/w_2314,h_3090,q_90,enc_avif,quality_auto/00e65c_d39fc1dcb37d499c9d7b4bf36aa22e26~mv2.png": {
+    "bytes": 3426650,
+    "lossless": true,
+    "originalBytes": 6820664,
+    "originalSha256": "4d44187144caa09a7ba56824b8e8b85d5dfb67fbde5a1f1e0725e5c7975f0937",
+    "path": "assets/localized/cc71fed5979d51f65280cca0.webp",
+    "sha256": "cc71fed5979d51f65280cca0bb898cac0dd8e14b1bf5fc4a2823f47a7da58afa",
+    "type": "image/webp"
+  },
+  "https://static.wixstatic.com/media/00e65c_d39fc1dcb37d499c9d7b4bf36aa22e26~mv2.png/v1/fit/w_2400,h_1805,q_90,enc_avif,quality_auto/00e65c_d39fc1dcb37d499c9d7b4bf36aa22e26~mv2.png": {
+    "bytes": 3393222,
+    "lossless": true,
+    "originalBytes": 6886523,
+    "originalSha256": "e7c5f5538af9d2f456836c3f659e612fc47a299c061983a05d65d7c3b5fe7e30",
+    "path": "assets/localized/c98ceaa5ab59b6f0189d4e37.webp",
+    "sha256": "c98ceaa5ab59b6f0189d4e372bf09ed36ae3ca0b44e5588f4b95bb41c873a1ac",
+    "type": "image/webp"
+  },
+  "https://static.wixstatic.com/media/00e65c_d39fc1dcb37d499c9d7b4bf36aa22e26~mv2.png/v1/fit/w_480,h_361,q_90,enc_avif,quality_auto/00e65c_d39fc1dcb37d499c9d7b4bf36aa22e26~mv2.png": {
+    "bytes": 166656,
+    "lossless": true,
+    "originalBytes": 310363,
+    "originalSha256": "df867c5706aece3682cea7957b02643cfb3877e4fb371a289210fe0236a1da00",
+    "path": "assets/localized/ab05d766e46d8dd73f292b50.webp",
+    "sha256": "ab05d766e46d8dd73f292b50679dbb7b6cdf060602933b425f9eed745c47e15a",
+    "type": "image/webp"
+  },
+  "https://static.wixstatic.com/media/00e65c_d39fc1dcb37d499c9d7b4bf36aa22e26~mv2.png/v1/fit/w_480,h_641,q_90,enc_avif,quality_auto/00e65c_d39fc1dcb37d499c9d7b4bf36aa22e26~mv2.png": {
+    "bytes": 166656,
+    "lossless": true,
+    "originalBytes": 310363,
+    "originalSha256": "df867c5706aece3682cea7957b02643cfb3877e4fb371a289210fe0236a1da00",
+    "path": "assets/localized/ab05d766e46d8dd73f292b50.webp",
+    "sha256": "ab05d766e46d8dd73f292b50679dbb7b6cdf060602933b425f9eed745c47e15a",
+    "type": "image/webp"
+  },
+  "https://static.wixstatic.com/media/00e65c_d39fc1dcb37d499c9d7b4bf36aa22e26~mv2.png/v1/fit/w_960,h_1282,q_90,enc_avif,quality_auto/00e65c_d39fc1dcb37d499c9d7b4bf36aa22e26~mv2.png": {
+    "bytes": 624988,
+    "lossless": true,
+    "originalBytes": 1176094,
+    "originalSha256": "5e18f109904cb6b4132e76aeded53b215af461c4e7392acbe95c1168563b8074",
+    "path": "assets/localized/77fe7be80e343d0c9a0c106a.webp",
+    "sha256": "77fe7be80e343d0c9a0c106af1a044641474a298a34c8f8585262a5453f21083",
+    "type": "image/webp"
+  },
+  "https://static.wixstatic.com/media/00e65c_d39fc1dcb37d499c9d7b4bf36aa22e26~mv2.png/v1/fit/w_960,h_722,q_90,enc_avif,quality_auto/00e65c_d39fc1dcb37d499c9d7b4bf36aa22e26~mv2.png": {
+    "bytes": 624988,
+    "lossless": true,
+    "originalBytes": 1176094,
+    "originalSha256": "5e18f109904cb6b4132e76aeded53b215af461c4e7392acbe95c1168563b8074",
+    "path": "assets/localized/77fe7be80e343d0c9a0c106a.webp",
+    "sha256": "77fe7be80e343d0c9a0c106af1a044641474a298a34c8f8585262a5453f21083",
+    "type": "image/webp"
+  },
+  "https://static.wixstatic.com/media/00e65c_d810922afc9543b4b7ab0fccb0d1724c~mv2.png/v1/fill/w_1,h_1,q_90/00e65c_d810922afc9543b4b7ab0fccb0d1724c~mv2.png": {
+    "bytes": 474,
+    "path": "assets/localized/2d5da62068250680c91fd217.png",
+    "sha256": "2d5da62068250680c91fd2179158c90ba3419a78e4d417fced5e1348397fb742",
+    "type": "image/png"
+  },
+  "https://static.wixstatic.com/media/00e65c_d810922afc9543b4b7ab0fccb0d1724c~mv2.png/v1/fill/w_1,h_1,q_90/00e65c_d810922afc9543b4b7ab0fccb0d1724c~mv2.webp": {
+    "bytes": 250,
+    "path": "assets/localized/5776676cb99c0385aff82fdd.webp",
+    "sha256": "5776676cb99c0385aff82fddbc9c6ea0ee55df1d7f9afe15e9aff9af7eb1add2",
+    "type": "image/webp"
+  },
+  "https://static.wixstatic.com/media/00e65c_d810922afc9543b4b7ab0fccb0d1724c~mv2.png/v1/fill/w_1157,h_515,al_c/00e65c_d810922afc9543b4b7ab0fccb0d1724c~mv2.png": {
+    "bytes": 32634,
+    "path": "assets/localized/9c5c9bbbe141cbf0fd478194.png",
+    "sha256": "9c5c9bbbe141cbf0fd4781942058c2211b586a6c6b87b31d67d034f75a55920c",
+    "type": "image/png"
+  },
+  "https://static.wixstatic.com/media/00e65c_d810922afc9543b4b7ab0fccb0d1724c~mv2.png/v1/fit/w_480,h_361,q_90,enc_avif,quality_auto/00e65c_d810922afc9543b4b7ab0fccb0d1724c~mv2.png": {
+    "bytes": 19241,
+    "path": "assets/localized/ec1caf619b85d281331e2420.png",
+    "sha256": "ec1caf619b85d281331e2420298c81da7ee95b1f790739d3b81d673a2397faba",
+    "type": "image/png"
+  },
+  "https://static.wixstatic.com/media/00e65c_d810922afc9543b4b7ab0fccb0d1724c~mv2.png/v1/fit/w_480,h_641,q_90,enc_avif,quality_auto/00e65c_d810922afc9543b4b7ab0fccb0d1724c~mv2.png": {
+    "bytes": 19241,
+    "path": "assets/localized/ec1caf619b85d281331e2420.png",
+    "sha256": "ec1caf619b85d281331e2420298c81da7ee95b1f790739d3b81d673a2397faba",
+    "type": "image/png"
+  },
+  "https://static.wixstatic.com/media/00e65c_d810922afc9543b4b7ab0fccb0d1724c~mv2.png/v1/fit/w_667,h_890,q_90,enc_avif,quality_auto/00e65c_d810922afc9543b4b7ab0fccb0d1724c~mv2.png": {
+    "bytes": 26490,
+    "path": "assets/localized/c29c7e97132918ec072b0c56.png",
+    "sha256": "c29c7e97132918ec072b0c562116f3c06a1e0a1ddbde36dc292459e3783065d5",
+    "type": "image/png"
+  },
+  "https://static.wixstatic.com/media/00e65c_d810922afc9543b4b7ab0fccb0d1724c~mv2.png/v1/fit/w_890,h_669,q_90,enc_avif,quality_auto/00e65c_d810922afc9543b4b7ab0fccb0d1724c~mv2.png": {
+    "bytes": 38284,
+    "path": "assets/localized/9105fab0b64f0b5fe12c3466.png",
+    "sha256": "9105fab0b64f0b5fe12c34662e3a1a22e49b7136c3344181bf951617c4395efa",
+    "type": "image/png"
+  },
+  "https://static.wixstatic.com/media/00e65c_d87dba9e8c034c70ab83849217a964af~mv2.avif/v1/fill/w_240,h_240,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/strandmon-wing-chair-skiftebo-yellow__0325450_pe517970_s5.avif": {
+    "bytes": 1983,
+    "path": "assets/localized/f8809a17d98ce2c003e2cdb6.avif",
+    "sha256": "f8809a17d98ce2c003e2cdb64dd92414e47adc1e7fc64b0cdb158229d2efa50d",
+    "type": "image/avif"
+  },
+  "https://static.wixstatic.com/media/00e65c_d87dba9e8c034c70ab83849217a964af~mv2.avif/v1/fill/w_346,h_346,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/strandmon-wing-chair-skiftebo-yellow__0325450_pe517970_s5.avif": {
+    "bytes": 2731,
+    "path": "assets/localized/ee874f1ff6cc0dbb222525ac.avif",
+    "sha256": "ee874f1ff6cc0dbb222525ac09c61f9cd422072415f262f67a16a9cd30f8b094",
+    "type": "image/avif"
+  },
+  "https://static.wixstatic.com/media/00e65c_d87dba9e8c034c70ab83849217a964af~mv2.avif/v1/fill/w_480,h_480,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/strandmon-wing-chair-skiftebo-yellow__0325450_pe517970_s5.avif": {
+    "bytes": 3612,
+    "path": "assets/localized/6a885eab90517d2f2fb72fb8.avif",
+    "sha256": "6a885eab90517d2f2fb72fb85cef201cba4705297526708d629a05458b647ed8",
+    "type": "image/avif"
+  },
+  "https://static.wixstatic.com/media/00e65c_d87dba9e8c034c70ab83849217a964af~mv2.avif/v1/fill/w_692,h_692,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/strandmon-wing-chair-skiftebo-yellow__0325450_pe517970_s5.avif": {
+    "bytes": 5478,
+    "path": "assets/localized/aae60d57faf87a2a57a59bd9.avif",
+    "sha256": "aae60d57faf87a2a57a59bd9a9b8c42a139ac9bebd9ab59fcda7324578c1a611",
+    "type": "image/avif"
+  },
+  "https://static.wixstatic.com/media/00e65c_e10740c5d5b243db915eede42ff40522~mv2.jpg/v1/fill/w_280,h_158,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/%E6%9C%AA%E5%91%BD%E5%90%8D%E4%BD%9C%E5%93%81.jpg": {
+    "bytes": 11972,
+    "path": "assets/localized/ea4ef873485722422356dcd1.jpg",
+    "sha256": "ea4ef873485722422356dcd105f78aac164da83a6946fd2bcf8f232fec65aeb5",
+    "type": "image/jpeg"
+  },
+  "https://static.wixstatic.com/media/00e65c_e10740c5d5b243db915eede42ff40522~mv2.jpg/v1/fill/w_416,h_234,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/%E6%9C%AA%E5%91%BD%E5%90%8D%E4%BD%9C%E5%93%81.jpg": {
+    "bytes": 21023,
+    "path": "assets/localized/f049ab640e7ce1eee339f6a9.jpg",
+    "sha256": "f049ab640e7ce1eee339f6a9743478ddbd0b37748ba4f448f7bb3cc32349f95c",
+    "type": "image/jpeg"
+  },
+  "https://static.wixstatic.com/media/00e65c_e10740c5d5b243db915eede42ff40522~mv2.jpg/v1/fill/w_560,h_316,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/%E6%9C%AA%E5%91%BD%E5%90%8D%E4%BD%9C%E5%93%81.jpg": {
+    "bytes": 32387,
+    "path": "assets/localized/ae369dd63608e458db8493cf.jpg",
+    "sha256": "ae369dd63608e458db8493cf43b042e79d7d795c09eceb352c0f32f230e99808",
+    "type": "image/jpeg"
+  },
+  "https://static.wixstatic.com/media/00e65c_e10740c5d5b243db915eede42ff40522~mv2.jpg/v1/fill/w_832,h_468,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/%E6%9C%AA%E5%91%BD%E5%90%8D%E4%BD%9C%E5%93%81.jpg": {
+    "bytes": 52126,
+    "path": "assets/localized/3313b81fcf7efb70a2e3bc26.jpg",
+    "sha256": "3313b81fcf7efb70a2e3bc26090597a7fb99eae52d1c29203d8acff1be6b601c",
+    "type": "image/jpeg"
+  },
+  "https://static.wixstatic.com/media/00e65c_f03ed5e7e4ab431695e12d4a84397c52~mv2.png/v1/fill/w_1,h_1,q_90/00e65c_f03ed5e7e4ab431695e12d4a84397c52~mv2.png": {
+    "bytes": 810,
+    "path": "assets/localized/6b438fd347793c5332ed9140.png",
+    "sha256": "6b438fd347793c5332ed914089638ae946b3bd3379cb85a9967b206c763e05d0",
+    "type": "image/png"
+  },
+  "https://static.wixstatic.com/media/00e65c_f03ed5e7e4ab431695e12d4a84397c52~mv2.png/v1/fill/w_1,h_1,q_90/00e65c_f03ed5e7e4ab431695e12d4a84397c52~mv2.webp": {
+    "bytes": 714,
+    "path": "assets/localized/e20db166d532a6c6c7b3891c.webp",
+    "sha256": "e20db166d532a6c6c7b3891cfef245adcddc668ad48334694594c034fb0fe556",
+    "type": "image/webp"
+  },
+  "https://static.wixstatic.com/media/00e65c_f03ed5e7e4ab431695e12d4a84397c52~mv2.png/v1/fill/w_1438,h_704,al_c/00e65c_f03ed5e7e4ab431695e12d4a84397c52~mv2.png": {
+    "bytes": 309326,
+    "lossless": true,
+    "originalBytes": 557679,
+    "originalSha256": "cf5b34a1b8fc00ecd66520b454cd63b69ba8dd83ed025067b7ac0c48556eee2c",
+    "path": "assets/localized/e3c8e7a150e226452a2debc8.webp",
+    "sha256": "e3c8e7a150e226452a2debc8b0cdd5c1b5e8cbf4af7733f7e1dc89c3827fd433",
+    "type": "image/webp"
+  },
+  "https://static.wixstatic.com/media/00e65c_f03ed5e7e4ab431695e12d4a84397c52~mv2.png/v1/fit/w_1006,h_1006,q_90,enc_avif,quality_auto/00e65c_f03ed5e7e4ab431695e12d4a84397c52~mv2.png": {
+    "bytes": 194568,
+    "lossless": true,
+    "originalBytes": 337520,
+    "originalSha256": "840e813ff8a3784b3e169f60496d5af86badf9721834829dc57e3a87a06e99f6",
+    "path": "assets/localized/885c94fd818e2c6f8dc094f4.webp",
+    "sha256": "885c94fd818e2c6f8dc094f4d7c249517b1762f158bfb326c60d794d455c1885",
+    "type": "image/webp"
+  },
+  "https://static.wixstatic.com/media/00e65c_f03ed5e7e4ab431695e12d4a84397c52~mv2.png/v1/fit/w_480,h_480,q_90,enc_avif,quality_auto/00e65c_f03ed5e7e4ab431695e12d4a84397c52~mv2.png": {
+    "bytes": 108561,
+    "path": "assets/localized/b532761b512f023d6616f6b4.png",
+    "sha256": "b532761b512f023d6616f6b4f12c6d5fa8b67c941003eb95a627031c10937c11",
+    "type": "image/png"
+  },
+  "https://static.wixstatic.com/media/00e65c_f03ed5e7e4ab431695e12d4a84397c52~mv2.png/v1/fit/w_960,h_960,q_90,enc_avif,quality_auto/00e65c_f03ed5e7e4ab431695e12d4a84397c52~mv2.png": {
+    "bytes": 175088,
+    "lossless": true,
+    "originalBytes": 301029,
+    "originalSha256": "0dd4a318dda6d0e7f53816d3878444200ece9fdefc16034ec78a9a5d6549b535",
+    "path": "assets/localized/2c4b3c26c0cf241c1efd76d3.webp",
+    "sha256": "2c4b3c26c0cf241c1efd76d30dcb4bb578bafb379219223ee70913b652d56de6",
+    "type": "image/webp"
+  },
+  "https://static.wixstatic.com/media/00e65c_f6f65f6fc74d40d188d0817ed5b461cc%7Emv2.png/v1/fill/w_180%2Ch_180%2Clg_1%2Cusm_0.66_1.00_0.01/00e65c_f6f65f6fc74d40d188d0817ed5b461cc%7Emv2.png": {
+    "bytes": 7267,
+    "path": "assets/localized/f5d6483005ade1063c411ca1.png",
+    "sha256": "f5d6483005ade1063c411ca106e5e8f9349c6ca8abfb7ca4d00b4fe98f2aa539",
+    "type": "image/png"
+  },
+  "https://static.wixstatic.com/media/00e65c_f6f65f6fc74d40d188d0817ed5b461cc%7Emv2.png/v1/fill/w_192%2Ch_192%2Clg_1%2Cusm_0.66_1.00_0.01/00e65c_f6f65f6fc74d40d188d0817ed5b461cc%7Emv2.png": {
+    "bytes": 7882,
+    "path": "assets/localized/2a56f70b8cd69ede750dfe5a.png",
+    "sha256": "2a56f70b8cd69ede750dfe5a6ee3dffd289fbf77c3cdf88e3735e9a3b18e0087",
+    "type": "image/png"
+  },
+  "https://static.wixstatic.com/media/00e65c_f6f65f6fc74d40d188d0817ed5b461cc%7Emv2.png/v1/fill/w_32%2Ch_32%2Clg_1%2Cusm_0.66_1.00_0.01/00e65c_f6f65f6fc74d40d188d0817ed5b461cc%7Emv2.png": {
+    "bytes": 1148,
+    "path": "assets/localized/c128106db10bc8f5185592ae.png",
+    "sha256": "c128106db10bc8f5185592ae91cf8135fae7f5f26d51cb5c32fe26250e61e1eb",
+    "type": "image/png"
+  },
+  "https://static.wixstatic.com/ufonts/a9ff3b_88119413f76a4700a45a5d8cf83cc00e/ttf/file.ttf": {
+    "bytes": 70548,
+    "path": "assets/localized/76c6ccf87db71198a1cf5e26.ttf",
+    "sha256": "76c6ccf87db71198a1cf5e260cbf2d34ed6aaceb678564ebde7cb24e795e86da",
+    "type": "font/ttf"
+  },
+  "https://static.wixstatic.com/ufonts/a9ff3b_88119413f76a4700a45a5d8cf83cc00e/woff/file.woff": {
+    "bytes": 33560,
+    "path": "assets/localized/b4536e14f13a75ef74a0709c.woff",
+    "sha256": "b4536e14f13a75ef74a0709cdf9b1e8e1603208a05b9ca5450af476553de47df",
+    "type": "font/woff"
+  },
+  "https://static.wixstatic.com/ufonts/a9ff3b_88119413f76a4700a45a5d8cf83cc00e/woff2/file.woff2": {
+    "bytes": 23096,
+    "path": "assets/localized/6e17688b23a753d1713f7bdf.woff2",
+    "sha256": "6e17688b23a753d1713f7bdfc21c8a74de4e9b08eebfb2299c2e6b2752432966",
+    "type": "font/woff2"
+  }
+}

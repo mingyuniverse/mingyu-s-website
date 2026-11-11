@@ -1,4 +1,4 @@
-import {readFileSync, writeFileSync, mkdirSync, cpSync, rmSync} from 'node:fs';
+import {readFileSync, writeFileSync, mkdirSync, cpSync, rmSync, existsSync} from 'node:fs';
 import {resolve, dirname} from 'node:path';
 import {fileURLToPath} from 'node:url';
 import {createHash} from 'node:crypto';
@@ -11,11 +11,13 @@ import {applyStillLife, stillLifeFiles} from './still-life.mjs';
 import {applyAppleMusic, appleMusicFiles} from './apple-music.mjs';
 import {applyMome729Video, mome729Files} from './mome729-videos.mjs';
 import {applyAmtrak, amtrakFiles, amtrakRoute} from './amtrak.mjs';
+import {removeHostedRuntime, independentDocument} from './independent.mjs';
+import {applyCollections} from './collections.mjs';
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const out = resolve(root, 'dist');
 const routes = JSON.parse(readFileSync(resolve(root, 'pages.json'), 'utf8'));
-const runtime = readFileSync(resolve(root, 'assets/static-runtime.js'), 'utf8');
+const runtime = readFileSync(resolve(root, 'assets/independent.js'), 'utf8');
 const responsiveCss = readFileSync(resolve(root, 'assets/responsive.css'), 'utf8');
 const responsiveJs = readFileSync(resolve(root, 'assets/responsive.js'), 'utf8');
 const deviceLayout = readFileSync(resolve(root, 'assets/device-layout.js'), 'utf8');
@@ -79,7 +81,9 @@ function heroPreload() {
 }
 
 function adapt(html, mobile, route) {
-  if (route === amtrakRoute) html = applyAmtrak(html, amtrakPaths);
+  html = removeHostedRuntime(html);
+  html = applyCollections(html, route);
+  if (html.includes('id="comp-mtbucj2u"')) html = applyAmtrak(html, amtrakPaths);
   html = applyMome729Video(html, mome729Paths, route);
   if (route === 'apple-music') {
     html = applyAppleMusic(html, Object.fromEntries(Object.entries(appleMusicAssets).map(([file, asset]) => [file, asset.path])));
@@ -111,10 +115,6 @@ function adapt(html, mobile, route) {
     .portfolio-hero-media { position: absolute; inset: 0; pointer-events: none; overflow: hidden; }
     .portfolio-hero-media video { display: block; width: 100%; height: 100%; object-fit: cover; object-position: 50% 50%; opacity: 1; }
   </style>`);
-  html = html.replace(/(<script\b[^>]*type="application\/json"[^>]*id="([^"]+)"[^>]*>[\s\S]*?<\/script>)/gi,
-    (tag, whole, id) => `${tag}<script>portfolioLocalizeModel(${JSON.stringify(id)})</script>`);
-  html = html.replace(/(<script\b[^>]*id="([^"]+)"[^>]*type="application\/json"[^>]*>[\s\S]*?<\/script>)/gi,
-    (tag, whole, id) => `${tag}<script>portfolioLocalizeModel(${JSON.stringify(id)})</script>`);
   if (mobile) {
     html = html.replace(/<html\b/i, '<html class="portfolio-responsive"');
     html = html.replace(/(<meta\b[^>]*name="viewport"[^>]*content=")[^"]*/i, '$1width=device-width, initial-scale=1');
@@ -124,7 +124,7 @@ function adapt(html, mobile, route) {
     html = html.replace(/<\/head>/i, `<style id="portfolio-desktop-header">${desktopHeaderCss}</style></head>`);
   }
   html = applySeo(html, route);
-  return html.replace(/<\/head>/i, `<script>${seoScript}</script></head>`);
+  return independentDocument(html.replace(/<\/head>/i, `<script>${seoScript}</script></head>`), route);
 }
 
 function entry(html, route, desktopVersion, responsiveVersion) {
@@ -155,6 +155,7 @@ ${deviceLayout}
 rmSync(out, {recursive: true, force: true});
 mkdirSync(out, {recursive: true});
 mkdirSync(resolve(out, 'assets'), {recursive: true});
+if (existsSync(resolve(root, 'assets/localized'))) cpSync(resolve(root, 'assets/localized'), resolve(out, 'assets/localized'), {recursive:true});
 for (const asset of Object.values(heroAssets)) writeFileSync(resolve(out, asset.path), asset.content);
 mkdirSync(resolve(out, 'assets/nothing'), {recursive: true});
 for (const asset of Object.values(nothingAssets)) writeFileSync(resolve(out, asset.path), asset.content);
@@ -184,7 +185,7 @@ for (const route of routes) {
   writeFileSync(resolve(directory, 'index.html'), entry(desktopDocument, route, fingerprint(desktopDocument), fingerprint(responsiveDocument)));
 }
 mkdirSync(resolve(out, 'home'), {recursive: true});
-for (const file of ['index.html', 'view-desktop.html', 'view-mobile.html']) cpSync(resolve(out, file), resolve(out, 'home', file));
+writeFileSync(resolve(out, 'home/index.html'), '<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><title>Mingyuniverse</title><script>location.replace(new URL("../", location.href));</script></head><body><a href="../">Home</a></body></html>');
 writeFileSync(resolve(out, 'CNAME'), 'mingyuniverse.com\n');
 writeFileSync(resolve(out, '.nojekyll'), '');
 writeFileSync(resolve(out, 'robots.txt'), `User-agent: *\nAllow: /\n\nSitemap: ${siteOrigin}/sitemap.xml\n`);

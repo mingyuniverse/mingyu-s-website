@@ -1,6 +1,6 @@
 # Mingyu Du portfolio
 
-The portfolio is deployed from this repository to **GitHub Pages**, using `mingyuniverse.com` as its custom domain. It preserves the original published Wix pages, artwork, typography, videos, galleries, and animation configuration.
+The portfolio is deployed from this repository to **GitHub Pages**, using `mingyuniverse.com` as its custom domain. It preserves the published portfolio layout, artwork, typography, and project media using local assets and an independent browser runtime.
 
 ## Local preview
 
@@ -66,7 +66,12 @@ relative links from the nested Amtrak route.
 - `assets/desktop-header.css`: anchors Home, Work, and About to the right side of the window while retaining the original desktop typography.
 - `assets/responsive.css` and `assets/responsive.js`: fluid sizing, readable typography, sharp responsive images, and touch navigation. Project cards stack below 700 pixels and form two columns on tablets. At 900 pixels the introduction and About page use side-by-side layouts. Phones and tablets use the responsive document, including iPadOS devices that identify as macOS. Desktop computers always retain the original desktop composition and font sizes, regardless of window width. Resizing and tablet rotation do not switch documents or reload the page.
 - `assets/hero.js` and `assets/media/`: the opening 25.4 MB GIF is replaced with a 635 KB H.264 loop and a 114 KB WebP poster. The poster preloads from the initial entry page; playback starts independently of Wix hydration. A narrowly scoped image adapter prevents the original GIF from being requested again during hydration. Reduced motion uses a still frame. The video sits inside the original sticky background wrapper, preserving the fixed backdrop while the text and following sections scroll over it. The build fingerprints both assets. Re-encode these assets and update the original GIF identifier in `hero.js` if the source background changes.
-- `assets/static-runtime.js`: adapts navigation, viewer models, and workers to the static site's origin. Wix's public read endpoints are accessed directly through CORS without visitor cookies.
+- `assets/independent.js`: ordinary navigation, Work scrolling, native video playback, and visibility-triggered entrance animations. No hosted editor scripts or APIs run in production.
+- `assets/localized/`: archived fonts, thumbnails, gallery artwork, and icons, addressed by content hash. `manifest.json` records their provenance and checksums.
+- `assets/collections.json` and `scripts/collections.mjs`: archived collection titles, covers, and links, rendered as a native responsive gallery without Wix's collection API.
+- `scripts/independent.mjs`: removes hosted scripts/configuration before adapting each page, rewrites resources to local files, and enforces a same-origin resource policy.
+- `scripts/check-independent.py`: verifies every resource in both layouts exists locally and checks archived file hashes and font signatures.
+- `assets/static-runtime.js`: retained historical adapter; excluded from production.
 - `scripts/build-pages.mjs`: creates the static deployment in `dist/`. Each route selects its desktop or responsive document by device before the Wix runtime starts. Document URLs include a content version to prevent a new page from loading cached old styles. Window resizing never changes the device layout; phone and tablet changes use CSS.
 - `scripts/check-pages.mjs`: validates routes, viewer configuration, and the domain.
 - `scripts/capture.py`: rescans the original public portfolio.
@@ -80,4 +85,6 @@ The older `worker/`, `scripts/build.mjs`, `scripts/check.mjs`, and `.openai/host
 
 ## Dependencies and fidelity
 
-This preserves the published Wix experience. Internet access to the original site's public Wix APIs and CDNs is still required for its runtime scripts, fonts, artwork, videos, and galleries. The site does not need a Python or Cloudflare backend in production. The reference's desktop layout and its existing video playback limitations are retained.
+Production serves static HTML, fonts, images, videos, and browser code from GitHub Pages. It does not use Wix scripts, workers, APIs, CDN media, or a Python/Cloudflare backend. A Content Security Policy restricts resource loads to the website itself (plus local data/blob media); external portfolio/social links remain ordinary outbound links. The original captured HTML is retained only as build input.
+
+To archive resources after an intentional source refresh, run `LOCAL_ASSET_SCAN=1 node scripts/build-pages.mjs`, `python3 scripts/archive-assets.py`, then build/check normally. Optional `scripts/optimize-archived-images.py` converts large PNG files to lossless WebP and verifies pixel equality; it requires Pillow, which is not needed for ordinary builds. Never deploy a scan build with unresolved resource URLs.

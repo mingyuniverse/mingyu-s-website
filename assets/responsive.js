@@ -40,16 +40,10 @@
       if (wrapper && width > 0 && height > 0 && !wrapper.style.getPropertyValue('--portfolio-image-ratio')) {
         wrapper.style.setProperty('--portfolio-image-ratio', `${width} / ${height}`);
       }
-      // The source phone document requests 280px thumbnails. Give the browser
-      // width candidates so tablets and retina screens receive sharp artwork.
-      const source = image.getAttribute('src') || '';
-      const dimensions = source.match(/\/(?:fill|fit)\/w_(\d+),h_(\d+)/);
-      if (wrapper && !fluidImages.has(image) && source.startsWith('https://static.wixstatic.com/') && dimensions) {
-        const ratio = Number(dimensions[2]) / Number(dimensions[1]);
+      // Archived responsive candidates are local; update their selection size
+      // when a tablet rotates without generating any CDN URLs.
+      if (wrapper && !fluidImages.has(image) && image.hasAttribute('srcset')) {
         image.sizes = `${Math.ceil(image.getBoundingClientRect().width) || width}px`;
-        image.srcset = [320, 640, 960, 1280, 1920].map(size =>
-          `${source.replace(/(\/(?:fill|fit)\/)w_\d+,h_\d+/, `$1w_${size},h_${Math.round(size * ratio)}`)} ${size}w`
-        ).join(', ');
         imageSizes.observe(image);
         fluidImages.add(image);
       }
